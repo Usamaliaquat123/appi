@@ -15,8 +15,44 @@
         @font-face {
             font-family: "Lato Bold";
             src: url("./../../assets/fonts/Lato2OFL/Lato-Bold.ttf");}
-        
- .selectedOntime{
+    
+    
+    
+  
+.enterYourCustomAmount{
+    background: #fff;
+    padding: 2%;
+}
+.enterYourCustomAmount > input{
+    border: none;
+    border-bottom: 1px solid #E45A5C;
+    color: #E45A5C;
+
+}
+.enterYourCustomAmount > .donationTextHead {
+    text-align: center;
+    font-size: 1.3vw;
+}
+.donationAmountEu{
+ color: #E45A5C;
+ font-weight: bold;
+ text-align: center;
+}
+.btnOfDonateNow {
+    
+    cursor: pointer;
+    background: #EB5D5F;
+    padding: 6%;
+    width: 100%;
+    color: aliceblue;
+    border-radius: 33px;
+    margin-top: 10%;
+    text-align: center;
+
+}
+    
+    
+            .selectedOntime{
     color: #fff;
     padding: 20px 40px;
     float: right;
@@ -323,6 +359,7 @@
     font-size: 100%;
     font-family: 'Lato Light';
     margin-top: 2%;
+    cursor: pointer;
 }
 .selectdonationFrequency > p{
     font-size: 80%;

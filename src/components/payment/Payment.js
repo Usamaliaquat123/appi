@@ -16,9 +16,11 @@ import {
 } from "react-stripe-elements";
 
 class _Payment extends React.Component {
+  
   constructor(props) {
     super(props);
     console.log(props);
+    console.log('================');
     this.state = {
       firstName: String,
       lastName: String,
@@ -29,8 +31,19 @@ class _Payment extends React.Component {
       expDate: String,
       yearDate: String,
       amount: "$100",
-      cvcNo: String
+      cvcNo: String,
+      amountType: String,
+      amount: String
     };
+  }
+
+  componentDidMount(){
+    let amount = localStorage.getItem('amount')
+    let amountType = localStorage.getItem('amountType')
+    this.setState({
+      amount,
+      amountType
+    })
   }
   handleSubmit() {
     console.log("form submit");
@@ -48,8 +61,6 @@ class _Payment extends React.Component {
         method: "POST",
         headers: {
           "Content-type": "application/json",
-          "access-control-allow-origin": "localhost",
-          "access-control-allow-credentials": "true"
         },
         body: JSON.stringify({ token, amount })
       });
@@ -271,6 +282,9 @@ class _Payment extends React.Component {
 const CardForm = injectStripe(_Payment);
 
 class Checkout extends React.Component {
+  constructor(props){
+    super(props)
+  }
   render() {
     return (
       <div className="Checkout">
@@ -282,14 +296,20 @@ class Checkout extends React.Component {
 
 // const PaymentComp = (props) => {
 
-const PaymentApp = () => {
-  return (
-    <StripeProvider apiKey="pk_RXwtgk4Z5VR82S94vtwmam6P8qMXQ">
-      <Elements>
-        <Checkout />
-      </Elements>
-    </StripeProvider>
-  );
+class PaymentApp extends React.Component {
+  constructor(props){
+    super(props)
+
+  }
+  render(){
+    return (
+      <StripeProvider apiKey="pk_RXwtgk4Z5VR82S94vtwmam6P8qMXQ">
+        <Elements>
+          <Checkout   />
+        </Elements>
+      </StripeProvider>
+    );
+  }
 };
 //   return (
 

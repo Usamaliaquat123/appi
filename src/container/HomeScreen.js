@@ -12,15 +12,17 @@ import BasicFea from "../components/BasicFeatures/BasicFea";
 import PaymentApp from "../components/payment/Payment";
 import Donation from "../components/payment/donation";
 class HomeScreen extends Component {
+  
   constructor(props) {
     super(props);
     this.state = {};
+    console.log(props)
   }
 
   render() {
     return (
       <div>
-        <Header siteSubTitle={`Education since 1996`} />
+        <Header {...this.props} siteSubTitle={`Education since 1996`} />
         {/* <hr /> */}
         <NavigatorView />
         <div

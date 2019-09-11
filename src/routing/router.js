@@ -21,24 +21,24 @@ import PageNotFound from "../container/PageNotFound";
 function AppRouter() {
   return (
     <Router>
-      <Route path="/" exact component={HomeScreen} />
-      <Route path="/child/" component={Child} />
-      <Route path="/teacher/" component={Teacher} />
+      <Route path="/" exact  component={props => <HomeScreen {...props} />} />
+      <Route path="/child/" component={props => <Child {...props} />} />
+      <Route path="/teacher/" component={props => <Teacher {...props} />} />
       {/* Where we work */}
-      <Route path="/pvpc" exact component={Pvpc} />
-      <Route path="/bvpc" exact component={Bvpc} />
-      <Route path="/svpc" exact component={Scpc} />
-      <Route path="/jacte" exact component={Jacte} />
+      <Route path="/pvpc" exact component={props => <Pvpc {...props} />} />
+      <Route path="/bvpc" exact component={props => <Bvpc {...props} />} />
+      <Route path="/svpc" exact component={props => <Scpc {...props} />} />
+      <Route path="/jacte" exact component={props => <Jacte {...props} />} />
 
       {/* getInvolved */}
-      <Route path="/getInvolved" exact component={GetInvolved} />
-      <Route path="/News&Events" exact component={NewsAndEvents} />
-      <Route path="/contactus" exact component={ContactUs} />
+      <Route path="/getInvolved" exact component={props => <GetInvolved {...props} />} />
+      <Route path="/News&Events" exact component={props => <NewsAndEvents {...props} />} />
+      <Route path="/contactus" exact component={props => <ContactUs {...props} />} />
       {/* payments pages */}
-      <Route path="/donate" exact component={Donate} />
-      <Route path="/Pay" exact component={Account_info} />
-      <Route path="/paySucess" exact component={Pay_sucess} />
-      <Route path="/paymentNotSucess" exact component={Pay_denied} />
+      <Route path="/donate" exact component={props => <Donate {...props} />} />
+      <Route path="/Pay" exact component={props => <Account_info {...props} />} />
+      <Route path="/paySucess" exact component={props => <Pay_sucess {...props} />} />
+      <Route path="/paymentNotSucess" exact component={props => <Pay_denied {...props} />} />
     </Router>
   );
 }

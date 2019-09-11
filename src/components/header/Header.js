@@ -3,7 +3,7 @@ import React from "react";
 import logoImg from "./../../assets/images/logo.png";
 import search from "./../../assets/images/search.png";
 import "./Header.css";
-const Header = ({ siteTitle, siteSubTitle }) => (
+const Header = ({ siteTitle, siteSubTitle, ...props }) => (
   // <div className="headContainer">
   //   <div className="container-fluid">
   //     <div className="row">
@@ -25,7 +25,7 @@ const Header = ({ siteTitle, siteSubTitle }) => (
   //   {/* <hr /> */}
   // </div>
 
-
+  
   <div className="headerContainer">
     <div className="containerFluid">
         <div className="headerLogo">

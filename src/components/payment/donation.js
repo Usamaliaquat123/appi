@@ -3,6 +3,9 @@ import React, { useState } from "react"
 // import sampleImg from "./../../images/don.jpg"
 import backgroundImage from "./../../assets/images/donation.png"
 import "./donationStyle.css"
+import Dialog from '@material-ui/core/Dialog';
+import DialogContent from '@material-ui/core/DialogContent';
+import { Redirect } from 'react-router-dom'
  export default class Donation extends React.Component {
   // Donation box states
 
@@ -15,9 +18,30 @@ constructor(props){
       isSelected60 : false,
       selectedBackgroundColor: '#fff',
       isSelectedMonthly : true,
-      isSelectedOneTime: false
+      isSelectedOneTime: false,
+      totalAmount: '',
+      isModal : false,
+      customAmount: '10',
+      selectionType : 'Monthly'
     }
-}
+    // this.donateNow = this.donateNow.bind(this)
+  }
+
+  donateNow (amount,amountType) {
+    console.log(amountType)
+    console.log(amount)
+    localStorage.setItem('amountType', amountType)
+    localStorage.setItem('amount', amount)
+    // console.log(this.pro)
+    this.props.history.push('Pay')
+    // this.props.router.push({
+    //   pathname : '/Pay',
+    //   state: {
+    //     amountType: amountType,
+    //     amount : amount
+    //   }
+    // })
+  }
  
 render(){
   return (
@@ -65,6 +89,7 @@ render(){
                             onChange={() => this.setState({
                               isSelected10 : true,
                                 isSelected25 : false,
+                                totalAmount: '10',
                                 isSelected60 : false
                             })}
                           />
@@ -103,6 +128,7 @@ render(){
                             name="radio"
                             onChange={() => this.setState({
                               isSelected10 : false,
+                              totalAmount: '25',
                                 isSelected25 : true,
                                 isSelected60 : false
                             })}
@@ -140,6 +166,7 @@ render(){
                             onChange={() => this.setState({
                               isSelected10 : false,
                                 isSelected25 : false,
+                                totalAmount: '60',
                                 isSelected60 : true
                             })}
                           />
@@ -160,9 +187,27 @@ render(){
                   </div>
                 </div>
               </div>
-              <div className='enterCustomDonationText'>
+              <div className='enterCustomDonationText' onClick={() => {
+                this.setState({ isModal : true })
+              }}>
                 <p>Enter a custom donation amount</p>
               </div>
+              <Dialog onClose={() => {
+                this.setState({ isModal : false })
+              }}  aria-labelledby="simple-dialog-title" open={this.state.isModal}>
+                <DialogContent>
+                <div className="enterYourCustomAmount">
+                  <p className={'donationTextHead'}>Your Donation</p>
+                  <p className={'donationAmountEu'}>Amount £</p>
+                  <input type="text" onChange={(e) => this.setState({ customAmount: e.target.value  })} /> 
+                  <div className="btnOfDonateNow" onClick={() => {
+                    this.setState({ isModal: false, totalAmount : this.state.customAmount })
+                  }}>Donate Now</div>
+                </div>                  
+                </DialogContent>
+
+                </Dialog>
+             
               <div className='selectdonationFrequency'>
                 <p>Choose a donation frequency</p>
 
@@ -170,10 +215,11 @@ render(){
                   <div className={ this.state.isSelectedOneTime ? 'selectedOntime' : 'donationFrequencyButtonOneTime'}>
                   <label className={this.state.isSelectedOneTime ? 'selectedcontainerLabelDonationFreq' :"containerLabelDonationFreq"}>
                 
-                  <input type="radio" value="£60" name="radio"
+                  <input type="radio"  name="radio"
                     onChange={() => {
                       this.setState({
                         isSelectedOneTime : true,
+                        selectionType: 'onetime',
                         isSelectedMonthly: false
                       })
                     }}
@@ -187,10 +233,11 @@ render(){
                   <div className={this.state.isSelectedMonthly ? 'selectedMonthly' : 'donationFrequencyButtonMonthly'}>
                   <label className={ this.state.isSelectedMonthly ? 'selectedcontainerLabelDonationFreq' :  "containerLabelDonationFreq"}>
                 
-                  <input type="radio" value="£60" name="radio"
+                  <input type="radio"  name="radio"
                     onChange={() => {
                       this.setState({
                         isSelectedMonthly : true,
+                        selectionType: 'Monthly',
                         isSelectedOneTime : false
                       })
                     }}
@@ -204,7 +251,9 @@ render(){
                 </div>
               </div>
               <div className='donateNowAndCancel'>
-                <div className='donateNowButton'>Donate Now</div>
+                <div className='donateNowButton' onClick={() => {
+                  this.donateNow(this.state.totalAmount, this.state.selectionType)
+                }}>Donate Now</div>
                 <div className='cancelBbutton'>cancel</div>
               </div>
             </div>
