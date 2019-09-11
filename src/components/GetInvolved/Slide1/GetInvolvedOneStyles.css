@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "lato Regular";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "lato High";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
+}
+
+.containerBody {
+  width: 100%;
+}
+
+.containerStyleGisl1 {
+  width: 100%;
+  background-color: #ecf4fa;
+}
+.containerLeftGlsl1 {
+  width: 100%;
+  height: auto;
+}
+.title {
+  color: #da636a;
+  font-size: 1.9vw;
+  font-weight: bold;
+  font-family: "Harabara Bold";
+}
+.subHeadingGlsl1 {
+  color: #2074ae;
+  font-size: 1.3vw;
+}
+.descGlsl1 {
+}
+.ImageStyleGls1 > img {
+  width: 92%;
+  margin-bottom: 0;
+}
+.triangleDivGls1 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 288px solid transparent;
+
+  border-left: 94px solid #ecf4fa;
+
+  border-bottom: 280px solid transparent;
+  z-index: 1;
+}

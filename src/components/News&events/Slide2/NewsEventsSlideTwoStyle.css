@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "lato Heavy";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
+}
+
+@font-face {
+  font-family: "lato Bold";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Bold.ttf");
+}
+
+.containerViewNesl2 {
+  width: 100%;
+  height: auto;
+  background: #ecf5fa;
+}
+
+.oneRowConatinerNesl2 {
+  padding: 10% 14%;
+}
+/* Post sections */
+.postOneNesl2 {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+.postTwoNesl2 {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+.containerCardTextNesl2 {
+  padding: 1% 10%;
+}
+.linkNewspostTwoSlide2 {
+  font-size: 0.9vw;
+  text-decoration: underline;
+}
+.containerCardTextPostThreeNesl2 {
+  /* padding: 10% 10%; */
+  padding: 8% 10%;
+}
+.containerCardTextPostTwoNesl2 {
+  padding: 1% 10%;
+}
+.btnStyleSlideThreeNesl2 {
+  background: #eb5d5f;
+  width: 27%;
+  padding: 2% 4%;
+  text-align: center;
+  color: aliceblue;
+  font-size: 11px;
+  margin-left: 6%;
+  position: absolute;
+  margin-top: -3%;
+}
+.btnStyleNesl2 {
+  background: #1c70aa;
+  width: 59%;
+  padding: 4% 7%;
+  text-align: center;
+  color: aliceblue;
+  font-size: 11px;
+  /* margin-left: 5%; */
+  position: absolute;
+  /* margin-top: 55%; */
+  margin: 0px 15%;
+  margin-top: 66%;
+}
+.postThreeNesl2 {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+.cardLlandImageNesl2 {
+  margin-bottom: 0%;
+  width: 100%;
+}
+.titleNewsNesl2 {
+  font-size: 1.5vw;
+  font-family: "lato Bold";
+}
+.linkNewsNesl2 {
+  font-size: 0.9vw;
+  text-decoration: underline;
+}
+.linkNewspostTwoNesl2 {
+  font-size: 0.9vw;
+  position: absolute;
+  text-decoration: underline;
+  bottom: 0;
+}
+@media screen and (max-width: 577px) {
+  /* mobile code */
+}

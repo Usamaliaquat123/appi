@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Lato";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
+}
+
+@font-face {
+  font-family: "lATO LIGHT";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Black.ttf");
+}
+
+.containerSLideOneCh {
+    background: #d1e5f3;
+    width: 100%;
+}
+
+
+.ImageContainerCh {
+
+    width: 100%;
+    height: 100%;
+    background: #4698d0;
+    padding: 2%;
+    margin-left: -3%;
+
+}
+.bachiImgCh {
+  width: 95%;
+  /* height: 550px; */
+}
+.btnWhatweDOCh {
+  text-align: center;
+  font-size: 0.6vw;
+  font-family: "lATO LIGHT";
+  background: #ffffff;
+  width: 150px;
+  font-weight: bold;
+  margin-bottom: 3%;
+  padding: 10px 15px;
+}
+.containerTextSTyleCh {
+
+
+    padding-top: 4%;
+    padding-right: 18%;
+
+}
+.headingTextCh {
+  font-size: 35px;
+  font-family: "Lato";
+  /* font-weight: bold; */
+}
+.descTextCh {
+  font-size: 1vw;
+  font-family: "lATO LIGHT";
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+  .ImageContainerCh {
+    width: 100%;
+    height: 100%;
+    background: #4698d0;
+    padding: 2%;  
+    margin-left: 0;
+
+  }
+  .containerTextSTyleCh {
+
+    padding-top: 4%;
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 12%;
+
+}
+.btnWhatweDOCh {
+
+  text-align: center;
+  font-size: 2.6vw;
+  font-family: "lATO LIGHT";
+  background: #ffffff;
+  font-weight: bold;
+  margin-bottom: 3%;
+  padding: 10px 15px;
+  width: 100%;
+
+}
+.headingTextCh {
+
+  font-size: 8vw;
+  font-family: "Lato";
+  text-align: center;
+
+}
+.descTextCh {
+
+  font-size: 4vw;
+  font-family: "lATO LIGHT";
+  font-weight: bold;
+
+}
+.HeadingCountChsl2 {
+
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Lato";
+  text-align: center;
+  margin-top: 6%;
+
+}
+.descContainerChsl2 {
+
+  margin-top: -9%;
+  color: #ffffff;
+  font-size: 25px;
+  font-family: "Lato";
+  text-align: center;
+
+}
+
+
+}

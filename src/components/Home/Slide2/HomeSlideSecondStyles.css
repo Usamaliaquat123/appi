@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Harabara Bold";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lato Light";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Light.ttf");
+}
+
+.logImg {
+  margin-top: 5%;
+  padding: 0 42%;
+}
+.logImg > img {
+  width: 100%;
+}
+
+.DescriptionSlide {
+  margin: 0 32%;
+}
+
+.DescriptionSlide p {
+  font-family: "Lato Light";
+  font-size: 1em;
+  font-weight: 900;
+  padding-top: 20px;
+  text-align: justify;
+  margin: 0;
+}
+
+.featureAllign {
+  padding: 0 30%;
+}
+.featureAllign > img {
+  width: 100%;
+}
+.featureText {
+  text-align: center;
+  font-family: "Lato Light";
+  font-size: 1vw;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.donationPolicyText {
+  text-align: center;
+  font-family: "Lato Light";
+  font-size: 1vw;
+  font-weight: bold;
+
+}
+.teachersTrainedText {
+  text-align: center;
+  font-family: "Lato Light";
+  font-size: 1vw;
+  margin-top: 9px;
+  font-weight: bold;
+}
+.containerFeatures {
+  padding: 5% 20%;
+}
+.logoImg {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Container SLide 3 Responsive Image */
+
+.containerSecondImage {
+}
+@media screen and (max-width: 919px) {
+  .DescriptionSlide {
+    margin: 0 10%;
+  }
+  .logImg {
+    margin-top: 2%;
+    padding: 0 28%;
+  }
+
+  .logImg {
+    margin-top: 2%;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+
+  .buttonLastBlack {
+    margin-top: 17%;
+  }
+
+  /* Container SLide 3 Responsive Image */
+}
+
+/* Id device width is 500 */
+@media screen and (max-width: 919px) {
+  .DescriptionSlide > p {
+    text-align: center;
+  }
+  .logImg > img {
+    margin-top: 20px;
+    width: 50%;
+}
+.containerFeatures {
+
+  padding: 5% 3%;
+
+}
+.DescriptionSlide > p {
+
+  text-align: center;
+  font-size: 3vw;
+  margin-top: 20px;
+
+}
+
+.featureText {
+
+  text-align: center;
+  font-family: "Lato Light";
+  font-size: 3vw;
+  font-weight: bold;
+  margin-top: 8px;
+
+}
+.donationPolicyText {
+
+  text-align: center;
+  font-family: "Lato Light";
+  font-size: 3vw;
+  margin-top: -13px;
+  font-weight: bold;
+
+}
+.teachersTrainedText {
+
+  text-align: center;
+  font-family: "Lato Light";
+  font-size: 3vw;
+  margin-top: 0%;
+  font-weight: bold;
+
+}
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+   
+}
+

@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: "Lato Medium";
+    src: url("./../../../assets/fonts/Lato2OFL/Lato-Medium.ttf");}
+
+
+
+
+    @font-face {
+        font-family: "Lato Light";
+        src: url("./../../../assets/fonts/Lato2OFL/Lato-Light.ttf");}
+    
+    
+    
+        @font-face {
+            font-family: "Lato Bold";
+            src: url("./../../../assets/fonts/Lato2OFL/Lato-Bold.ttf");}
+        
+
+
+       
+
+
+
+.cardOfSharing{
+    background: #ffffff;
+    color: black;
+    width: 70%;
+    padding: 3% 3%;
+
+}
+
+.donationDesc{
+    
+}
+
+.socialIconCard{
+    background: #C1F7D5;
+    padding: 2% 3%;
+    color: #1C70AA;
+    display: inline-block
+}

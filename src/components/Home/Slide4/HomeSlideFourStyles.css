@@ -1,0 +1,332 @@
+@font-face {
+  font-family: "Harabara Bold";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Harabara Medium";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+.containerSlide {
+  background: #ff7277;
+
+  min-height: 100%;
+
+  height: auto;
+
+  width: 100%;
+
+  padding-bottom: 9.7%;
+
+  padding-top: 3%;
+  position: relative;
+}
+.secondLayerContainer {
+  width: 80%;
+  /* position: absolute; */
+  background: #ff8e92;
+  /* margin-top: 100px; */
+  height: 406px;
+}
+
+.imageLayer4 {
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+}
+.imageLayer4 > img {
+  width: 900px;
+}
+
+
+.buttonWhatWeDo > p {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.7vw;
+  color: black;
+  width: 8%;
+  background: #fff;
+  height: auto;
+  margin-left: 7%;
+  margin-bottom: 2%;
+}
+.containerTextInner {
+  padding: 4% 7%;
+
+  padding-bottom: 4%;
+  padding-left: 7%;
+
+  padding-left: 12%;
+}
+.headingText {
+  font-family: "Harabara Bold";
+  color: #414865;
+  font-size: 37px;
+}
+.slideDescription {
+}
+.descriptionText {
+  font-family: "Harabara Medium";
+
+  color: #414865;
+
+  font-size: 0.9vw;
+
+  margin-right: 213px;
+}
+.buttonLastBlack:hover {
+  color: aliceblue;
+}
+.buttonLastBlack {
+  text-decoration: none;
+
+  padding:  10px;
+
+  font-size: 0.9vw;
+
+  color: #fff;
+
+  position: absolute;
+
+  margin-top: 12%;
+
+  width: 20%;
+
+  background: #414865;
+
+  height: auto;
+
+  border-radius: 90px;
+
+  text-align: center;
+
+  margin-left: 0%;
+
+  font-weight: bold;
+}
+@media screen and (max-width: 1900px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageLayer4 > img {
+  /* width: 900px; */
+  width: 737px;
+  height: auto;
+}
+}
+
+    
+
+@media screen and (max-width: 1347px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 1325px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+}
+@media screen and (max-width: 1318px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+}
+@media screen and (max-width: 1275px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+}
+
+@media screen and (max-width: 1273px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1262px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+}
+@media screen and (max-width: 1220px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageLayer4 > img {
+  width: 672px;
+  height: auto;
+}
+}
+
+@media screen and (max-width: 1186px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageLayer4 > img {
+  width: 682px;
+  height: auto;
+}
+}
+@media screen and (max-width: 1169px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+}
+@media screen and (max-width: 1131px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+}
+@media screen and (max-width: 1123px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageLayer4 > img {
+  width: 602px;
+  height: auto;
+}
+.buttonLastBlack {
+  text-decoration: none;
+  padding:  10px;
+  font-size: 0.9vw;
+  color: #fff;
+  position: absolute;
+  margin-top: 12%;
+  width: 20%;
+  background: #414865;
+  height: auto;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 0%;
+  font-weight: bold;
+}
+}
+
+@media screen and (max-width: 956px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+imageLayer4 > img {
+  width: 551px;
+  height: auto;
+}
+}
+
+@media (min-width: 320px) and (max-width: 919px) {
+  .containerSlide {
+
+    background: #FF7277;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20.7%;
+    padding-top: 3%;
+    position: relative;
+
+  }
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageLayer4 > img {
+  width: 551px;
+  height: auto;
+  opacity: 0.2;
+    z-index: -9999;
+}
+.descriptionText {
+  
+  margin-right: 0;
+  
+}
+
+.buttonWhatWeDo {
+  font-size: 0.7vw;
+  color: black;
+  height: auto;
+  margin-bottom: 2%;
+}
+
+.secondLayerContainer {
+  
+  width: 100%;
+  background: #FF8E92;
+  height: auto;
+  
+}
+.containerTextInnersl1 {
+
+  padding: 4% 7%;
+  padding-bottom: 4%;
+  padding-left: 12%;
+  
+}
+.headingText {
+  
+  font-family: "Harabara Bold";
+  color: #414865;
+  font-size: 37px;
+  text-align: center;
+  
+}
+.descriptionText {
+
+  font-family: "Harabara Medium";
+  color: #414865;
+  font-size: 2.9vw;
+  text-align: center;
+  
+}
+.buttonLastBlack {
+  
+  text-decoration: none;
+  padding:  10px;
+  font-size: 3vw;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 8%;
+  width: 20%;
+  background: #414865;
+  height: auto;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 21%;
+  font-weight: bold;
+  z-index: 999;
+  
+}
+
+}
+ 

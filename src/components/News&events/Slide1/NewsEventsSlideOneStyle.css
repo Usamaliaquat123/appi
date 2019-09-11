@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Lato Light";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: "Lato Bold";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
+}
+
+.imageContainerNEsl1 > img {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 577px) {
+  /* mobile code */
+}
+
+.containerIconsNEsl1 > img {
+  margin-left: 3%;
+  width: 10%;
+}
+.containerStyleNEsl1 {
+  background: #4698d0;
+  width: 100%;
+  height: auto;
+}
+.containerContentNEsl1 {
+  padding: 0 16%;
+  padding-bottom: 6%;
+  padding-top: 1%;
+}
+.headingSocialMmediaIconsNEsl1 {
+  /* padding: 7% 0; */
+  padding: 0% 15%;
+  padding-top: 3%;
+  padding-top: 6%;
+}
+.latestPostTextNEsl1 {
+  font-size: 1.6vw;
+  color: white;
+  float: left;
+  font-family: "Lato Light";
+  font-weight: bold;
+}
+.containerIconsNEsl1 {
+  margin-left: 62%;
+}
+.allignSocialAndHeadingNEsl1 {
+}
+.socialIconsNEsl1 {
+  margin-right: 3px;
+}
+.followUsTextNEsl1 {
+  font-size: 1vw;
+  color: white;
+  float: left;
+  padding-right: 13px;
+  font-family: "Lato Light";
+  padding-top: 2%;
+}
+.containerContentLeftNEsl1 {
+  background: #ecf5fa;
+  position: absolute;
+  padding: 11% 11%;
+  height: auto;
+  right: 0;
+  width: 100%;
+}
+.containerHeadingNEsl1 {
+  font-size: 1.4vw;
+  font-weight: bold;
+  font-family: "Lato Light";
+}
+.containerDescNEsl1 {
+  font-size: 1vw;
+  font-family: "Lato Light";
+}
+.containerLinkNEsl1 {
+  font-size: 0.8vw;
+  text-decoration: underline;
+}
+.tharkisNEsl1 {
+}

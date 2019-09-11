@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Harabara Bold";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Harabara Medium";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+.slideFiveContainer {
+  width: 100%;
+  /* height: 100px; */
+  padding: 4% 20%;
+}
+
+.headingSlide > p {
+  /* text-align: center; */
+  font-size: 1.3vw;
+  font-weight: bold;
+  color: #354463;
+  font-family: "Harabara Bold";
+}
+.slideFiveDescription {
+  margin-top: -10%;
+  color: #354463;
+  font-size: 0.9vw;
+  font-family: "Lato Light";
+}
+
+@media screen and (max-width: 768px) {
+  .headingSlide > p {
+    /* margin-top: 11%; */
+    text-align: center;
+  }
+  .slideFiveDescription {
+    text-align: center;
+  }
+  .slideFiveContainer {
+    padding: 7% 19%;
+  }
+}

@@ -1,0 +1,414 @@
+@font-face {
+  font-family: "Lato Bold";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
+}
+
+@font-face {
+  font-family: "Lato Black";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Black.ttf");
+}
+
+.headerbackgorundImage {
+  background-image: url(./../../../assets/images/Home/HomeSlide1.jpg);
+  margin: "0";
+  height: "100%";
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+.mainContainerHeadingTextSl1 {
+  padding-top: 17%;
+  margin-left: 5%;
+} 
+.mainContainerHeadingTextSl1 > p {
+  font-family: "Lato Black";
+  font-size: 22px;
+}
+.backgroundTextSl1 {
+  background: white;
+  padding: 5px;
+  font-size: 1.8vw;
+}
+
+.actNoeBtnSl1 > p {
+  width: 150px;
+  background: #eb5d5f;
+  text-align: center;
+  padding: 12px;  font-family: "Lato Black";
+  color: aliceblue;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.socialMediaTabSl1 > img {
+  width: 10%;
+  margin: 4% 1%;
+}
+
+@media screen and (max-width: 5000px) {
+
+
+
+
+.socialIconsSl1 {
+  margin-right: 3px;
+  float: left;
+}
+
+.followUsTextSl1 {
+  float: left;
+  color: aliceblue;
+  text-align: center;
+  margin: 6% 3%;
+  margin-left: 11%;
+}
+
+
+///////////////////////////////
+.socialMediaTabSl1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #404864;
+  width: 24%;
+  height: auto;
+}
+
+.textBottomTab {
+  margin-top: 9%;
+  background-color: #ffffff;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 1.2vw;
+  font-family: "Lato Black";
+}
+.yellowIndicator {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 20%;
+  height: 4px;
+  background: #ffdd00;
+}
+
+
+
+@media screen and (max-width: 5000px) {
+  .socialMediaTabSl1 {
+    margin-top: 13.6%;
+    background-color: #404864;
+    width: 24%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+}
+@media screen and (max-width: 1688px) {
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+                          @media screen and (max-width: 1578px) {
+                              .imageLayer4 {
+                                position: absolute;
+                                right: 0;
+                                bottom: 0;
+                            }
+
+                            }
+@media screen and (max-width: 1481px) {
+  .socialMediaTabSl1 {
+    background-color: #404864;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+                        @media screen and (max-width: 1410px) {
+                          .imageLayersl1 {
+                            position: absolute;
+                            right: 0;
+                            bottom: 0;
+                        }
+                        .imageLayer4 {
+                          position: absolute;
+                          right: 0;
+                          bottom: 0;
+                      }
+                        }
+@media screen and (max-width: 1132px) {
+
+}
+@media screen and (max-width: 1366px) {
+
+
+
+
+.imageLayersl1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.imageLayer4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+}
+
+@media screen and (max-width: 1338px) {
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageLayer4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+}
+@media screen and (max-width: 1231px) {
+  .followUsTextSl1 {
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    margin: 6% 3%;
+    margin-left: 2%;
+  }
+}
+
+
+@media screen and (max-width: 1209px) {
+  .socialMediaTabSl1 {
+    width: 30%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+        @media screen and (max-width: 1130px) {
+          .imageLayer4 {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        .imageLayersl1 {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+      }
+        }
+@media screen and (max-width: 1020px) {
+  .followUsTextSl1 {
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    margin: 5% 2%;
+    margin-left: 4%;
+}
+}
+
+.socialMediaTabSl1 {
+  width: 30%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+}
+
+/* If device width in 1092px */
+
+/* If device width in 900px */
+@media screen and (max-width: 930px) {
+  .socialMediaTabSl1 {
+    width: 34%;
+    position: absolute;
+    padding-left: 12px;
+    left: 0;
+    bottom: 0;
+}
+}
+@media screen and (max-width: 994px) {
+  .socialMediaTabSl1 {
+    width: 34%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+    .backgroundTextSl1 {
+      background: white;
+      padding: 5px;
+      font-size: 4.8vw;
+  }
+  .actNoeBtnSl1 > p {
+    font-family: "Lato Black";
+    color: aliceblue;
+    font-size: 2.3vw;
+    text-align: center;
+    padding: 5% 0;
+}
+.actNoeBtnSl1 {
+  position: absolute;
+
+}
+
+
+}
+@media screen and (max-width: 851px) {
+  .socialMediaTabSl1 {
+  display: none;
+}
+
+
+}
+/* If device width in 695px */
+@media screen and (max-width: 798px) {
+
+
+  
+.actNoeBtnSl1 > p {
+  font-family: "Lato Black";
+  color: aliceblue;
+  font-size: 2.3vw;
+  text-align: center;
+}
+}
+@media screen and (max-width: 695px) {
+  .socialMediaTabSl1 {
+    display: none;
+    visibility: hidden;
+  }
+  .textBottomTab {
+    width: 40%;
+    margin-left: 27%;
+    margin-top: 37%;
+  }
+
+
+  .textBottomTab {
+
+    width: 40%;
+    margin-left: 27%;
+    font-size: 2.3vw;
+
+}
+.actNoeBtnSl1 {
+
+  background: #eb5d5f;
+  width: 136px;
+  position: absolute;
+  height: 4%;
+  margin-bottom: 14%;
+
+}
+.actNoeBtnSl1 > p {
+
+  font-family: "Lato Black";
+  color: aliceblue;
+  font-size: 2vw;
+  text-align: center;
+}
+.mainContainerHeadingTextSl1 {
+
+  padding-top: 7%;
+  margin-left: 5%;
+  margin-bottom: 14%;
+
+}
+.backgroundTextSl1 {
+
+  background: white;
+  padding: 3px;
+  font-size: 4.8vw;
+  margin-top: 1%;
+
+}
+}
+@media screen and (max-width: 577px) {
+  .backgroundHeightSl1 {
+    min-height: 200px;
+  }
+  .mainContainerHeadingTextSl1 {
+    padding-top: 20%;
+    margin-left: 5%;
+  }
+  .socialMediaTabSl1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 510px) {
+  .textBottomTab {
+
+    width: 40%;
+    margin-left: 27%;
+    font-size: 2.3vw;
+
+}
+.actNoeBtnSl1 {
+
+  background: #eb5d5f;
+  width: 136px;
+  position: absolute;
+  height: 4%;
+  margin-bottom: 14%;
+
+}
+.actNoeBtnSl1 > p {
+
+  font-family: "Lato Black";
+  color: aliceblue;
+  font-size: 2vw;
+  text-align: center;
+
+}
+.mainContainerHeadingTextSl1 {
+
+  padding-top: 7%;
+  margin-left: 5%;
+  margin-bottom: 14%;
+
+}
+.backgroundTextSl1 {
+
+  background: white;
+  padding: 3px;
+  font-size: 4.8vw;
+  margin-top: 1%;
+
+}
+}
+
+/* Id device width is 500 */
+@media screen and (max-width: 500px) {
+  /* .socialMediaTab{
+        display: none;
+        visibility: hidden;
+    } */
+  .textBottomTab {
+    width: 50%;
+    margin-left: 27%;
+  }
+  
+}
+

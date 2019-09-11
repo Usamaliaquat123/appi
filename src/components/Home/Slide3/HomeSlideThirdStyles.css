@@ -1,0 +1,491 @@
+@font-face {
+  font-family: "Harabara Bold";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Harabara Medium";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Medium.ttf");
+} 
+
+.containerSlideThirdsl1 {
+  background: #72c6ff;
+  min-height: 100%;
+  height: auto;
+  width: 100%;
+  padding-bottom: 9.7%;
+  padding-top: 3%;
+  position: relative;
+}
+
+.secondLayerContainerThird {
+  width: 80%;
+  background: #8ed1ff;
+}
+
+.imageLayersl1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.imageLayersl1 > img {
+  width: 100%;
+}
+
+.buttonWhatWeDo > p {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.7vw;
+  color: black;
+  width: 8%;
+  background: #fff;
+  height: auto;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+
+.containerTextInnersl1 {
+  padding: 2% 0%;
+  padding-bottom: 4%;
+  padding-left: 2%;
+}
+
+
+.headingTextsl1 {
+  font-family: "Harabara Bold";
+  color: #414865;
+  line-height: 40px;
+  font-size: 32px;
+  margin-top: 5%;
+}
+
+.descriptionTextsl1 {
+  font-family: "Harabara Medium";
+
+  color: #414865;
+
+  font-size : 0.9vw;
+
+  margin-right: 90px;
+}
+.buttonLastBlacksl1 {
+  text-decoration: none;
+  padding:10px;
+  font-size: 0.9vw;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 10%;
+  width: 20%;
+  background: #414865;
+  height: auto;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 0%;
+  font-weight: bold;
+}
+.buttonLastBlacksl1:hover {
+  color: aliceblue;
+}
+
+@media screen and (max-width: 1920px){
+
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageLayersl1 > img {
+  width: 650px;
+  height: auto;
+}
+}
+
+
+@media screen and (max-width: 1812px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+}
+@media screen and (max-width: 1738px){
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageLayer4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.buttonLastBlack {
+  text-decoration: none;
+  padding:  10px;
+  font-size: 0.9vw;
+  color: #fff;
+  position: absolute;
+  margin-top: 18%;
+  width: 20%;
+  background: #414865;
+  height: auto;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 0%;
+  font-weight: bold;
+}
+}
+@media screen and (max-width: 1702px){
+ 
+.imageLayer4 > img {
+  width: 900px;
+  width: 737px;
+  height: auto;
+}
+.imageLayer4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+ .imageLayersl1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
+}
+
+@media screen and (max-width: 1640px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageLayersl1 {
+  margin-top: -30%;
+  position: absolute;
+  right: 0;
+}
+}
+@media screen and (max-width: 1402px){
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageLayer4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+}
+@media screen and (max-width: 1341px){
+  
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageLayer4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.buttonLastBlack {
+  text-decoration: none;
+  padding: 1.4% 4%;
+  /* padding: ; */
+  font-size: 1.1vw;
+  color: #fff;
+  position: absolute;
+  margin-top: 12%;
+  width: 20%;
+  background: #414865;
+  height: auto;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 0%;
+  font-weight: bold;
+}
+.buttonLastBlacksl1 {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 0.9vw;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 8%;
+  width: 20%;
+  background: #414865;
+  height: auto;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 0%;
+  font-weight: bold;
+}
+.actNoeBtnSl1 > p {
+  font-family: "Lato Black";
+  color: aliceblue;
+  text-align: center;
+
+}
+}
+
+@media screen and (max-width: 1347px){
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 1325px){
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+}
+@media screen and (max-width: 1318px){
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+}
+@media screen and (max-width: 1275px){
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+}
+
+
+
+
+@media screen and (max-width: 1273px){
+  .imageLayer4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageLayersl1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.buttonLastBlacksl1 {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 0.9vw;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 0%;
+    width: 20%;
+    background: #414865;
+    height: auto;
+    border-radius: 90px;
+    text-align: center;
+    margin-left: 0%;
+    font-weight: bold;
+}
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media screen and (max-width: 1262px){
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+}
+@media screen and (max-width: 1220px){
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageLayersl1 > img {
+  width: 672px;
+  height: auto;
+}
+}
+
+@media screen and (max-width: 1186px){
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageLayersl1 > img {
+  width: 682px;
+  height: auto;
+}
+}
+@media screen and (max-width: 1169px){
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+}
+@media screen and (max-width: 1131px){
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+}
+@media screen and (max-width: 1123px){
+
+  .imageLayersl1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .imageLayersl1 > img {
+  width: 633px;
+  height: auto;
+  }
+}
+      
+
+@media screen and (max-width: 958px){
+
+}
+
+
+@media (min-width: 320px) and (max-width: 919px) {
+  .containerSlideThirdsl1 {
+    position: relative;
+    background: #72c6ff;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20.7%;
+    padding-top: 3%;
+}
+
+.descriptionTextsl1 {
+
+  margin-right: 0;
+
+}
+  
+
+.containerTextInnersl1 {
+
+  padding: 4% 7%;
+  padding-bottom: 4%;
+  padding-left: 12%;
+
+}
+.headingTextsl1 {
+
+  font-family: "Harabara Bold";
+  color: #414865;
+  font-size: 37px;
+  text-align: center;
+
+}
+.descriptionTextsl1 {
+
+  font-family: "Harabara Medium";
+  color: #414865;
+  font-size: 2.9vw;
+  text-align: center;
+
+}
+.buttonLastBlacksl1 {
+
+  text-decoration: none;
+  padding: 10px;
+  font-size: 3vw;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 8%;
+  width: 20%;
+  background: #414865;
+  height: auto;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 21%;
+  font-weight: bold;
+  z-index: 999;
+}
+
+}
+
+@media screen and (max-width: 2196px){
+  .imageLayersl1 > img {
+    width: 747px;
+  }
+}
+
+@media screen and (max-width: 1704px){
+  .imageLayersl1 > img {
+    width: 647px;
+  }
+}
+
+@media screen and (max-width: 1672px){
+  .imageLayersl1 > img {
+  width: 650px;;
+  }
+}
+
+@media screen and (max-width: 1116px){
+  .imageLayersl1 > img {
+  width: 569px;;
+  }
+}
+
+@media screen and (max-width: 1056px){
+  .imageLayersl1 > img {
+  width:  531px;;
+  }
+}
+
+@media screen and (max-width: 1002px){
+  .imageLayersl1 > img {
+  width:  500px;
+  opacity: 0.2;
+  z-index: -9999;
+  }
+
+  .secondLayerContainerThird{
+    width: 100%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.imageLayer4  > img {
+  width: 602px;
+  opacity: 0.2;
+  z-index: -9999;
+  height: auto;
+}
+
+
+}
+
+@media screen and (max-width:990px){
+  .buttonWhatWeDo > p {
+    font-size: 1.7vw;
+    color: black;
+    width: 85%;
+  }
+}
+

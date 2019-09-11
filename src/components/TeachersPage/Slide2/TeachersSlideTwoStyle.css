@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Lato";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Black.ttf");
+}
+
+.containerContentTecsl2 {
+  padding: 6% 15%;
+}
+.btnOurImpactTecsl2
+ {
+  border-radius: 12px;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px 15px;
+  color: black;
+  background: #ffffff;
+  width: 150px;
+  margin: auto;
+  font-family: "Lato";
+}
+.descTecsl2 {
+  color: #ffffff;
+  margin: 4% 0;
+  font-family: "Lato";
+  font-size: 35px;
+  font-weight: "bold";
+  text-align: center;
+}
+.HeadingCountTecsl2 {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: bold;
+  /* text-align: center; */
+  font-family: "Lato";
+}
+.descContainerTecsl2 {
+  margin-top: -12%;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Lato";
+}
+
+@media screen and (max-width: 760px) {
+  .desc {
+    font-size: 22px;
+  }
+  .HeadingCount {
+    text-align: center;
+  }
+  .descContainer {
+    padding: 3%;
+    text-align: center;
+    font-size: 16px;
+  }
+  .containerContent {
+    padding: 7% 15%;
+  }
+}

@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "lato Regular";
+  src: url("../../../../assets/fonts/Lato2OFL/Lato-Regular.ttf");
+}
+
+.containerSlideWhsl1 {
+  width: 100%;
+  height: auto;
+}
+.containerTextWhsl1 {
+  padding: 5% 10%;
+}
+.conbtainer {
+  padding: 0 14.5%;
+  padding-left: 3%;
+}
+.workbtnWhsl1 {
+  background: #03b9fe;
+  color: #ffffff;
+  margin-left: 30%;
+  width: 132px;
+  padding: 10px 15px;
+  font-size: 11px;
+  font-family: "lato Regular";
+  text-align: center;
+}
+.containerTextTiles {
+  background: #03b9fe;
+  width: 100%;
+  height: 4%;
+  padding: 10px 15px;
+  color: #ffffff;
+  margin-left: 20%;
+  margin-bottom: 3%;
+  box-shadow: #171515;
+  font-size: 12px;
+  font-family: "lato Regular";
+}
+
+.firstSlideImageWhsl1 > img {
+  width: 100%;
+  float: left;
+  margin-bottom: 0;
+}
+
+@font-face {
+  font-family: "lato Regular";
+  src: url("./../../../../assets/fonts/Lato2OFL/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "lato High";
+  src: url("./../../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
+}
+
+.containerStyleWhsl1 {
+  width: 100%;
+  padding: 0 13%;
+  height: auto;
+  /* padding-right: %; */
+}
+.slideRightImageWhsl1 > img {
+  width: 100%;
+  margin-bottom: auto;
+}
+.slideTextLeftWhsl1 {
+  /* left: 0; */
+  width: 100%;
+  height: 100%;
+  background: #eb5e60;
+}
+.slideDescLeftWhsl1 {
+  margin-bottom: 18%;
+  padding: 0 10%;
+  padding-right: 37%;
+  padding-top: 12%;
+  color: #ffffff;
+  font-size: 1.3vw;
+  font-family: "lato Regular";
+}
+
+.slideRightContainerWhsl1 {
+  background: #fdefef;
+  /* position: absolute; */
+  margin-left: -30px;
+  height: auto;
+  width: 100%;
+  /* right: 0;    */
+}
+.textContainerWhsl1 {
+  padding: 15% 11%;
+  padding-bottom: 46.5%;
+}
+.headingSlideTextWhsl1 {
+  font-size: 2vw;
+  text-align: center;
+  font-family: "lato High";
+  opacity: 0.5;
+}
+.DescStyleRightWhsl1 {
+  font-size: 1vw;
+  font-family: "lato Regular";
+}
+
+.containerDescSlWhsl1 {
+  text-decoration: none;
+  background: #03b9fe;
+  width: 100%;
+  height: 4%;
+  padding: 7px 26px;
+  color: #fff;
+  margin-left: 25%;
+  /* font-weight: bold; */
+  margin-bottom: 3%;
+  font-size: 1vw;
+  font-family: "lato Regular";
+}
+.nonSelectWhsl1 {
+  text-decoration: none;
+  background: transparent;
+  width: 100%;
+  height: 4%;
+  padding: 10px 25px;
+  color: black;
+  /* font-weight: bold; */
+  margin-left: 25%;
+  margin-bottom: 3%;
+  font-size: 1vw;
+  font-family: "lato Regular";
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+.nonSelectWhsl1:hover {
+  cursor: pointer;
+}
+.containerDescSlWhsl1:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .workbtnWhsl1 {
+    margin: auto;
+    width: 100%;
+    margin: 0 10%;
+    background: #eb5d5f;
+  }
+  .containerDescSlWhsl1 {
+    text-align: center;
+    margin: 8px 11%;
+  }
+  .bachiImgWhsl1 {
+    margin: -3% 10%;
+    border-radius: 25px;
+  }
+  .containerSlideWhsl1 {
+    height: auto;
+  }
+  /* Slide 2 */
+  .slideTextLeftWhsl1 {
+    margin-top: 10%;
+    border-radius: 25px;
+    /* margin: 10% 10%; */
+  }
+  .slideDescLeftWhsl1 {
+    padding: 10% 10%;
+    text-align: center;
+  }
+  .slideTextLeft > .slideDescLeftWhsl1 > p {
+  }
+  .containerStyleWhsl1 {
+    height: auto;
+  }
+  .slideRightContainerWhsl1 {
+    background: #ecedf0;
+    /* position: absolute; */
+    /* margin-left: -30px; */
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 539px;
+    border-radius: 25px;
+    /* right: 0;    */
+  }
+}

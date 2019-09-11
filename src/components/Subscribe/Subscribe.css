@@ -1,0 +1,117 @@
+
+@font-face {
+    font-family: "Harabara Bold";
+    src: url("./../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");}
+    
+  @font-face {
+    font-family: "Lato Bold";
+    src: url("./../../assets/fonts/Lato2OFL/Lato-Bold.ttf");}
+    
+    .containerSTyle{
+      background-position: fixed;
+      padding: 3.1%;
+      /* display: flex; */
+      /* align-items: center; */
+      background: #EB5D5F;
+      height: auto
+    }
+  .containerText{
+    font-size: 1.2vw;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  .containerEmailInput {
+    /* margin-right: 40px; */
+    float: left;
+    margin-top: 4%;
+    /* position: absolute; */
+    border: none;
+    width: 100%;
+    border-radius: 35px;
+    padding: 17px;
+    padding-left: 20px;
+    letter-spacing: 0.5;
+    font-size: 0.9vw;
+  }
+  
+  /* Subscribe btns */
+  .subscribeBtnSus{
+    float: right;
+    /* margin-left: 20px; */
+    width: 100%;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    padding: 11px;;
+    /* padding-left: 35px; */
+    background: #03B9FE;
+    border-radius: 30px;
+    font-size: 0.8vw;
+    color: white;
+    margin-top: 16%;
+  }
+    /* Id 
+    
+    device width is 500 */
+    @media screen and (max-width: 768px){
+      .textBottomTab{
+          width: 50%;
+          margin-left: 27%;
+      }
+      .containerSTyle {
+
+        padding: 11% 3%;
+    
+    }
+    .containerText {
+
+      font-size: 5.2vw;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+  
+  }
+    }
+    /* If max- width 1093 */
+    @media screen and (max-width: 1093px){
+      .containerSTyle{
+        padding: 8%;
+      }
+    }
+    /* If max- width 1093 */
+    @media screen and (max-width: 1042px  ){
+      .containerSTyle{
+        padding: 6%;
+      }
+    }
+    /* If max- width 1093 */
+    @media screen and (max-width: 768px  ){
+      .containerEmailInput{
+        border: none;
+        width: 100%;
+        border-radius: 35px;
+        padding: 22px;
+        font-size: 12px;
+        margin-bottom: 3%;
+      }
+      .containerSTyle{
+        padding: 6% 3%;
+      }
+      .subscribeBtnSus{
+        
+  width: 42%;
+  text-align: center;
+  align-items: center;
+  padding: 14px;
+  background: #03B9FE;
+  border-radius: 30px;
+  font-size: 14px;
+  color: white;
+  margin: 0% 25%;
+      }
+    }
+  
+  
+    
+  

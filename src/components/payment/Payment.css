@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "Lato Medium";
+  src: url("./../../assets/fonts/Lato2OFL/Lato-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Lato Bold";
+  src: url("./../../assets/fonts/Lato2OFL/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "Lato Light";
+  src: url("./../../assets/fonts/Lato2OFL/Lato-Light.ttf");
+}
+
+.containerStyleLeftHead > p {
+  font-family: "Lato Medium";
+  font-size: 2.3vw;
+  color: #fff;
+  position: absolute;
+  right: 7px;
+  margin-top: 13%;
+  font-weight: bold;
+}
+.StripeElement {
+  color: aliceblue;
+}
+.containerPayment {
+  background: rgba(5, 70, 115, 0.9) none repeat scroll 0% 0%;
+  height: auto;
+  width: 80%;
+  padding: 7.6%;
+  color: aliceblue;
+  margin-left: 4%;
+}
+.heading > p {
+  font-size: 1.3vw;
+  font-family: "Lato Medium";
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.nameContainer > input {
+  text-decoration: none;
+  border: none;
+  color: white;
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  font-size: 1.1vw;
+  font-family: "Lato Light";
+  font-weight: bold;
+  padding-bottom: 7px;
+}
+.nameContainer > label {
+  font-family: "Lato Light";
+  font-weight: bold;
+  font-size: 0.9vw;
+  margin-bottom: 0;
+}
+.streetAddressContainer > input {
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  font-size: 1.1vw;
+  font-family: "Lato Light";
+  font-weight: bold;
+  padding-bottom: 7px;
+  width: 100%;
+}
+.streetAddressContainer > p {
+  font-family: "Lato Light";
+  margin-top: 4%;
+  font-weight: bold;
+  font-size: 0.9vw;
+  margin-bottom: 0;
+}
+.cityNameContainer > p {
+  font-family: "Lato Light";
+  font-weight: bold;
+  font-size: 0.9vw;
+  margin-bottom: 0;
+  margin-top: 4%;
+}
+
+.cityNameContainer > input {
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  font-size: 1.1vw;
+  font-family: "Lato Light";
+  font-weight: bold;
+  padding-bottom: 7px;
+  width: 50%;
+}
+
+.emailContainer > input {
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  font-size: 1.1vw;
+  font-family: "Lato Light";
+  font-weight: bold;
+  padding-bottom: 7px;
+  width: 100%;
+}
+
+.emailContainer > p {
+  font-family: "Lato Light";
+  font-weight: bold;
+  font-size: 0.9vw;
+  margin-bottom: 0;
+  margin-top: 4%;
+}
+
+/* Payment Info Form */
+iframe[name="__privateStripeFrame5"] {
+}
+input[name="cardnumber"] {
+  color: white;
+  font-weight: bold;
+  font-size: 3vw;
+  height: auto;
+  text-decoration: underline;
+}
+CardNumberElement .StripeElement {
+  color: #fff;
+}
+.paymentInfoCardNo > input {
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  font-size: 1.1vw;
+  font-family: "Lato Light";
+  font-weight: bold;
+  padding-bottom: 7px;
+  width: 100%;
+}
+
+.headingPayment > p {
+  font-size: 1.3vw;
+  font-family: "Lato Medium";
+  font-weight: bold;
+  margin-top: 10%;
+  letter-spacing: 1px;
+}
+.paymentMonthHeading > p {
+  font-size: 0.9vw;
+  font-weight: bold;
+  margin-top: 12%;
+  margin-bottom: 0;
+  font-family: "Lato Light";
+}
+.paymentExpMonth {
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  font-size: 1.1vw;
+  font-family: "Lato Light";
+  font-weight: bold;
+  padding-bottom: 7px;
+  width: 100%;
+}
+.paymentExpYear > input {
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  font-size: 1.1vw;
+  font-family: "Lato Light";
+  font-weight: bold;
+  padding-bottom: 7px;
+  width: 100%;
+}
+.securityCodeText > p {
+  font-family: "Lato Light";
+  font-weight: bold;
+  font-size: 0.9vw;
+  margin-bottom: 5%;
+  margin-left: 37%;
+  margin-top: 15%;
+}
+.paymentExpCVC {
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  font-size: 1.1vw;
+  font-family: "Lato Light";
+  font-weight: bold;
+  padding-bottom: 7px;
+  width: 100%;
+}
+
+.giftAidPayment > input {
+}
+.giftAidPayment > p {
+  font-size: 1.2vw;
+}
+
+.paymentDesc > p {
+  font-size: 0.9vw;
+  color: white;
+  font-family: "Lato Light";
+  margin-top: 10%;
+  margin-bottom: 4%;
+}
+
+/* ///////////////////////////////////// */
+/* ///////////////////////////////////// */
+/* ///////////////////////////////////// */
+/* ///////////////////////////////////// */
+/* ///////////////////////////////////// */
+.goBackbtn > p {
+  text-decoration: underline;
+  color: white;
+  font-size: 0.9vw;
+  margin-top: 6%;
+  margin-bottom: 0;
+  font-family: "Lato Light";
+  cursor: pointer;
+}
+
+.paymentProcessBtn {
+  border: none;
+  text-decoration: none;
+  font-size: 1vw;
+  border-radius: 20px;
+  font-family: "Lato Medium";
+  color: white;
+  font-weight: bold;
+  padding: 5% 10%;
+  background-color: #eb5d5f;
+  width: 78%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  letter-spacing: 1px;
+}

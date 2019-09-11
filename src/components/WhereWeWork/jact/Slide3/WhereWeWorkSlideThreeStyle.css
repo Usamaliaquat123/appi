@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Lato";
+  src: url("./../../../../assets/fonts/Lato2OFL/Lato-Black.ttf");
+}
+
+@font-face {
+  font-family: "Lato light";
+  src: url("./../../../../assets/fonts/Lato2OFL/Lato-Light.ttf");
+}
+
+.containerSLideOneJacWhsl3 {
+  background: #4698d0;
+  width: 100%;
+  height: 300px;
+  padding: 4% 0;
+}
+.textsContainerJacWhsl3 {
+  text-align: center;
+}
+.btnStyle {
+  background: #eb5d5f;
+  width: 150px;
+  padding: 10px 15px;
+  font-size: 14px;
+  margin: auto;
+  color: #ffffff;
+  font-weight: bold;
+}
+.HeadingSTyleJacWhsl3 {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Lato";
+}
+.DescriptionJacWhsl3 {
+  font-size: 20px;
+  font-family: "Lato light";
+  color: #ffffff;
+}
+
+/* Slide 2 */
+
+@font-face {
+  font-family: "lato Regular";
+  src: url("./../../../../assets/fonts/Lato2OFL/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "lato High";
+  src: url("./../../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
+}
+
+.containerStyle {
+  width: 100%;
+  height: 539px;
+  padding: 0 5%;
+}
+
+.slideTextLeft {
+  position: absolute;
+  left: 0;
+  width: 36%;
+  height: 262px;
+  margin-left: 13%;
+  background: #4698d0;
+}
+.slideDescLeft {
+  padding: 0 10%;
+  padding-right: 37%;
+  padding-top: 12%;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "lato Regular";
+}
+
+.slideRightContainer {
+  background: #ecf4fa;
+  position: absolute;
+  width: 32%;
+  margin-right: 262px;
+  height: 539px;
+  right: 0;
+}
+.textContainer {
+  padding: 15% 10%;
+}
+.headingSlideText {
+  font-size: 24px;
+  text-align: center;
+  font-family: "lato High";
+  opacity: 0.5;
+}
+.DescStyleRight {
+  font-size: 14px;
+  font-family: "lato Regular";
+}

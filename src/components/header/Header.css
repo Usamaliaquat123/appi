@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Lato Bold";
+  src: url("./../../assets/fonts/Lato2OFL/Lato-Bold.ttf");
+}
+
+
+.containerFluid {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.headerLogo {
+  align-self: flex-end;
+}
+ 
+.sloganText {
+  align-self: flex-end;
+}
+
+.search {
+  margin-left: auto;
+}
+
+img.searchIcon {
+  width: 20px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.donateNow{
+  background: #eb5d5f;
+
+}
+
+.donatebtn > p {
+  font-family: "Lato Bold";
+  color: aliceblue;
+  font-size: 12px;
+  margin: 0;
+  padding: 19%;
+  width: 145px
+}
+
+.donatebtn:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p.headerSubHeading {
+  margin: 0;
+  margin-left: 5px;
+}
+
+.logoStyle > img {
+  margin : 0;
+  margin-top: 5px;
+  margin-left: 35px
+}
+
+.subHeadingStyles {
+  color: #eb5d5f;
+  text-decoration: none;
+  font-size: 12px;
+}
+.headerSubHeading {
+  font-size: 12px;
+  padding-top: 5.3%;
+  color: #eb5d5f;
+}
+
+.logoStyle:hover {
+  text-decoration: none;
+}
+
+.logoStyle {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logoStyle > img {
+  cursor: pointer;  
+}
+
+
+@media screen and (max-width: 577px) {
+  .headContainer {
+    /* display: none; */
+  }
+}
+
+@media screen and (max-width: 600px){
+
+  .containerFluid {
+    justify-content: center
+}
+
+  .search {
+    display: none;
+  }
+
+.donatebtn > p {
+  display: none;
+}
+
+}

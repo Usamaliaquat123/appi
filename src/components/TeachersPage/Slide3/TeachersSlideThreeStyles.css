@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Lato";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Black.ttf");
+}
+
+@font-face {
+  font-family: "Lato light";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: "Lato Medium";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Medium.ttf");
+}
+
+.containerSLideOneTecsl3 {
+  background: #1e71aa;
+  width: 100%;
+  height: 300px;
+  padding: 4% 0;
+}
+.textsContainerTecsl3 {
+  text-align: center;
+}
+.btnStyleTecsl3 {
+  background: #eb5d5f;
+  width: 150px;
+  padding: 10px 15px;
+  font-size: 14px;
+  margin: auto;
+  color: #ffffff;
+  font-weight: bold;
+}
+.HeadingSTyleTecsl3 {
+  font-size: 1.6vw;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Lato";
+}
+.DescriptionTecsl3 {
+  font-size: 1.2vw;
+
+  font-family: "Lato light";
+
+  color: #ffffff;
+
+  font-weight: bold;
+}
+@media screen and (max-width: 760px) {
+  .DescriptionTecsl3 {
+    font-size: 18px;
+    padding: 4%;
+    color: white;
+  }
+}
