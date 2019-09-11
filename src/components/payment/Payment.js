@@ -51,13 +51,16 @@ class _Payment extends React.Component {
     try {
       let token = this.props.stripe
         .createToken({
-          name: this.state.firstName
+          name: this.state.firstName,
+          address_line1: this.state.streetAddress,
+          address_city : this.state.cityName,
+
         })
         .then(s => console.log(s));
       console.log(token);
 
       let amount = this.state.amount;
-      fetch("http://localhost:5000/api/donate", {
+      fetch("https://powerful-brook-37372.herokuapp.com/api/donate", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
