@@ -15,18 +15,8 @@
         @font-face {
             font-family: "Lato Bold";
             src: url("./../../assets/fonts/Lato2OFL/Lato-Bold.ttf");}
-
         
- 
-
-    .donationBackgroundBachi {
-        background: url("./../../assets/images/donation.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center left;
-    }
-
-   .selectedOntime{
+ .selectedOntime{
     color: #fff;
     padding: 20px 40px;
     float: right;
@@ -152,17 +142,25 @@
 
 
 
-
-
+.containerDescSelectors {
+    margin-top: 7%;
+}
+.inline-display{
+    display: grid;
+    grid-template-columns: 0% 90%;
+    justify-content: center;
+    align-items: center;
+}
 .paymentAmountselector {
-    font-size: 2.9vw;
+    font-size: 3.9vw;
+    margin: 5px;
+    margin-left: 20%;
 }
 .descContainerSelectors{
-    font-size: 1vw;
+    font-size: 14px;
 }
 .containerToggle {
-    padding-top: 4%;
-    padding-left: 4%;
+    padding-left: 6%;
 }
 .selectedContainerLabel{
     display: block;
@@ -208,11 +206,11 @@
   /* Create a custom radio button */
   .checkmark {
     position: absolute;
-    top: 29px;
-    left: 3px;
+    /* top: 29px; */
+    left: -6px;
     /* margin-right: 31px; */
     height: 26px;
-    width: 25px;
+    width: 26px;
     background-color: #eee;
     border-radius: 50%;
 }
@@ -284,27 +282,26 @@
 
 
 .cardContainer{
-
     background: rgba(5, 70, 115, 0.9) none repeat scroll 0% 0%;
     height: auto;
-    width: 80%;
+    /* width: 80%; */
     padding: 7.6%;
     color: aliceblue;
-    margin-left: 4%;
+    /* margin-left: 4%; */
 }
 
 /* Selected payment cards */
 .selectedPaymentCardItem{
     background: #4698D0;
-    padding: 25px 5px;
+    padding: 12px  5px;
     padding-right: 5px;
     width: 100%;
-    border: 0.1px solid #5C5C5E;
+    border: 0.1px solid rgb(36, 36, 97);
     padding-right: 18px;
 }
 .paymentCardItem {
     background: #ffffff;
-    padding: 25px 5px;
+    padding: 12px  5px;
     padding-right: 5px;
     width: 100%;
     border: 0.1px solid #5C5C5E;
@@ -322,22 +319,16 @@
 }
 .enterCustomDonationText > p{
     color: #ffffff;
-
-    
     text-decoration-line: underline;
-    
-    font-size: 0.8vw;
-    
+    font-size: 100%;
     font-family: 'Lato Light';
-    
     margin-top: 2%;
 }
 .selectdonationFrequency > p{
-    font-size: 1.3vw;
+    font-size: 80%;
     font-family: 'Lato Light';
-color: #ffffff;
-
-font-weight: bold;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .donationFrequencyButtonOneTime {
@@ -379,11 +370,12 @@ font-family: 'Lato Light';
 }
 .donateNowAndCancel{
     margin-top: 23%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .donationOneTimeText{
-    
-    font-size: 1vw;
-    
+    font-size: 80%;
     font-weight: bold;
     font-family: 'Lato Bold';
 }
@@ -413,26 +405,8 @@ font-family: 'Lato Light';
     padding-top: 0%;
 }
 
-/* .row {
-    margin: 0;
-    text-align: justify;
-}
-
-@media (min-width: 768px){
-.col-md-1 {
-    flex: 0;
-    max-width: 0;
-}
-}
-
-@media (min-width: 768px){
-.col-md-4 {
-    flex: 0;
-}
-}
 
 
- */
 
 
 

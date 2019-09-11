@@ -14,7 +14,7 @@ constructor(props){
       isSelected25 : false,
       isSelected60 : false,
       selectedBackgroundColor: '#fff',
-      isSelectedMonthly : true, 
+      isSelectedMonthly : true,
       isSelectedOneTime: false
     }
 }
@@ -22,24 +22,24 @@ constructor(props){
 render(){
   return (
     <div
-      // style={{
-      //   backgroundImage: `url(${backgroundImage})`,
-      //   maxWidth: "100%",
-      //   margin: 0,
-      //   height: `100%`,
-      //   backgroundSize: "cover",
-      //   backgroundSize: "cover",
-      //   backgroundRepeat: "no-repeat",
-      //   backgroundAttachment: "fixed",
-      //   backgroundPosition: "center",
-      // }}
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        maxWidth: "100%",
+        margin: 0,
+        height: `100%`,
+        backgroundSize: "cover",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+        backgroundPosition: "center",
+      }}
     >
 
 
       
-      <div className="donationBackgroundBachi">
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-sm-6">
+          <div className="col-sm-12 col-md-6">
             <div className='cardContainer'>
               <div style={{ fontSize: 15, fontWeight: "bold" }}>
                 {" "}
@@ -54,31 +54,35 @@ render(){
                      <div className="containerToggle">
                       <label className={this.state.isSelected10 ? 'selectedContainerLabel' : "containerLabel"}>
                     <div className='row'>
-                      <div className='col-md-1'>
-  <input 
-  type="radio" 
-  value="£10" 
-  checked={true}
-  name="radio"
-  onChange={() => this.setState({
-    isSelected10 : true,
-      isSelected25 : false,
-      isSelected60 : false
-  })}
-  />
-  <span class="checkmark"></span>
-                      </div>
-                      <div className='col-md-4'>
+                
+                      <div className='col-12 col-sm-4 inline-display'>
+                      <div>
+                          <input 
+                            type="radio" 
+                            value="£10" 
+                            checked={this.state.isSelected10}
+                            name="radio"
+                            onChange={() => this.setState({
+                              isSelected10 : true,
+                                isSelected25 : false,
+                                isSelected60 : false
+                            })}
+                          />
+                          <span class="checkmark"></span>
+                        </div>
                         <span className="paymentAmountselector">£10</span>
-                      
                       </div>
-                      <div className='col-md-7'>
+                      <div className='col-12 col-sm-8 '>
+                        <div className="containerDescSelectors">
+
                         <span className="descContainerSelectors">    Make a difference by subsidizing the education of a
-                          child</span>
+                          child
+                          </span>
+                        </div>
                      
                       </div>
                     </div>
-</label>
+                  </label>
             
                     </div>
                   </div>
@@ -89,25 +93,32 @@ render(){
                      <div className="containerToggle">
                       <label className={this.state.isSelected25 ? 'selectedContainerLabel' :  "containerLabel"}>
                     <div className='row'>
-                      <div className='col-md-1'>
-  <input type="radio" value="£25" name="radio"
-  onChange={() => this.setState({
-    isSelected60 : false,isSelected25 : true,isSelected10 : false
-  })}
-  ></input>
-  <span class="checkmark"></span>
-                      </div>
-                      <div className='col-md-4'>
+            
+                    <div className='col-12 col-sm-4  inline-display'>
+                      <div>
+                          <input 
+                            type="radio" 
+                            value="£25" 
+                            checked={this.state.isSelected25}
+                            name="radio"
+                            onChange={() => this.setState({
+                              isSelected10 : false,
+                                isSelected25 : true,
+                                isSelected60 : false
+                            })}
+                          />
+                          <span class="checkmark"></span>
+                        </div>
                         <span className="paymentAmountselector">£25</span>
-                      
                       </div>
-                      <div className='col-md-7'>
+                      <div className='col-12 col-sm-8 '>
+                      <div className="containerDescSelectors">
                         <span className="descContainerSelectors">Make a difference by subsidizing the education of a
                           child</span>
-                     
+                     </div>
                       </div>
                     </div>
-</label>
+                      </label>
             
                     </div>
                   </div>
@@ -119,27 +130,31 @@ render(){
                     <div className="containerToggle">
                       <label className={this.state.isSelected60 ? 'selectedContainerLabel' :"containerLabel"}>
                     <div className='row'>
-                      <div className='col-md-1'>
-  <input type="radio" value="£60" name="radio"
-  onChange={() => {
-    this.setState({
-      isSelected25 : false,isSelected10 : false,isSelected60 : true
-    })
-  }}
-  ></input>
-  <span class="checkmark"></span>
-                      </div>
-                      <div className='col-md-4'>
+                    <div className='col-12 col-sm-4 inline-display'>
+                      <div>
+                          <input 
+                            type="radio" 
+                            value="£60" 
+                            checked={this.state.isSelected60}
+                            name="radio"
+                            onChange={() => this.setState({
+                              isSelected10 : false,
+                                isSelected25 : false,
+                                isSelected60 : true
+                            })}
+                          />
+                          <span class="checkmark"></span>
+                        </div>
                         <span className="paymentAmountselector">£60</span>
-                      
                       </div>
-                      <div className='col-md-7'>
+                      <div className='col-12 col-sm-8 '>
+                      <div className="containerDescSelectors">
                         <span className="descContainerSelectors">   Make a difference by subsidizing the education of a
                           child</span>
-                     
+                     </div>
                       </div>
                     </div>
-</label>
+                    </label>
             
                     </div>
                   </div>
@@ -156,14 +171,14 @@ render(){
                   <label className={this.state.isSelectedOneTime ? 'selectedcontainerLabelDonationFreq' :"containerLabelDonationFreq"}>
                 
                   <input type="radio" value="£60" name="radio"
-  onChange={() => {
-    this.setState({
-      isSelectedOneTime : true,
-      isSelectedMonthly: false
-    })
-  }}
-  ></input>
-  <span class="checkmarkDonationFreq"></span>
+                    onChange={() => {
+                      this.setState({
+                        isSelectedOneTime : true,
+                        isSelectedMonthly: false
+                      })
+                    }}
+                    ></input>
+                    <span class="checkmarkDonationFreq"></span>
                     <span className='donationOneTimeText'>
                       One time
                     </span>
@@ -173,14 +188,14 @@ render(){
                   <label className={ this.state.isSelectedMonthly ? 'selectedcontainerLabelDonationFreq' :  "containerLabelDonationFreq"}>
                 
                   <input type="radio" value="£60" name="radio"
-  onChange={() => {
-    this.setState({
-      isSelectedMonthly : true,
-      isSelectedOneTime : false
-    })
-  }}
-  ></input>
-  <span class="checkmarkDonationFreq"></span>
+                    onChange={() => {
+                      this.setState({
+                        isSelectedMonthly : true,
+                        isSelectedOneTime : false
+                      })
+                    }}
+                    ></input>
+                  <span class="checkmarkDonationFreq"></span>
                     <span className='donationOneTimeText'>
                       Monthly
                     </span>
@@ -194,7 +209,8 @@ render(){
               </div>
             </div>
           </div>
-
+          <div className="col-sm-4"></div>
+          <div className="col-sm-2"></div>
         </div>
       </div>
     </div>
