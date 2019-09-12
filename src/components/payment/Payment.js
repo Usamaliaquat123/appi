@@ -60,7 +60,7 @@ class _Payment extends React.Component {
       console.log(token);
 
       let amount = this.state.amount;
-      fetch("https://powerful-brook-37372.herokuapp.com/api/donate", {
+      fetch("http://localhost:3000/api/donate", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
