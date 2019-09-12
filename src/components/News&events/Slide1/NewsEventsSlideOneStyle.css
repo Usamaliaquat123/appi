@@ -7,7 +7,61 @@
   font-family: "Lato Bold";
   src: url("./../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
 }
+.postDescText{
+  font-size: 0.7vw;
+}
+.containerPostImg > img {
+  width: 82%;
+}
+.containerSubHeadingText{
 
+}
+.containerSubHeading{
+  clear: both;
+  font-size: 0.9vw;
+
+font-weight: bold;
+}
+.containerPostHeading{
+    display: inline block;
+    /* flex: 1; */
+}
+.headingTextPost{
+ float: left;
+font-size: 1.6vw;
+
+font-family: 'Lato Bold';
+
+padding-right: 3%
+}
+.headingTextDatePost{
+  font-size: 0.9vw;
+
+  font-family: 'Lato Bold';
+  
+  padding-top: 1%;
+  
+  padding-left: 7%;
+}
+.containerPostDetail{
+  width: 73%;
+
+height: 100%;
+
+margin: auto;
+
+padding-top: 4%;
+padding-bottom: 4%;
+}
+.containerBox{
+  background: #ECF5FA;
+
+  padding: 3%;
+  
+  padding-bottom: 1%;
+
+  padding-right: 1%;
+}
 .imageContainerNEsl1 > img {
   width: 100%;
   margin-bottom: 0;
