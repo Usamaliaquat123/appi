@@ -92,3 +92,94 @@
 @media screen and (max-width: 577px) {
   /* mobile code */
 }
+
+.banner3 {
+  background: #ecf5fa;
+}
+
+.newsGrid {
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  grid-gap: 18px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+img.socialIconsNesl2 {
+  width: 100%;
+  height: auto;
+}
+
+.gridEvent1 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.gridEvent2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.nGridItem {
+  background: #fff;
+  text-align: center;
+
+}
+
+button.newPostBadge {
+  border: none;
+  padding: 6px 10%;
+  background: #4698d0;
+  margin-top: -10px;
+  color: #fff;
+}
+
+p.postText {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 15px;
+  margin-top: 5%;
+}
+
+.nGridItem a {
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+button.eventButton {
+  background: #eb5d5f;
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media screen and (max-width:908px){
+
+  .newsGrid {
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    grid-gap: 18px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+}
+
+@media screen and (max-width:768px){
+  .newsGrid {
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    grid-gap: 18px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.gridEvent1 {
+  grid-column-start: 1;
+  grid-column-end:3 ;
+}
+
+}

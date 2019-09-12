@@ -11,118 +11,63 @@ import pstImg4 from "./../../../assets/images/NewsandEvents/06.png";
 const NewsEventsSlideTwo = () => {
   return (
     <>
-      <div className="containerViewNesl2">
-        <div className="oneRowConatinerNesl2">
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col-sm-12 col-md-3">
-                {/* /////////////////////////////// */}
-                <div className="postOneNesl2">
-                  {/* todo Image section */}
-                  <div className="btnStyleNesl2">NEWS POST</div>
-                  <img className="socialIconsNesl2" src={pstImg1}></img>
-                  <div className="containerCardTextNesl2">
-                    <p className="titleNewsNesl2">
+     <div className="banner3">
+        <div className="newsGrid">
+          <div className="nGridItem">
+            <img className="socialIconsNesl2" src={pstImg1}></img>
+            <button className="newPostBadge">New Post</button>
+            <p className="postText">
                       Tree planting initiative in Pearl Valley Public School,
                       Rawalkot.
-                    </p>
-                    <p className="linkNewsNesl2">Read this post</p>
-                  </div>
-                </div>
-                {/* /////////////////////////////// */}
-              </div>
-              <div className="col-sm-12 col-md-3">
-                {/* ///////////////////////// */}
-                <div className="postTwoNesl2">
-                  {/* todo Image section */}
-                  <div className="btnStyleNesl2">NEWS POST</div>
-                  <img className="socialIconsNesl2" src={pstImg2}></img>
-                  <div className="containerCardTextPostTwoNesl2">
-                    <p className="titleNewsNesl2">
-                      Banjosa Valley Public School
-                    </p>
-                    <p className="linkNewspostTwoNesl2">Read this post</p>
-                  </div>
-                </div>
-                {/* //////////////////////////////// */}
-              </div>
-              <div className="col-sm-12 col-md-6">
-                {/* /////////////////////// */}
-                <div className="postThreeNesl2">
-                  <div className="containerCardTextPostThreeNesl2">
-                    <p className="titleNewsNesl2">
-                      Tree planting initiative in Green Fields Park
-                    </p>
-                    <p className="linkNewsNesl2">
-                      Find out more about this event
-                    </p>
-                  </div>
-                  <div className="btnStyleSlideThreeNesl2">EVENT</div>
-                  {/* todo Image section */}
-                  <img className="cardLlandImageNesl2" src={evntImg1}></img>
-                </div>
-                {/* /////////////////////// */}
-              </div>
-            </div>
-            {/* //////////////////////////////////////////////////////////// */}
-            {/* //////////////////////////////////////////////////////////// */}
-            {/* //////////////////////////////////////////////////////////// */}
-            {/* //////////////////////////////////////////////////////////// */}
-            {/* //////////////////////////////////////////////////////////// */}
-
-            <br />
-            <div className="row">
-              <div className="col-sm-12 col-md-6">
-                {/* ///////////////////////////////// */}
-                <div className="postThreeNesl2">
-                  <div className="containerCardTextPostThreeNesl2">
-                    <p className="titleNewsNesl2">
-                      Donation by Acklam Grange School
-                    </p>
-                    <p className="linkNewsNesl2">
-                      Find out more about this event
-                    </p>
-                  </div>
-                  <div className="btnStyleSlideThreeNesl2">2018</div>
-                  {/* todo Image section */}
-                  <img className="cardLlandImageNesl2" src={evntImg2}></img>
-                </div>
-                {/* ///////////////////////////////// */}
-              </div>
-              <div className="col-sm-12 col-md-3">
-                {/* //////////////////////////////// */}
-                <div className="postTwoNesl2">
-                  {/* todo Image section */}
-                  <div className="btnStyleNesl2">NEWS POST</div>
-                  <img className="socialIconsNesl2" src={pstImg3}></img>
-                  <div className="containerCardTextPostTwoNesl2">
-                    <p className="titleNewsNesl2">
-                      KEF UK Annual Fund Raising Dinner
-                    </p>
-                    <p className="linkNewspostTwoSlide2">Read this post</p>
-                  </div>
-                </div>
-                {/* ////////////////////////////////// */}
-              </div>
-              <div className="col-sm-12 col-md-3">
-                {/* /////////////////////// */}
-                <div className="postOneNesl2">
-                  {/* todo Image section */}
-                  <div className="btnStyleNesl2">NEWS POST</div>
-                  <img className="socialIconsNesl2" src={pstImg4}></img>
-                  <div className="containerCardTextNesl2">
-                    <p className="titleNewsNesl2">
-                      KEF's students visit Aeronotical Complex, Kamra.
-                    </p>
-                    <p className="linkNewsNesl2">Read this post</p>
-                  </div>
-                </div>
-                {/* /////////////////////// */}
-              </div>
-            </div>
+            </p>
+            <a href="#">Read this post</a>
+          </div>
+          <div className="nGridItem">
+          <img className="socialIconsNesl2" src={pstImg2}></img>
+            <button className="newPostBadge">New Post</button>
+            <p className="postText">
+              Banjosa Valley Public School
+            </p>
+            <a href="#">Read this post</a>
+          </div>
+          <div className="nGridItem gridEvent1">
+          <p className="postText">
+                      Tree planting initiative in Pearl Valley Public School,
+                      Rawalkot.
+            </p>
+            <a href="#"> Find out more about this event</a><br></br>            
+            <button className="newPostBadge eventButton">New Event</button>
+          <img className="cardLlandImageNesl2" src={evntImg1}></img>
+          </div>
+          <div className="nGridItem gridEvent2">
+          <p className="eventText">
+          Donation by Acklam Grange School
+            </p>
+            <a href="#">Find out more about this event</a><br></br>          
+            <button className="newPostBadge eventButton">2018</button>
+            <img className="cardLlandImageNesl2" src={evntImg2}></img>
+          </div>
+          <div className="nGridItem">
+          <img className="socialIconsNesl2" src={pstImg3}></img>
+            <button className="newPostBadge">New Post</button>
+            <p className="postText">
+            KEF UK Annual Fund Raising Dinner
+            </p>
+            <a href="#">Read this post</a>
+          </div>
+          <div className="nGridItem">
+          <img className="socialIconsNesl2" src={pstImg4}></img>
+            <button className="newPostBadge">New Post</button>
+            <p className="postText">
+            KEF's students visit Aeronotical Complex, Kamra.
+            </p>
+            <a href="#">Read this post</a>
           </div>
         </div>
-      </div>
+      </div> 
+
+
+
       {/* </div> */}
     </>
   );

@@ -7,9 +7,15 @@ import wifi from "./../../../assets/images/Home/Icons/wifi.png";
 import youtube from "./../../../assets/images/Home/Icons/youtube.png";
 import bachi from "./../../../assets/images/NewsandEvents/1.png";
 const NewsEventsSlideOne = () => {
+  const { modalPost, changeModalPost } = useState(false);
+  
+  function changeModal  ()  {
+    changeModalPost(true)
+  }
   return (
     <>
       <div className="containerStyleNEsl1">
+        <div>
         <div className="headingSocialMmediaIconsNEsl1">
           <div className="allignSocialAndHeadingNEsl1">
             {/* Heading container  */}
@@ -45,7 +51,6 @@ const NewsEventsSlideOne = () => {
             </div>
           </div>
         </div>
-
         <div className="containerContentNEsl1">
           <div className="container-fluid">
             <div className="row">
@@ -73,6 +78,10 @@ const NewsEventsSlideOne = () => {
             </div>
           </div>
         </div>
+        </div>
+       
+
+      
       </div>
     </>
   );
