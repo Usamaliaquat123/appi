@@ -23,10 +23,10 @@ const HomeSlideThird = () => {
                 </p>
                 <div className="slideDescriptionsl1">
                   <p className="descriptionTextsl1">
-                    Kasimir Education Foundation UK was established in
+                    KEFUK was established in
                     conjunction with KEF Pakistan in 1996 out of an altruistic
-                    response to fight poverty in equality amongest the most
-                    vulnerable and marginalized rural communities in Azad
+                    response to fight poverty in equality amongst the most
+                    vulnerable and marginalised rural communities in Azad
                     Kashmir and Pakistan. Three schools have been constructed in
                     various rural areas where currently 900 students are
                     enrolled.

@@ -8,6 +8,7 @@ import twitter from "./../../assets/images/Home/Icons/twitter.png";
 import instagram from "./../../assets/images/Home/Icons/instagram.png";
 import wifi from "./../../assets/images/Home/Icons/wifi.png";
 import youtube from "./../../assets/images/Home/Icons/youtube.png";
+import { Link } from "react-router-dom";
 const BasicFea = () => {
   return (
     <div className="containerOverlayFeatures">
@@ -22,7 +23,7 @@ const BasicFea = () => {
                 <p className="cardHeadingFea">Support a Child</p>
                 <p className="containerDdescFea">
                   {" "}
-                  You have the opportunity to impact the lioves of children and
+                  You have the opportunity to impact the lives of children and
                   families surrounded by poverty. It is through your generosity
                   that we can create a powerfull change.{" "}
                 </p>
@@ -98,11 +99,11 @@ const BasicFea = () => {
 
       <div className="socialMediaTabFea">
         <div className="followUsTextFea">FOLLOW US</div>
-        <img className="socialIconsFea" src={facebook}></img>
-        <img className="socialIconsFea" src={youtube} class="img-fluid"></img>
-        <img className="socialIconsFea" src={instagram} class="img-fluid"></img>
-        <img className="socialIconsFea" src={wifi} class="img-fluid"></img>
-        <img className="socialIconsFea" src={twitter} class="img-fluid"></img>
+       <a href="https://facebook.com/keforg/"><img className="socialIconsFea" src={facebook}></img></a> 
+        <a href=""><img className="socialIconsFea" src={youtube} class="img-fluid"></img></a>
+        <a href=""><img className="socialIconsFea" src={instagram} class="img-fluid"></img></a>
+        <a href=""><img className="socialIconsFea" src={wifi} class="img-fluid"></img></a>
+        <a href=""><img className="socialIconsFea" src={twitter} class="img-fluid"></img></a>
       </div>
     </div>
   );

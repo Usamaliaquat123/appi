@@ -43,7 +43,7 @@ const ChildrenSlideTwo = () => {
             <div className="col-sm-12 col-md-3">
               <p className="HeadingCountChsl2">23</p>
               <p className="descContainerChsl2">
-                Years of providing modren education to underprivileged boys and
+                Years of providing modern education to underprivileged boys and
                 girls{" "}
               </p>
             </div>

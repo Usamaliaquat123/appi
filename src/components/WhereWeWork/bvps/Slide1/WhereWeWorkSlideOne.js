@@ -80,7 +80,7 @@ const WhereWeWorkSlideOne = () => {
                     make quality education accessible to children.
                     <br /> <br />
                     Banjosa Valley Public School-BVPS. AJ&K commerced its
-                    classes on 24th Mmarch 2009. The BVPS has been constructed
+                    classes on 24th March 2009. The BVPS has been constructed
                     to take classes up to tenth grade and is equipped with all
                     the modern educational and recreational facilities. The
                     teaching faculty for BVPS was trained at our College for

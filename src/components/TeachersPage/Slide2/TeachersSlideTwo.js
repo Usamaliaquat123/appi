@@ -34,7 +34,7 @@ const TeachersSlideTwo = () => {
             <div className="col-sm-12 col-md-3">
               <p className="HeadingCountTecsl2">239+</p>
               <p className="descContainerTecsl2">
-                went on to complete Post Graduate Diploma Course
+                went on to complete a Post Graduate Diploma Course
               </p>
             </div>
             <div className="col-sm-12 col-md-3">

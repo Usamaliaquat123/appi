@@ -12,13 +12,13 @@ const GetInvolvedOne = () => {
               <div className="containerLeftGlsl1">
                 <p className="title">YOUR SUPPORT IS POWERFUL</p>
                 <p className="subHeadingGlsl1">
-                  Become a sponser today and feel the joy of changing a child's
+                  Become a sponsor today and feel the joy of changing a child's
                   world forever.
                 </p>
                 <p className="descGlsl1">
-                  It is our belief that such endeavors can be sustainable only
-                  when society plays it's role in providing opportunity for
-                  education at all, regardless of cast, creed or economic
+                  It is our belief that such endeavours can be sustainable only
+                  when society plays it's role in providing opportunity of
+                  education for all, regardless of cast, creed or economic
                   background.
                   <br />
                   <br />
@@ -27,8 +27,8 @@ const GetInvolvedOne = () => {
                   possibilities for bright but needy children
                   <br />
                   Your contribution to KEF will help us in our mission to
-                  provide subsidized modern education to bright children from
-                  marginalized sections of the society
+                  provide subsidised modern education to bright children from
+                  marginalised sections of the society
                 </p>
               </div>
             </div>

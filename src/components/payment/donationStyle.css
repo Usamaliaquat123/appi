@@ -10,7 +10,11 @@
         font-family: "Lato Light";
         src: url("./../../assets/fonts/Lato2OFL/Lato-Light.ttf");}
     
-    
+        @font-face {
+            font-family: "Lato Thin";
+            src: url("./../../assets/fonts/Lato2OFL/Lato-Thin.ttf");}
+        
+        
     
         @font-face {
             font-family: "Lato Bold";
@@ -188,12 +192,15 @@
     align-items: center;
 }
 .paymentAmountselector {
-    font-size: 3.9vw;
+    font-size: 3vw;
     margin: 5px;
     margin-left: 20%;
+    margin-top: 5%;
 }
 .descContainerSelectors{
-    font-size: 14px;
+    font-size: 1vw;
+
+font-family: 'Lato Thin';
 }
 .containerToggle {
     padding-left: 6%;
@@ -251,7 +258,6 @@
     border-radius: 50%;
 }
 .selectedContainerLabel:hover input ~ .checkmark{
-    background-color: #ccc;
 
 }
 .selectedContainerLabel input:checked ~ .checkmark {
@@ -260,7 +266,6 @@
 }
   /* On mouse-over, add a grey background color */
   .containerLabel:hover input ~ .checkmark {
-    background-color: #ccc;
   }
   
   /* When the radio button is checked, add a blue background */
@@ -323,16 +328,23 @@
     /* width: 80%; */
     padding: 7.6%;
     color: aliceblue;
+
     /* margin-left: 4%; */
 }
-
+.cardContainerRed{
+    background: rgba(235, 93, 95, 0.9) none repeat scroll 0% 0%;
+    height: auto;
+    /* width: 80%; */
+    padding: 7.6%;
+    color: aliceblue;
+    /* margin-left: 4%; */
+}
 /* Selected payment cards */
 .selectedPaymentCardItem{
     background: #4698D0;
     padding: 12px  5px;
     padding-right: 5px;
     width: 100%;
-    border: 0.1px solid rgb(36, 36, 97);
     padding-right: 18px;
 }
 .paymentCardItem {
@@ -340,7 +352,8 @@
     padding: 12px  5px;
     padding-right: 5px;
     width: 100%;
-    border: 0.1px solid #5C5C5E;
+    border-bottom: 1px solid #5C5C5E;
+    
     padding-right: 18px;
 }
 .paymentCardItemDText{

@@ -29,9 +29,9 @@ const ContactUsSlideOne = () => {
       </div>
       <div className="supportCareTeamRender">
         <p className="headingCareTeam">
-          OUR SUPPORTER CARE TEAM IS READY TO HELP
+          OUR SUPPORT CARE TEAM IS READY TO HELP
         </p>
-        <p className="addressCareTeam">370 Thornton Rd. Bardford BD88LQ, UK</p>
+        <p className="addressCareTeam">370 Thornton Rd, Bradford BD8 8LQ, England, UK</p>
         <div className="btnEamilNow">EMAIL NOW</div>
       </div>
     </div>

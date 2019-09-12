@@ -86,7 +86,7 @@ const WhereWeWorkSlideOne = () => {
                     College of Teacher Education as a Resource Center of initial
                     Teaching practices.
                     <br /> <br />
-                    like PVPS, SVPS has been provided with all the modern
+                    like PVPS, SVPS has all the modern
                     educational facilities. Its library, named after Miss Anna
                     Finn, a london school teacher has almost 10,000 books,
                     mostly donated by KEF UK.

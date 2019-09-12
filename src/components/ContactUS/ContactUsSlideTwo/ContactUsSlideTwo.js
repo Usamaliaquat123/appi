@@ -9,8 +9,8 @@ const ContactUsSlideTwo = () => {
   return (
     <div className="backgroundHeight">
       <div className="containerCard">
-        <p className="telephoneNo">Telephone: ++44(0)1277-549970</p>
-        <p className="faxTelNo">Facsimile (Fax): ++44(0)1277-549970</p>
+        <p className="telephoneNo">Telephone: +44(0)1274-599970</p>
+        <p className="faxTelNo">Facsimile (Fax): ++44(0)1274-549970</p>
       </div>
       <div className="slideFiveContainer">
         <div className="container-fluid">

@@ -28,14 +28,14 @@ const TeachersSlideOne = () => {
         <p className="descTextTec">
           An additional objective which was developed since 2001, out of sheer
           necessity was to setup a culture specific College of Teacher Education
-          (CTE) for female graduates from rural areas. Presently our CTO
+          (CTE) for female graduates from rural areas. Presently our CTE
           programmes are focused on enabling these trainees to become providers
           of the highest standards of education and the best quality of teacher
           and learning children are entitled to.
         </p>
         <p className="descTextTec">
           We aim to utilize the established schools and Teacher Training
-          Institutes as resource centers for replicating quality schools
+          Institutes as resource centres for replicating quality schools
           throughout the country. KEF also works to upgrade the skills of
           teachers from other schools in the respective areas.
         </p>

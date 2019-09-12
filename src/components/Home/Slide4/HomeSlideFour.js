@@ -19,7 +19,7 @@ const HomeSlideFour = () => {
                 </p>
                 <div className="slideDescription">
                   <p className="descriptionText">
-                    Kashimir Education Foundation set up a Teachers Training
+                    KEFUK set up a Teachers Training
                     Institute in 2001. by the name of Joan Atkinson College of
                     Teacher Education for female graduates, particularly from
                     rural areas to enable them to become high quality English

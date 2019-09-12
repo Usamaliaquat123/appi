@@ -76,13 +76,13 @@ const WhereWeWorkSlideOne = () => {
                     Quality education that KEF is committed to cannot be
                     deliverd without teachers who are personally motivated, who
                     have a wide range of pedagogical skills to develop child
-                    centered learning enviroments with a focus on interactive
+                    centred learning enviroments with a focus on interactive
                     teaching methodology to promote advanced cognitive
                     performance.
                     <br /> <br />
                     KEF made a conscious decision to invest in establishing and
                     developing our own College of Teacher Education in 2001, in
-                    order to take the bes available teachers and support them
+                    order to take the best available teachers and support them
                     towords becoming outstanding teachers using the most
                     effective research oriented continous professional
                     development techniques

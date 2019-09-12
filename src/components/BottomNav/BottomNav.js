@@ -35,7 +35,7 @@ const BottomNav = () => {
                 <span className="addresssLinks">
                 United Kingdom.<br />
                 </span>
-                <span className="addresssLinks">contact@npo.org</span>
+                <span className="addresssLinks">info@kefuk.education</span>
               </div>
             </div>
             <div className="col-sm-12 col-md-4">

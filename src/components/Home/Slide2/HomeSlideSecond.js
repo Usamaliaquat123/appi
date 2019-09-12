@@ -13,9 +13,9 @@ const HomeSlideSecond = () => {
       </div>
       <div className="DescriptionSlide">
         <p>
-          We are non- profit organization eduction orphaned & underpriviledged
-          children at your purpose built schools in Soan Valley in Pakistan and
-          Banjosa and Rawalakot in Azad Kashmir
+          We are non- profit organisation eduction orphaned & underpriviledged
+          children at our purpose built schools in Soan Valley,
+          Banjosa and Rawalakot in Azad Kashmir, Pakistan
         </p>
       </div>
       <div className="containerFeatures">

@@ -8,7 +8,7 @@ const WhereWeWorkSlideThree = () => {
         <div className="textsContainerSvsl3">
           <p className="HeadingSTyleSvsl3">GET INVOLVED</p>
           <p className="DescriptionSvsl3">
-            Sponser a child at Soan Valley Public School
+            Sponsor a child at Soan Valley Public School
           </p>
           <div className="btnStyleSvsl3">DONATE NOW</div>
         </div>

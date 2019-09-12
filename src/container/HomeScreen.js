@@ -37,7 +37,7 @@ class HomeScreen extends Component {
           <HomeSlideFive />
           {/* <Donation /> */}
           {/* <PaymentApp /> */}
-          <Donation />
+          <Donation page={'Home'} />
           <BasicFea />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />
@@ -45,7 +45,7 @@ class HomeScreen extends Component {
           <footer>
             <hr />
             <p style={{ textAlign: "center", fontSize: 13 }}>
-              Copyright © 2010 Kashmir Education Eoundation. All rights
+              Copyright © 2019 Kashmir Education Eoundation. All rights
               reserved.
             </p>
           </footer>

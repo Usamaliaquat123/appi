@@ -22,9 +22,16 @@ constructor(props){
       totalAmount: '',
       isModal : false,
       customAmount: '10',
-      selectionType : 'Monthly'
+      selectionType : 'Monthly',
+      homeType : ''
     }
     // this.donateNow = this.donateNow.bind(this)
+  }
+
+  componentDidMount(){
+    if(this.props.page == "Home"){
+      this.setState({homeType : 'Home'})
+    }
   }
 
   donateNow (amount,amountType) {
@@ -63,9 +70,9 @@ render(){
       
       <div className="container-fluid">
         <div className="row">
-          <div className="col-sm-12 col-md-6">
-            <div className='cardContainer'>
-              <div style={{ fontSize: 15, fontWeight: "bold" }}>
+          <div className="col-sm-12 col-md-5">
+            <div className={this.state.homeType == 'Home' ?  'cardContainerRed' : 'cardContainer'}>
+              <div style={{ fontSize: '1.4vw', fontWeight: "bold" }}>
                 {" "}
                 Choose a donation amount
               </div>
@@ -100,7 +107,7 @@ render(){
                       <div className='col-12 col-sm-8 '>
                         <div className="containerDescSelectors">
 
-                        <span className="descContainerSelectors">    Make a difference by subsidizing the education of a
+                        <span className="descContainerSelectors">    Make a difference by subsidising<br /> the education of a
                           child
                           </span>
                         </div>
@@ -139,8 +146,7 @@ render(){
                       </div>
                       <div className='col-12 col-sm-8 '>
                       <div className="containerDescSelectors">
-                        <span className="descContainerSelectors">Make a difference by subsidizing the education of a
-                          child</span>
+                        <span className="descContainerSelectors">Sponsor the education for a child <br /> for disadvantaged families in <br />rural areas.</span>
                      </div>
                       </div>
                     </div>
@@ -176,8 +182,7 @@ render(){
                       </div>
                       <div className='col-12 col-sm-8 '>
                       <div className="containerDescSelectors">
-                        <span className="descContainerSelectors">   Make a difference by subsidizing the education of a
-                          child</span>
+                        <span className="descContainerSelectors">Sponsor a female graduate <br />trainee teacher from a village<br /> school.</span>
                      </div>
                       </div>
                     </div>
@@ -226,7 +231,7 @@ render(){
                     ></input>
                     <span class="checkmarkDonationFreq"></span>
                     <span className='donationOneTimeText'>
-                      One time
+                      One of donation
                     </span>
                     </label>
                   </div>
@@ -244,7 +249,7 @@ render(){
                     ></input>
                   <span class="checkmarkDonationFreq"></span>
                     <span className='donationOneTimeText'>
-                      Monthly
+                      Regular Donation
                     </span>
                     </label>
                   </div>
@@ -258,7 +263,7 @@ render(){
               </div>
             </div>
           </div>
-          <div className="col-sm-4"></div>
+          <div className="col-sm-5"></div>
           <div className="col-sm-2"></div>
         </div>
       </div>

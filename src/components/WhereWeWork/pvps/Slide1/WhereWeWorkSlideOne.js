@@ -56,7 +56,7 @@ const WhereWeWorkSlideOne = () => {
             <div className="col-md-6 col-sm-12">
               <div className="slideTextLeftPvSl1">
                 <p className="slideDescLeftPvSl1">
-                  "When a nation come devoid of arts and learning, it invites
+                  "When a nation becomes devoid of arts and learning, it invites
                   poverty. And when poverty comes it brings in it's wake
                   thousands of crimes"
                   <br />
@@ -89,7 +89,7 @@ const WhereWeWorkSlideOne = () => {
                     In line with KEF's policy, new intake is limited to class
                     Prep only. It is non residential day school were children
                     from underpriviledged areas of Rawalkot and surrounding
-                    Villages (covering an area of 200 square kilometers with a
+                    villages (covering an area of 200 square kilometers with a
                     population of over 100,000 people) are admitted on merit
                     basis, with girls comprising 50% of the total number.
                   </p>
