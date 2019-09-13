@@ -134,6 +134,7 @@ padding-bottom: 4%;
 .containerLinkNEsl1 {
   font-size: 0.8vw;
   text-decoration: underline;
+  cursor: pointer;
 }
 .tharkisNEsl1 {
 }
