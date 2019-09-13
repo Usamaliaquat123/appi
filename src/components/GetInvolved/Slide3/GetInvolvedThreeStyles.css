@@ -1,0 +1,32 @@
+.containerMakeAnImpact{ 
+    text-align: center;
+padding: 5%;
+}
+.secondLayerTextGetInvSlide3{
+
+    font-size: 1.2vw;
+    color: #fff;
+
+
+}
+.oneLayerTextGetInvSlide3{
+    color: #fff;
+    font-size: 1.2vw;
+}
+.headingTextGetInvSlide3{
+   
+    font-size: 2vw;
+font-weight: bold;
+font-family: "Lato bold";
+color: #fff;
+}
+.btnGetInvolvedbtnSlide3{
+    background: #EB5D5F;
+padding: 1%;
+border-radius: 16px;
+width: 13%;
+margin: auto;
+color: #fff;
+font-size: 0.9vw;
+margin-top: 3%;
+}

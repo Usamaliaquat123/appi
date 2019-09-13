@@ -14,6 +14,7 @@ import {
   injectStripe,
   FormWithInjectStripe
 } from "react-stripe-elements";
+import Dialog from '@material-ui/core/Dialog';
 
 class _Payment extends React.Component {
   
@@ -33,7 +34,8 @@ class _Payment extends React.Component {
       amount: "$100",
       cvcNo: String,
       amountType: String,
-      amount: String
+      amount: String,
+      loading : false
     };
   }
 
@@ -46,29 +48,42 @@ class _Payment extends React.Component {
     })
   }
   handleSubmit() {
+    this.setState({ loading : true})
     console.log("form submit");
     console.log(this.props);
+    const { emailAddress , amountType } = this.state
+
     try {
-      let token = this.props.stripe
+       this.props.stripe
         .createToken({
           name: this.state.firstName,
           address_line1: this.state.streetAddress,
           address_city : this.state.cityName,
-
+          metadata : {
+            email : this.state.emailAddress,
+            cityName: this.state.cityName
+          }
         })
-        .then(s => console.log(s));
-      console.log(token);
-
-      let amount = this.state.amount;
-      fetch("https://powerful-brook-37372.herokuapp.com/api/donate", {
+        .then(s => {
+          console.log(s.token)
+      fetch("http://localhost:5000/api/donate", {
         method: "POST",
         headers: {
-          "Content-type": "application/json",
+          "access-control-allow-origin" : "*",
+          "Content-type": "application/json; charset=UTF-8"
         },
-        body: JSON.stringify({ token, amount })
-      });
+        body: JSON.stringify({ token: s.token, amount, email: emailAddress})
+      }).then(res => {
+        console.log('***************8')
+        console.log(res)
+        console.log('***************8')
+      }).catch(err => console.log(err));
+        });
+
+      let amount = this.state.amount;
+
     } catch (error) {
-      console.log(error);
+      console.log(error); 
     }
   }
 
@@ -109,6 +124,7 @@ class _Payment extends React.Component {
                               this.setState({ firstName: e.target.value })
                             }
                             width="100%"
+                            required={true}
                             placeholder="First name"
                           />
                         </div>
@@ -122,6 +138,7 @@ class _Payment extends React.Component {
                               this.setState({ lastName: e.target.value })
                             }
                             width="100%"
+                            required="true"
                             placeholder="Last name"
                           />
                         </div>
@@ -135,6 +152,7 @@ class _Payment extends React.Component {
                           this.setState({ streetAddress: e.target.value })
                         }
                         width="100%"
+                        required="true"
                         placeholder="Street address"
                       />
                     </div>
@@ -146,6 +164,7 @@ class _Payment extends React.Component {
                           this.setState({ cityName: e.target.value })
                         }
                         width="100%"
+                        required="true"
                         placeholder="City name"
                       />
                     </div>
@@ -157,6 +176,7 @@ class _Payment extends React.Component {
                           this.setState({ emailAddress: e.target.value })
                         }
                         width="100%"
+                        required="true"
                         placeholder="Email address"
                       />
                     </div>
@@ -169,7 +189,7 @@ class _Payment extends React.Component {
                   </div>
                   {/* Payment Card Number */}
                   <div className="paymentInfoCardNo">
-                    <p>CREDIT CARD NUMBER</p>
+                    <p>CREDIT CARD NUMBER *</p>
                     <CardNumberElement
                       style={{
                         base: {
@@ -185,13 +205,13 @@ class _Payment extends React.Component {
                   <div class="row">
                     <div class="col-sm-6 col-md-6">
                       <div className="paymentMonthHeading">
-                        <p>EXPIRATION</p>
+                        <p>EXPIRATION *</p>
                       </div>
                     </div>
                     {/* Payment expiration Security code heading */}
                     <div class="col-sm-6 col-md-6">
                       <div className="securityCodeText">
-                        <p>SECURITY CODE</p>
+                        <p>SECURITY CODE *</p>
                       </div>
                     </div>
                   </div>
@@ -207,14 +227,12 @@ class _Payment extends React.Component {
                               color: "#fff"
                             }
                           }}
+                          required="true"
                         />
                       </div>
                     </div>
                     {/*  Payment Expiration Year */}
                     <div class="col-sm-4 col-md-4">
-                      <div className="paymentExpYear">
-                        <input width="100%" type="number" placeholder="YYYY" />
-                      </div>
                     </div>
                     {/* Payment Expiration CVC */}
                     <div class="col-sm-4 col-md-4">
@@ -226,6 +244,7 @@ class _Payment extends React.Component {
                               color: "#fff"
                             }
                           }}
+                          required="true"
                         />
                         {/* <input  width="100%" type='number'  placeholder="CVC" /> */}
                       </div>
@@ -273,8 +292,15 @@ class _Payment extends React.Component {
                   </p>
                 </div>
               </div>
+
             </div>
           </div>
+          {/* <Dialog onClose={() => {
+                this.setState({ loading : false })
+              }}  aria-labelledby="simple-dialog-title" open={this.state.loading}>
+        <div class="lds-ripple"><div></div><div></div></div>
+
+              </Dialog> */}
         </form>
 
         {/* payment component */}
@@ -306,7 +332,7 @@ class PaymentApp extends React.Component {
   }
   render(){
     return (
-      <StripeProvider apiKey="pk_RXwtgk4Z5VR82S94vtwmam6P8qMXQ">
+      <StripeProvider apiKey="pk_test_oC0Z5L1Oy1LPEA9B3zb961Ea00gh5qy4K9">
         <Elements>
           <Checkout   />
         </Elements>

@@ -8,7 +8,7 @@ import BottomNav from "../components/BottomNav/BottomNav"
 import GetInvolvedOne from "../components/GetInvolved/Slide1/GetInvolvedOne";
 import GetInvolvedTwo from "../components/GetInvolved/Slide2/GetInvolvedTwo";
 import GetInvolvedThree from "../components/GetInvolved/Slide3/GetInvolvedThree";
-
+import Donation from "../components/payment/donation";
 export class GetInvolved extends Component {
   static propTypes = {}
 
@@ -31,7 +31,8 @@ export class GetInvolved extends Component {
           <GetInvolvedOne /> 
           <GetInvolvedTwo /> 
           <GetInvolvedThree />  
-          {/* <Donation */}
+          <Donation  page={'Home'}   />
+          
 
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />
