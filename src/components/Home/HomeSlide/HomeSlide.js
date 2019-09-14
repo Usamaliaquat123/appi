@@ -45,11 +45,11 @@ const HomeSlide = () => {
 
         <div className="socialMediaTabSl1">
           <div className="followUsTextSl1">FOLLOW US</div>
-          <img className="socialIconsSl1" src={facebook}></img>
-          <img className="socialIconsSl1" src={youtube} class="img-fluid"></img>
-          <img className="socialIconsSl1" src={instagram} class="img-fluid"></img>
-          <img className="socialIconsSl1" src={wifi} class="img-fluid"></img>
-          <img className="socialIconsSl1" src={twitter} class="img-fluid"></img>
+          <a href="https://facebook.com/keforg/" href="" className="socialIconsLink"><img  src={facebook}></img></a>
+          <a href="https://www.youtube.com/channel/UCU3X0JT0R8kt9TKp-9BSRZw" className="socialIconsLink"><img  src={youtube} class="img-fluid"></img></a>
+          <a href="https://www.instagram.com/kef_education/?hl=en" className="socialIconsLink"><img  src={instagram} class="img-fluid"></img></a>
+          <a className="socialIconsLink"><img  src={wifi} class="img-fluid"></img></a>
+          <a href="https://www.instagram.com/kefuk/?hl=en" className="socialIconsLink"><img  src={twitter} class="img-fluid"></img></a>
         </div>
         <div className="textBottomTab">
           <div className="yellowIndicator"></div>

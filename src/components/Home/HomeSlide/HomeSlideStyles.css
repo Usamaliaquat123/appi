@@ -44,9 +44,10 @@
 }
 
 
-.socialMediaTabSl1 > img {
+.socialMediaTabSl1 > a {
   width: 10%;
   margin: 4% 1%;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 5000px) {
@@ -63,12 +64,11 @@
   float: left;
   color: aliceblue;
   text-align: center;
-  margin: 6% 3%;
+  margin: 3% 3%;
   margin-left: 11%;
 }
 
 
-///////////////////////////////
 .socialMediaTabSl1 {
   position: absolute;
   left: 0;
@@ -76,6 +76,7 @@
   background-color: #404864;
   width: 24%;
   height: auto;
+  padding-top: 1%;
 }
 
 .textBottomTab {

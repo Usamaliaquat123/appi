@@ -27,9 +27,9 @@ const BasicFea = () => {
                   families surrounded by poverty. It is through your generosity
                   that we can create a powerfull change.{" "}
                 </p>
-                <z href="/Schools" className="containerButtonFea">
+                <a href="/Schools" className="containerButtonFea">
                   Read more
-                </z>
+                </a>
               </div>
             </div>
             <div className="col-sm-12 col-md-4">
@@ -44,9 +44,9 @@ const BasicFea = () => {
                   developing our own College of Teacvher Education to promote
                   advanced cognitive performance
                 </p>
-                <z href="/Teachers" className="containerButtonFea">
+                <a href="/Teachers" className="containerButtonFea">
                   Read more
-                </z>
+                </a>
               </div>
             </div>
             <div className="col-sm-12 col-md-4">
@@ -59,7 +59,7 @@ const BasicFea = () => {
                   You can transform a child's world. Wheather it is by
                   volunteering or by participating in fund raisers.
                 </p>
-                <a href="/Schools" className="containerButtonFea">
+                <a href="/Donate" className="containerButtonFea">
                   Read more
                 </a>
               </div>
@@ -100,10 +100,10 @@ const BasicFea = () => {
       <div className="socialMediaTabFea">
         <div className="followUsTextFea">FOLLOW US</div>
        <a href="https://facebook.com/keforg/"><img className="socialIconsFea" src={facebook}></img></a> 
-        <a href=""><img className="socialIconsFea" src={youtube} class="img-fluid"></img></a>
-        <a href=""><img className="socialIconsFea" src={instagram} class="img-fluid"></img></a>
+        <a href="https://www.youtube.com/channel/UCU3X0JT0R8kt9TKp-9BSRZw"><img className="socialIconsFea" src={youtube} class="img-fluid"></img></a>
+        <a href="https://www.instagram.com/kef_education/?hl=en"><img className="socialIconsFea" src={instagram} class="img-fluid"></img></a>
         <a href=""><img className="socialIconsFea" src={wifi} class="img-fluid"></img></a>
-        <a href=""><img className="socialIconsFea" src={twitter} class="img-fluid"></img></a>
+        <a href="https://www.instagram.com/kefuk/?hl=en"><img className="socialIconsFea" src={twitter} class="img-fluid"></img></a>
       </div>
     </div>
   );
