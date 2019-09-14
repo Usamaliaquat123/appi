@@ -37,7 +37,7 @@ class HomeScreen extends Component {
           <HomeSlideFive />
           {/* <Donation /> */}
           {/* <PaymentApp /> */}
-          <Donation page={'Home'} />
+          <Donation {...this.props} page={'Home'} />
           <BasicFea />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />

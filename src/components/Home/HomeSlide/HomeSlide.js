@@ -38,9 +38,13 @@ const HomeSlide = () => {
             <br />
             <span className="backgroundTextSl1">- OSCAR WILDE</span>
           </p>
-          <div className="actNoeBtnSl1">
+          <a href="/Donate">
+
+
+           <div className="actNoeBtnSl1">
             <p>ACT NOW</p>
           </div>
+          </a>
         </div>
 
         <div className="socialMediaTabSl1">
