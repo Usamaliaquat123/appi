@@ -14,9 +14,12 @@ const PaymentSucessTwo = () => {
               <p className="headingTextLeftPySucess">you have any questions. Please dont hestiate to reachout to support@email.com</p>
             </div>
             <div className="col-sm-12 col-md-4  ">
+              <div className="containerRightPpaySucessSlieSecond">
+
               <p className="rightHeadingPaySucess">WE CAN TAKE</p>
               <p className="rightHeadingPaySucess">A SMALL STEP TO</p>
               <p className="rightHeadingPaySucess">SAVE THE FUTURE.</p>
+              </div>
             </div>
           </div>
         </div>

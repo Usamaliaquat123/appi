@@ -23,11 +23,11 @@
                 src: url("./../../../assets/fonts/Lato2OFL/Lato-BoldItalic.ttf");}
             
     
-           
+
 
 .containerSTylepaySucess{
     background: #1C70AA;
-    padding: 6%;
+    padding: 9%;
 }
 .rightHeadingPaySucess{
     color: white;
@@ -36,4 +36,8 @@
 }
 .headingTextLeftPySucess{
     color: white;
+}
+.containerRightPpaySucessSlieSecond{
+    position: absolute;
+    right: 0;
 }
