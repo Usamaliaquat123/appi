@@ -71,7 +71,7 @@ padding-bottom: 4%;
   /* mobile code */
 }
 
-.containerIconsNEsl1 > img {
+.containerIconsNEsl1 > a {
   margin-left: 3%;
   width: 10%;
 }

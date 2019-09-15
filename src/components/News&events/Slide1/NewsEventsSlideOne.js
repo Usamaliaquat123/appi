@@ -33,31 +33,42 @@ export default class NewsEventsSlideOne extends React.Component {
        {/* Heading Icons */}
        <div className="containerIconsNEsl1">
          <p className="followUsTextNEsl1">FOLLOW US</p>
-         <img
+          <a href="https://facebook.com/KEF.Education"><img
            className="socialIconsNEsl1"
            src={facebook}
            class="img-fluid"
-         ></img>
+         ></img></a>
+         <a href="https://www.youtube.com/channel/UCU3X0JT0R8kt9TKp-9BSRZw" >
          <img
            className="socialIconsNEsl1"
            src={youtube}
            class="img-fluid"
          ></img>
+           </a> 
+         <a href="https://www.instagram.com/kef_education/?hl=en">
+
          <img
            className="socialIconsNEsl1"
            src={instagram}
            class="img-fluid"
          ></img>
+         </a>
+         <a href="">
+           
          <img
            className="socialIconsNEsl1"
            src={wifi}
            class="img-fluid"
          ></img>
+         </a>
+         <a href="https://twitter.com/kefuk?lang=en">
+
          <img
            className="socialIconsNEsl1"
            src={twitter}
            class="img-fluid"
          ></img>
+         </a>
        </div>
      </div>
    </div>
