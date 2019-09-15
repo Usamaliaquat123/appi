@@ -10,7 +10,7 @@ const WhereWeWorkSlideThree = () => {
           <p className="DescriptionPvsl1">
             Sponsor a child at Pearl Valley Public School
           </p>
-          <div className="btnStylePvsl1">DONATE NOW</div>
+          <a href="/Donate"><div className="btnStylePvsl1">DONATE NOW</div></a>
         </div>
       </div>
     </>

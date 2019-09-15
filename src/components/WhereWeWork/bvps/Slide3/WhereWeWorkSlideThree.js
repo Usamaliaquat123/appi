@@ -10,7 +10,7 @@ const WhereWeWorkSlideThree = () => {
           <p className="DescriptionWhsl3">
             Sponsor a child at Banjosa Valley Public School
           </p>
-          <div className="btnStyleWhsl3">DONATE NOW</div>
+            <a href="/Donate"><div className="btnStyleWhsl3">DONATE NOW</div></a> 
         </div>
       </div>
     </>
