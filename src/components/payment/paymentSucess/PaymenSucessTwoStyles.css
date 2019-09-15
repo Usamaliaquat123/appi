@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: "Lato Medium";
+    src: url("./../../../assets/fonts/Lato2OFL/Lato-Medium.ttf");}
+
+
+
+
+    @font-face {
+        font-family: "Lato Light";
+        src: url("./../../../assets/fonts/Lato2OFL/Lato-Light.ttf");}
+    
+    
+    
+        @font-face {
+            font-family: "Lato Bold";
+            src: url("./../../../assets/fonts/Lato2OFL/Lato-Bold.ttf");}
+        
+
+
+            @font-face {
+                font-family: "Lato Italic";
+                src: url("./../../../assets/fonts/Lato2OFL/Lato-BoldItalic.ttf");}
+            
+    
+           
+
+.containerSTylepaySucess{
+    background: #1C70AA;
+    padding: 6%;
+}
+.rightHeadingPaySucess{
+    color: white;
+    font-family: "Lato Italic";
+    font-size: 2vw;
+}
+.headingTextLeftPySucess{
+    color: white;
+}

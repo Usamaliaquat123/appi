@@ -40,7 +40,14 @@
 }
 
 .donationDesc{
-    
+    background: rgba(5,70,115,0.3);
+    padding: 10% 5%;
+    margin: auto;
+    color: white;
+    font-size: 2.5vw;
+    /* opacity: 1.2; */
+    margin-top: 29%;
+    margin-bottom: 27%;
 }
 
 .socialIconCard{

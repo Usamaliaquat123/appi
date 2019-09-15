@@ -4,6 +4,7 @@ import Subscribe from "../../components/Subscribe/Subscribe";
 import BottomNav from "../../components/BottomNav/BottomNav";
 import NavigatorView from "../../components/NavigatorView/NavigatorView";
 import PaymentSucessOne from "../../components/payment/paymentSucess/PaymentSucessOne";
+import PaymentSucessTwo from "../../components/payment/paymentSucess/PaymentSucessTwo";
 
 class Pay_sucess extends Component {
   constructor(props) {
@@ -23,6 +24,7 @@ class Pay_sucess extends Component {
           }}
         >
           <PaymentSucessOne />
+          <PaymentSucessTwo />
           {/* <Donation /> */}
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />

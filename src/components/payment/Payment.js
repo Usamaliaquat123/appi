@@ -75,7 +75,11 @@ class _Payment extends React.Component {
         body: JSON.stringify({ token: s.token, amount, email: emailAddress})
       }).then(res => {
         console.log('***************8')
-        console.log(res)
+        if(res.status == 200){
+            this.props.history.push('/paySucess')
+        }else{
+          this.props.history.push('/')
+        }
         console.log('***************8')
       }).catch(err => console.log(err));
         });
@@ -193,7 +197,7 @@ class _Payment extends React.Component {
                     <CardNumberElement
                       style={{
                         base: {
-                          fontSize: "18px",
+                          fontSize: "18px", 
                           color: "#fff"
                         }
                       }}

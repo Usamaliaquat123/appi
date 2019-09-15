@@ -28,7 +28,9 @@ const PaymentSucessOne = () => {
 <div class='container-fluid'>
     <div class='row'>
       <div class='col-sm-6 col-md-6'>
-      <div className='donationDesc'></div>
+      <div className='donationDesc'>
+        Thank You. Your donation helps support families in need and fight illiteracy.
+      </div>
 
       </div>
       <div class='col-sm-6 col-md-6'>
