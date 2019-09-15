@@ -216,6 +216,27 @@ render(){
               <div className='selectdonationFrequency'>
                 <p>Choose a donation frequency</p>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <div className='selectDonationFSelectorContainer'>
                   <div className={ this.state.isSelectedOneTime ? 'selectedOntime' : 'donationFrequencyButtonOneTime'}>
                   <label className={this.state.isSelectedOneTime ? 'selectedcontainerLabelDonationFreq' :"containerLabelDonationFreq"}>
@@ -255,6 +276,24 @@ render(){
                   </div>
                 </div>
               </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               <div className='donateNowAndCancel'>
                 <div className='donateNowButton' onClick={() => {
                   this.donateNow(this.state.totalAmount, this.state.selectionType)
