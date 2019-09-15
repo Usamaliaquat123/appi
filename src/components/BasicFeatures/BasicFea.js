@@ -99,11 +99,11 @@ const BasicFea = () => {
 
       <div className="socialMediaTabFea">
         <div className="followUsTextFea">FOLLOW US</div>
-       <a href="https://facebook.com/keforg/"><img className="socialIconsFea" src={facebook}></img></a> 
+       <a href="https://facebook.com/KEF.Education"><img className="socialIconsFea" src={facebook}></img></a> 
         <a href="https://www.youtube.com/channel/UCU3X0JT0R8kt9TKp-9BSRZw"><img className="socialIconsFea" src={youtube} class="img-fluid"></img></a>
         <a href="https://www.instagram.com/kef_education/?hl=en"><img className="socialIconsFea" src={instagram} class="img-fluid"></img></a>
         <a href=""><img className="socialIconsFea" src={wifi} class="img-fluid"></img></a>
-        <a href="https://www.instagram.com/kefuk/?hl=en"><img className="socialIconsFea" src={twitter} class="img-fluid"></img></a>
+        <a href="https://twitter.com/kefuk?lang=en"><img className="socialIconsFea" src={twitter} class="img-fluid"></img></a>
       </div>
     </div>
   );

@@ -49,7 +49,7 @@ const HomeSlide = () => {
 
         <div className="socialMediaTabSl1">
           <div className="followUsTextSl1">FOLLOW US</div>
-          <a href="https://facebook.com/keforg/" href="" className="socialIconsLink"><img  src={facebook}></img></a>
+          <a href="https://facebook.com/KEF.Education"  className="socialIconsLink"><img  src={facebook}></img></a>
           <a href="https://www.youtube.com/channel/UCU3X0JT0R8kt9TKp-9BSRZw" className="socialIconsLink"><img  src={youtube} class="img-fluid"></img></a>
           <a href="https://www.instagram.com/kef_education/?hl=en" className="socialIconsLink"><img  src={instagram} class="img-fluid"></img></a>
           <a className="socialIconsLink"><img  src={wifi} class="img-fluid"></img></a>

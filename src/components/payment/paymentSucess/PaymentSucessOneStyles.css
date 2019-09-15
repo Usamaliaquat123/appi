@@ -18,15 +18,24 @@
         
 
 
-       
+            @font-face {
+                font-family: "Lato Italic";
+                src: url("./../../../assets/fonts/Lato2OFL/Lato-BoldItalic.ttf");}
+            
+    
+           
 
 
 
 .cardOfSharing{
     background: #ffffff;
     color: black;
+    /* margin-right: 49px; */
     width: 70%;
     padding: 3% 3%;
+    margin-left: 19.4%;
+    margin-top: 22%;
+    margin-bottom: 22%;
 
 }
 
@@ -36,7 +45,40 @@
 
 .socialIconCard{
     background: #C1F7D5;
-    padding: 2% 3%;
+    padding: 5% 10%;
+    /* margin-left: 62%; */
+    width: 100%;
+    font-size: 1vw;
+    margin-top: 2%;
     color: #1C70AA;
-    display: inline-block
+    border-radius: 42px;
+    /* display: inline-block */
+}
+.facebookIcons{
+
+}
+.quoteStyle > p{
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: #1C70AA;
+    font-family: "Lato Italic"
+}
+.facebookSocialIcon{
+    background: #C1F7D5;
+    padding: 3% 10%;
+    width: 100%;
+    /* margin-left: 62%; */
+    font-size: 1vw;
+    margin-top: 2%;
+    color: #1C70AA;
+    border-radius: 42px;
+    cursor: pointer;
+}
+.facebookSocialIcon > img{
+    width: 9%;
+    margin-right: 19%;
+}
+.socialIconCard > img{
+    width: 13%;
+    margin-right: 15%;
 }

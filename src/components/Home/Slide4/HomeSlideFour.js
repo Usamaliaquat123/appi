@@ -5,9 +5,10 @@ import "./HomeSlideFourStyles.css";
 const HomeSlideFour = () => {
   return (
     <div className="containerSlide">
-      <div className="buttonWhatWeDo">
+      <a href="/pvpc" className="buttonWhatWeDo">
+
         <p>WHAT WE DO</p>
-      </div>
+      </a>
       <div className="secondLayerContainer">
         <div className="container-fluid">
           <div className="row">

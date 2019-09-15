@@ -74,12 +74,12 @@ const ContactUsSlideTwo = () => {
 </div><div>
         <div className="cSocialMediaTab">
           <ul>
-            <li><div className="followUsTxt">FOLLOW US</div></li>
-            <li><img className="socialIcons" src={facebook}></img></li>
-            <li><img className="socialIcons" src={youtube} class="img-fluid"></img></li>
-            <li><img className="socialIcons" src={instagram} class="img-fluid"></img></li>
-            <li><img className="socialIcons" src={wifi} class="img-fluid"></img></li>
-            <li><img className="socialIcons" src={twitter} class="img-fluid"></img></li>
+             <li><div className="followUsTxt">FOLLOW US</div></li>
+             <a href="https://facebook.com/keforg/"><li><img className="socialIcons" src={facebook}></img></li></a>
+             <a href="https://www.youtube.com/channel/UCU3X0JT0R8kt9TKp-9BSRZw"><li><img className="socialIcons" src={youtube} class="img-fluid"></img></li></a>
+             <a href="https://www.instagram.com/kef_education/?hl=en"><li><img className="socialIcons" src={instagram} class="img-fluid"></img></li></a>
+             <a href=""><li><img className="socialIcons" src={wifi} class="img-fluid"></img></li></a>
+             <a href="https://twitter.com/kefuk?lang=en"><li><img className="socialIcons" src={twitter} class="img-fluid"></img></li></a>
           </ul>
         </div>
 

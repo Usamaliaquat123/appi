@@ -9,9 +9,9 @@ import "./HomeSlideThirdStyles.css";
 const HomeSlideThird = () => {
   return (
     <div className="containerSlideThirdsl1">
-      <div className="buttonWhatWeDo">
+      <a className="buttonWhatWeDo">
         <p>WHAT WE DO</p>
-      </div>
+      </a>
       <div className="secondLayerContainerThird">
         <div className="container-fluid">
           <div className="row">

@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
 // import sampleImg from "./../../images/don.jpg"
@@ -34,18 +33,29 @@ const PaymentSucessOne = () => {
       </div>
       <div class='col-sm-6 col-md-6'>
         <div className='cardOfSharing'>
-            <div className='socialIconCard'>
+           <div className='row'>
+             <div className="col-sm-12 col-md-6">
+               <div className="quoteStyle">
+                 <p>"I just donated to KEF to support education in improverished areas of society. Join me?"</p> </div>
+             </div>
+             <div className="col-sm-12 col-md-6">
+             <div className='socialIconCard'>
               <img src={twitter} ></img> TWITTER
             </div>
-            <div className='socialIconCard'>
-              <img src={facebook} ></img>fACEBOOK
+            <a href="https://web.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https://facebook.com/KEF.Education/%2Fdocs%2Fplugins%2F&display=popup&ref=plugin&src=share_button">
+            <div className="facebookSocialIcon">
+              <img className='facebookIcons' src={facebook} ></img>FACEBOOK
             </div>
+            </a>
+      
             <div className='socialIconCard'>
               <img src={email} ></img>EMAIL
             </div>
             <div className='socialIconCard'>
               <img src={message} ></img>MESSAGE
             </div>
+             </div>
+           </div>
         </div>
       </div>
     </div>
