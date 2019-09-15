@@ -5,7 +5,7 @@ import "./HomeSlideFourStyles.css";
 const HomeSlideFour = () => {
   return (
     <div className="containerSlide">
-      <a href="/pvpc" className="buttonWhatWeDo">
+      <a href="/teacher" className="buttonWhatWeDo">
 
         <p>WHAT WE DO</p>
       </a>

@@ -25,13 +25,13 @@ const HomeSlideThird = () => {
                   <p className="descriptionTextsl1">
                     KEFUK was established in
                     conjunction with KEF Pakistan in 1996 out of an altruistic
-                    response to fight poverty in equality amongst the most
+                    response to fight poverty inequality amongst the most
                     vulnerable and marginalised rural communities in Azad
                     Kashmir and Pakistan. Three schools have been constructed in
                     various rural areas where currently 900 students are
                     enrolled.
                   </p>
-                  <a href="/Schools" className="buttonLastBlacksl1">
+                  <a href="/child" className="buttonLastBlacksl1">
                     Read more
                   </a>
                 </div>
