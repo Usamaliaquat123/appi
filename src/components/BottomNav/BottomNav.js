@@ -35,7 +35,7 @@ const BottomNav = () => {
                 <span className="addresssLinks">
                 United Kingdom.<br />
                 </span>
-                <span className="addresssLinks">info@kefuk.education</span>
+                <a href="mailto:info@kefuk.education" className="addresssLinks">info@kefuk.education</a>
               </div>
             </div>
             <div className="col-sm-12 col-md-4">
@@ -44,19 +44,19 @@ const BottomNav = () => {
                 <hr className='horizontalRuleNav' />
               </div>
               <div className='containerAdressBNav'>
-                <a className="addresssLinks" href="/Schools">
+                <a className="addresssLinks" href="/child">
                   What we do
                 </a>
                 <br />
-                <a className="addresssLinks" href="/Pvps">
+                <a className="addresssLinks" href="/pvpc">
                   Where we work
                 </a> 
                 <br />
-                <a className="addresssLinks" href="/GetInvolved">
+                <a className="addresssLinks" href="/getInvolved">
                   Get Involved
                 </a>
                 <br />
-                <a className="addresssLinks" href="/News">
+                <a className="addresssLinks" href="/News&Events">
                   Latest news
                 </a>
               </div>
@@ -67,20 +67,20 @@ const BottomNav = () => {
                 <hr className='horizontalRuleNav' />
               </div>
               <div className='containerAdressBNav'>
-                <a className="addresssLinks" href="#">
+                <a className="addresssLinks" href="https://facebook.com/KEF.Education">
                   Facebook
                 </a>
                 <br />
-                <a className="addresssLinks" href="#">
+                <a className="addresssLinks" href="https://www.youtube.com/channel/UCU3X0JT0R8kt9TKp-9BSRZw">
                   Twitter
                 </a>
                 <br />
-                <a className="addresssLinks" href="#">
+                <a className="addresssLinks" href="https://www.instagram.com/kef_education/?hl=en">
                   Instagram
                 </a>
                 <br />
-                <a className="addresssLinks" href="#">
-                  Medium
+                <a className="addresssLinks" href="https://twitter.com/kefuk?lang=en">
+                  Twitter
                 </a>
               </div>
             </div>
