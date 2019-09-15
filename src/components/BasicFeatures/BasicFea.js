@@ -27,7 +27,7 @@ const BasicFea = () => {
                   families surrounded by poverty. It is through your generosity
                   that we can create a powerfull change.{" "}
                 </p>
-                <a href="/Schools" className="containerButtonFea">
+                <a href="/child" className="containerButtonFea">
                   Read more
                 </a>
               </div>
@@ -44,7 +44,7 @@ const BasicFea = () => {
                   developing our own College of Teacvher Education to promote
                   advanced cognitive performance
                 </p>
-                <a href="/Teachers" className="containerButtonFea">
+                <a href="/teacher" className="containerButtonFea">
                   Read more
                 </a>
               </div>
@@ -59,7 +59,7 @@ const BasicFea = () => {
                   You can transform a child's world. Wheather it is by
                   volunteering or by participating in fund raisers.
                 </p>
-                <a href="/Donate" className="containerButtonFea">
+                <a href="/contactus" className="containerButtonFea">
                   Read more
                 </a>
               </div>
