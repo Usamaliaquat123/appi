@@ -53,11 +53,11 @@ const HomeSlide = () => {
           <a href="https://www.youtube.com/channel/UCU3X0JT0R8kt9TKp-9BSRZw" className="socialIconsLink"><img  src={youtube} class="img-fluid"></img></a>
           <a href="https://www.instagram.com/kef_education/?hl=en" className="socialIconsLink"><img  src={instagram} class="img-fluid"></img></a>
           <a className="socialIconsLink"><img  src={wifi} class="img-fluid"></img></a>
-          <a href="https://www.instagram.com/kefuk/?hl=en" className="socialIconsLink"><img  src={twitter} class="img-fluid"></img></a>
+          <a href="https://twitter.com/kefuk?lang=en" className="socialIconsLink"><img  src={twitter} class="img-fluid"></img></a>
         </div>
         <div className="textBottomTab">
           <div className="yellowIndicator"></div>
-          WE ARE THE FUTURE
+        WE ARE THE FUTURE
         </div>
       </div>
     </div>
