@@ -13,7 +13,7 @@ const ChildrenSlideOne = () => {
           </div>
           <div className='col-sm-12 col-md-8'>
           <div className="containerTextSTyleCh">
-        <div className="btnWhatweDOCh">WHAT WE DO</div>
+    <div className="btnWhatweDOCh">WHAT WE DO</div>
         <p className="headingTextCh">
           Providing Modern Quality Education in Kashmir & Pakistan
         </p>

@@ -7,7 +7,7 @@ const ChildrenSlideThree = () => {
       <div className="textsContainerChsl3">
         <p className="HeadingSTyleChsl3">GET INVOLVED</p>
         <p className="DescriptionChsl3">Sponser a child at any KEF's schools.</p>
-        <div className="btnStyleChsl3">DONATE NOW</div>
+       <a href="/Donate"><div className="btnStyleChsl3">DONATE NOW</div> </a> 
       </div>
     </div>
   );

@@ -31,8 +31,8 @@ const ContactUsSlideOne = () => {
         <p className="headingCareTeam">
           OUR SUPPORTER CARE TEAM IS READY TO HELP
         </p>
-        <p className="addressCareTeam">370 Thornton Rd. Bardford BD88LQ, UK</p>
-        <a href="mailto:info@kefuk.education"><div className="btnEamilNow">EMAIL NOW</div> </a> 
+        <p className="addressCareTeam">370 Thornton Rd. Bradford BD88LQ, UK</p>
+        <a href="mailto:info@kef.education"><div className="btnEamilNow">EMAIL NOW</div> </a> 
       </div>
     </div>
   );

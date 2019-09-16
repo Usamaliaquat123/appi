@@ -8,7 +8,7 @@ const TeachersSlideThree = () => {
         <p className="DescriptionTecsl3">
           Support a teacher at John Atkinson College of Teacher Education
         </p>
-        <div className="btnStyleTecsl3">DONATE NOW</div>
+        <a href="/Donate"><div className="btnStyleTecsl3">DONATE NOW</div></a>
       </div>
     </div>
   );

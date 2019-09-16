@@ -37,7 +37,7 @@ const Header = ({ siteTitle, siteSubTitle, ...props }) => (
           <p className="headerSubHeading">{siteSubTitle}</p>
         </div>
         <div className="search">
-          <img className="searchIcon" src={search}></img>
+          {/* <img className="searchIcon" src={search}></img> */}
         </div>
         <div className="donateNow">
           <a href="/Donate" className="donatebtn">
