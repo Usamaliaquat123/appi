@@ -136,13 +136,16 @@
   
   }
   .cardCcontainerFeatures {
-  
-    margin: 6%;
-    width: 250px;
+    margin: 10%;
+    /* width: 250px; */
     padding: 23px;
     text-align: center;
     height: auto;
+    /* position: absolute; */
+    margin-left: auto;
     background: #ffff;
+    margin-right: auto;
+    margiin-top: 14%;
   
   }
   /* sadadas */
@@ -161,22 +164,20 @@
   }
   .socialMediaTabFea {
   
-      margin-top: -64px;
-      padding: 4px 60px;
-      background-color: #404864;
-      width: 26%;
-      height: auto;
-      padding-right: 0%;
+    margin-top: -64px;
+    padding: 13px 60px;
+    background-color: #404864;
+    width: 100%;
+    height: auto;
+    padding-right: 0%;
   }
   .followUsTextFea {
-  
     font-size: 3vw;
     float: left;
     color: aliceblue;
-    margin: 15px;
+    margin: 6px;
     margin-left: 6%;
     margin-right: 5%;
-  
   }
   }
   

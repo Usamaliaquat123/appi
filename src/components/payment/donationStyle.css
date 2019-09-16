@@ -455,8 +455,28 @@ font-family: 'Lato Light';
     padding-top: 0%;
 }
 
+.chooseADonationAmountStyle{
+    font-size: 1.4vw; font-weight: bold;
+}
 
 
+
+@media (min-width: 320px) and (max-width: 919px) {
+    .paymentAmountselector{
+        font-size: 7vw;
+        margin: 5px;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    .descContainerSelectors{
+        font-size: 3vw;
+        font-family: 'Lato Thin';
+    }
+    .chooseADonationAmountStyle{
+        font-size: 3vw;
+        text-align: center;
+    }
+}
 
 
 

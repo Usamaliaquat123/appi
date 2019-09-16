@@ -72,7 +72,7 @@ render(){
         <div className="row">
           <div className="col-sm-12 col-md-5">
             <div className={this.state.homeType == 'Home' ?  'cardContainerRed' : 'cardContainer'}>
-              <div style={{ fontSize: '1.4vw', fontWeight: "bold" }}>
+              <div className="chooseADonationAmountStyle">
                 {" "}
                 Choose a donation amount
               </div>
