@@ -19,12 +19,13 @@ export default class BasicFea extends React.Component {
     super(props)
 
     this.state =  {
-      isVolunteer: true,
+      isVolunteer: false,
       volunteerName : '',
       volunteerAddress : '',
       volunteerEmail : '',
       volunteerMobile: '',
-      volunteringOrFundRaising : '',
+      selectedVolunteer : '',
+       selectedFundRaise: '',
       errorMessage : '',
       snakOpen: false
     }
@@ -35,8 +36,25 @@ export default class BasicFea extends React.Component {
     if(this.state.volunteerAddress != ''){
       if(this.state.volunteerMobile != ''){
         if(this.state.volunteerEmail != ''){
-          if(this.state.volunteringOrFundRaising != ''){
-
+          if(this.state.selectedFundRaise != '' || this.state.selectedVolunteer != ''){
+            this.setState({ isVolunteer : false })
+            fetch('https://kefukbackend.herokuapp.com/api/volunteer',
+            {
+              method: "POST",
+              headers: {
+                "access-control-allow-origin" : "*",
+                "Content-type": "application/json; charset=UTF-8"
+              },
+              body: JSON.stringify({ name : this.state.volunteerName, 
+                                     address: this.state.volunteerAddress,
+                                    mobile : this.state.volunteerEmail,
+                                    email : this.state.volunteerMobile,
+                                  fundraise : this.state.selectedFundRaise,
+                                volunteer : this.state.selectedVolunteer })})
+              .then(resp => {
+                
+                this.setState({errorMessage: `Your ${this.state.selectedVolunteer}  ${this.state.selectedFundRaise} request has been delivered`,snakOpen : true})
+              }).catch(err =>  this.setState({errorMessage: `Your ${this.state.selectedVolunteer}  ${this.state.selectedFundRaise} request has not been delivered due to some issues`,snakOpen : true}))
           }else{
             this.setState({ errorMessage: 'Please select anyone Volunteer and Fundraising' })
             this.setState({snakOpen : true})
@@ -152,7 +170,7 @@ render(){
                                 <div className="row">
                                   <div className="col-md-6 col-sm-12">
                                   <div className="selectorOfVolunteer">
-                              <label onClick={() => this.setState({ volunteringOrFundRaising: 'Volunteer' })} class="containerCheckboxOfVounteer">Volunteer
+                              <label onClick={() => this.setState({ selectedVolunteer: 'Volunteer' })} class="containerCheckboxOfVounteer">Volunteer
   <input type="checkbox" />
   <span class="checkmarkOfVolunteer" checked="checked"></span>
 </label>
@@ -160,7 +178,7 @@ render(){
                                   </div>
                                   <div className="col-md-6 col-sm-12">
                                   <div className="selectorOfFundraising">
-                              <label  onClick={() => this.setState({ volunteringOrFundRaising: 'Fundraising' })} class="containerCheckboxOfVounteer">Fundraising
+                              <label  onClick={() => this.setState({ selectedFundRaise: 'Fundraising' })} class="containerCheckboxOfVounteer">Fundraising
   <input type="checkbox"  />
   <span class="checkmarkOfVolunteer"></span>
 </label>
@@ -188,7 +206,7 @@ render(){
         ContentProps={{
           'aria-describedby': 'message-id',
         }}
-        autoHideDuration={800}
+        autoHideDuration={2000}
         message={<span id="message-id">{this.state.errorMessage}</span>}
       />
         </div>

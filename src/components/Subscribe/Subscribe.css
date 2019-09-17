@@ -46,6 +46,7 @@
     padding: 11px;;
     /* padding-left: 35px; */
     background: #03B9FE;
+    cursor: pointer;
     border-radius: 30px;
     font-size: 0.8vw;
     color: white;
