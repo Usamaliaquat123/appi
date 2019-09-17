@@ -11,18 +11,52 @@ import youtube from "./../../assets/images/Home/Icons/youtube.png";
 import { Link } from "react-router-dom";
 import Dialog from '@material-ui/core/Dialog';
 import DialogContent from '@material-ui/core/DialogContent';
-
+import DialogTitle from '@material-ui/core/DialogTitle';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import Snackbar from '@material-ui/core/Snackbar';
 export default class BasicFea extends React.Component {
   constructor(props){
     super(props)
 
     this.state =  {
-      isVolunteer: false
+      isVolunteer: true,
+      volunteerName : '',
+      volunteerAddress : '',
+      volunteerEmail : '',
+      volunteerMobile: '',
+      volunteringOrFundRaising : '',
+      errorMessage : '',
+      snakOpen: false
     }
   }
 
   volunteerFormSubmit = async () => {
+  if(this.state.volunteerName != ''){
+    if(this.state.volunteerAddress != ''){
+      if(this.state.volunteerMobile != ''){
+        if(this.state.volunteerEmail != ''){
+          if(this.state.volunteringOrFundRaising != ''){
 
+          }else{
+            this.setState({ errorMessage: 'Please select anyone Volunteer and Fundraising' })
+            this.setState({snakOpen : true})
+          }
+        }else{
+          this.setState({ errorMessage: 'Please enter your email' })
+            this.setState({snakOpen : true})
+        }
+      }else{
+        this.setState({ errorMessage: 'Please enter your Mobile number' })
+        this.setState({snakOpen : true})
+      }
+    }else{
+      this.setState({ errorMessage: 'Please enter your address' })
+      this.setState({snakOpen : true})
+    }
+  }else{
+    this.setState({ errorMessage: 'Please enter your name' })
+    this.setState({snakOpen : true})
+  }
   }
 render(){
   return (
@@ -75,29 +109,88 @@ render(){
                   volunteering or by participating in fund raisers.
                 </p>
                 <a onClick={() => this.setState({ isVolunteer : true })} className="containerButtonFea">
-                  Read more
+                  Read more 
                 </a>
               </div>
             </div>
 
             {/* Volunteer Dialog */}
-            <Dialog onClose={() => {
+            
+            <Dialog 
+            maxWidth='md'
+            fullWidth={true}
+             onClose={() => {
                 this.setState({ isVolunteer : false })
-              }}  aria-labelledby="simple-dialog-title" open={this.state.isVolunteer}>
+              }}  aria-labelledby="form-dialog-title" open={this.state.isVolunteer}>
                 <DialogContent>
+
+
+
                       <div className='containerVolunteerForm'>
                         <p className='headingVolunteerForm'>Register as Volunteer</p>
                         <div className='headingFiledContainerVolunteer'>
                           <p className='headingFieldVolunteer'>Name</p>
-                          <input type="text" className="inputOfNameVolunteer" />
+                          <input onChange={(e) => this.setState({ volunteerName: e.target.value  })} type="text" className="inputOfNameVolunteer" />
+                        </div>
+                        <div className='headingFiledContainerVolunteer'>
+                          <p className='headingFieldVolunteer'>Address</p>
+                          <input onChange={(e) => this.setState({ volunteerAddress: e.target.value  })} type="text" className="inputOfNameVolunteer" />
+                        </div>
+                        <div className='headingFiledContainerVolunteer'>
+                          <p className='headingFieldVolunteer'>Mobile</p>
+                          <input onChange={(e) => this.setState({ volunteerMobile: e.target.value  })} type="text" className="inputOfNameVolunteer" />
+                        </div>
+                        <div className='headingFiledContainerVolunteer'>
+                          <p className='headingFieldVolunteer'>Email</p>
+                          <input onChange={(e) => this.setState({ volunteerEmail: e.target.value  })} type="text" className="inputOfNameVolunteer" />
                         </div>
 
+
+                            <div className="containerFormOfSelector">
+                              <p className="howYouCanHelpVounteerText">How you can help</p>
+                              <div className="container-fluid">
+                                <div className="row">
+                                  <div className="col-md-6 col-sm-12">
+                                  <div className="selectorOfVolunteer">
+                              <label onClick={() => this.setState({ volunteringOrFundRaising: 'Volunteer' })} class="containerCheckboxOfVounteer">Volunteer
+  <input type="checkbox" />
+  <span class="checkmarkOfVolunteer" checked="checked"></span>
+</label>
+                              </div>
+                                  </div>
+                                  <div className="col-md-6 col-sm-12">
+                                  <div className="selectorOfFundraising">
+                              <label  onClick={() => this.setState({ volunteringOrFundRaising: 'Fundraising' })} class="containerCheckboxOfVounteer">Fundraising
+  <input type="checkbox"  />
+  <span class="checkmarkOfVolunteer"></span>
+</label>
+                              </div>
+                                  </div>
+                                </div>
+                              </div>
+                             <div onClick={() => this.volunteerFormSubmit()} className="btnSubmitVolunteer">Submit</div>
+                         
+                            </div>
                         </div>       
 
                 </DialogContent>
 
                 </Dialog>
           </div>
+          <Snackbar
+       anchorOrigin={{
+          vertical: 'bottom',
+          horizontal: 'left',
+        }}
+
+        open={this.state.snakOpen}
+        onClose={() => this.setState({ snakOpen: false })}
+        ContentProps={{
+          'aria-describedby': 'message-id',
+        }}
+        autoHideDuration={800}
+        message={<span id="message-id">{this.state.errorMessage}</span>}
+      />
         </div>
       </div>
 

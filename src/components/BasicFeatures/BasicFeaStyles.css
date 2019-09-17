@@ -5,19 +5,136 @@
 
 
   /*  Volunteer Form  Styling */
-  
-  .containerVolunteerForm{
-
+  .btnSubmitVolunteer{
+    background: #eb5d5f;
+    width: 28%;
+    padding: 2% 3%;
+    border-radius: 34px;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 7%;
+  }
+  .containerCheckboxOfVounteer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .containerCheckboxOfVounteer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmarkOfVolunteer {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
   }
 
-.headingVolunteerForm{
+  .containerCheckboxOfVounteer:hover input ~ .checkmarkOfVolunteer {
+    background-color: #ccc;
+  }
 
+/* When the checkbox is checked, add a blue background */
+.containerCheckboxOfVounteer input:checked ~ .checkmarkOfVolunteer {
+  background-color: #EB5D5F;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.containerCheckboxOfVounteer:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+/* Show the checkmark when checked */
+.containerCheckboxOfVounteer input:checked ~ .checkmarkOfVolunteer:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerCheckboxOfVounteer .checkmarkOfVolunteer:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 
 
-.inputOfNameVolunteer{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .containerVolunteerForm{
+    padding-left: 11%;
+    padding-bottom: 10%;
+    padding-right: 11%;
+    padding-top: 3%;
+  }
+.containerFormOfSelector{
   
+}
+.howYouCanHelpVounteerText{
+
+}
+.selectorOfVolunteer{
+  /* float: left; */
+}
+.selectorOfFundraising{
+
+}
+.headingVolunteerForm{
+  text-align: center;
+  font-size: 2vw;
+  font-weight: bold;
+  opacity: .6;
+}
+
+.headingFieldVolunteer{
+  color: #EB5D5F;
+font-weight: bold;
+}
+
+.inputOfNameVolunteer{
+  border: none;
+  width: 100%;
+  padding-bottom: 0.3%;
+font-size: 0.8vw;
+margin-bottom: 4%;
+border-bottom: 1px solid #EB5D5F;
 }
 
   .containerOverlayFeatures {
