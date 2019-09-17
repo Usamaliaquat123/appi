@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import bachi from "./../../assets/images/features/bachi.png";
 import tharkiMedal from "./../../assets/images/features/tharki_medal.png";
 import tharkiTeacher from "./../../assets/images/features/tharki_teacher.png";
@@ -9,7 +9,22 @@ import instagram from "./../../assets/images/Home/Icons/instagram.png";
 import wifi from "./../../assets/images/Home/Icons/wifi.png";
 import youtube from "./../../assets/images/Home/Icons/youtube.png";
 import { Link } from "react-router-dom";
-const BasicFea = () => {
+import Dialog from '@material-ui/core/Dialog';
+import DialogContent from '@material-ui/core/DialogContent';
+
+export default class BasicFea extends React.Component {
+  constructor(props){
+    super(props)
+
+    this.state =  {
+      isVolunteer: false
+    }
+  }
+
+  volunteerFormSubmit = async () => {
+
+  }
+render(){
   return (
     <div className="containerOverlayFeatures">
       <div className="container-fluid">
@@ -59,11 +74,29 @@ const BasicFea = () => {
                   You can transform a child's world. Wheather it is by
                   volunteering or by participating in fund raisers.
                 </p>
-                <a href="/contactus" className="containerButtonFea">
+                <div onClick={() => this.setState({ isVolunteer : true })} className="containerButtonFea">
                   Read more
-                </a>
+                </div>
               </div>
             </div>
+
+            {/* Volunteer Dialog */}
+            <Dialog onClose={() => {
+                this.setState({ isVolunteer : false })
+              }}  aria-labelledby="simple-dialog-title" open={this.state.isVolunteer}>
+                <DialogContent>
+                      <div className='containerVolunteerForm'>
+                        <p className='headingVolunteerForm'>Register as Volunteer</p>
+                        <div className='headingFiledContainerVolunteer'>
+                          <p className='headingFieldVolunteer'>Name</p>
+                          <input type="text" className="inputOfNameVolunteer" />
+                        </div>
+
+                        </div>       
+
+                </DialogContent>
+
+                </Dialog>
           </div>
         </div>
       </div>
@@ -107,6 +140,9 @@ const BasicFea = () => {
       </div>
     </div>
   );
+}
+
+
+  
 };
 
-export default BasicFea;

@@ -2,7 +2,24 @@
     font-family: "Harabara Bold";
     src: url("./../../assets/fonts/Montserrat/Montserrat-Bold.ttf");
   }
+
+
+  /*  Volunteer Form  Styling */
   
+  .containerVolunteerForm{
+
+  }
+
+.headingVolunteerForm{
+
+}
+
+
+
+.inputOfNameVolunteer{
+  
+}
+
   .containerOverlayFeatures {
     margin-top: 100;
     background: #ecf4fa;
