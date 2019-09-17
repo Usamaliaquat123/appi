@@ -14,6 +14,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    cursor: pointer;
     margin-top: 7%;
   }
   .containerCheckboxOfVounteer {
@@ -193,7 +194,8 @@ border-bottom: 1px solid #EB5D5F;
     text-decoration: none;
     border-radius: 30px;
     font-size: 15px;
-    width: 120px;
+    width: 74%;
+    cursor: pointer;
     color: #fff;
     background-color: #03b9fe;
     padding: 13px 35px;

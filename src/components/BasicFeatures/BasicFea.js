@@ -108,9 +108,9 @@ render(){
                   You can transform a child's world. Wheather it is by
                   volunteering or by participating in fund raisers.
                 </p>
-                <a onClick={() => this.setState({ isVolunteer : true })} className="containerButtonFea">
+                <div onClick={() => this.setState({ isVolunteer : true })} className="containerButtonFea">
                   Read more 
-                </a>
+                </div>
               </div>
             </div>
 
