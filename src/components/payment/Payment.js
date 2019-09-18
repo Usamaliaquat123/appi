@@ -372,7 +372,7 @@ reclaimed for charity if the donor is a taxpayer. Please sign and date the decla
                             className="paymentProcessBtn"
                           >
                              <div className="paymentProcessBtnAmount">
-                          {localStorage.getItem('amount')} £
+                             £{localStorage.getItem('amount')}
                           </div>
                         <div
                             onClick={() => this.handleSubmit()}

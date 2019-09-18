@@ -207,10 +207,10 @@ CardNumberElement .StripeElement {
   background-color: #fff;
   
   color: black;
-  
+  font-weight: bold;
   padding: 4% 7%;
   
-  font-family: 'lato light';  
+  font-family: 'lato Bold';  
   border-radius: 35px;
   
   padding-right: 18%;
