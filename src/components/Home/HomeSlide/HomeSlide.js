@@ -5,7 +5,7 @@ import facebook from "./../../../assets/images/Home/Icons/facebook.png";
 import twitter from "./../../../assets/images/Home/Icons/twitter.png";
 import backgroundImage from "./../../../assets/images/Home/HomeSlide1.jpg";
 import instagram from "./../../../assets/images/Home/Icons/instagram.png";
-import wifi from "./../../../assets/images/Home/Icons/wifi.png";
+// import wifi from "./../../../assets/images/Home/Icons/wifi.png";
 import youtube from "./../../../assets/images/Home/Icons/youtube.png";
 const HomeSlide = () => {
   return (
@@ -52,7 +52,7 @@ const HomeSlide = () => {
           <a href="https://facebook.com/KEF.Education"  className="socialIconsLink"><img  src={facebook}></img></a>
           <a href="https://www.youtube.com/channel/UCU3X0JT0R8kt9TKp-9BSRZw" className="socialIconsLink"><img  src={youtube} class="img-fluid"></img></a>
           <a href="https://www.instagram.com/kef_education/?hl=en" className="socialIconsLink"><img  src={instagram} class="img-fluid"></img></a>
-          <a className="socialIconsLink"><img  src={wifi} class="img-fluid"></img></a>
+          {/* <a className="socialIconsLink"><img  src={wifi} class="img-fluid"></img></a> */}
           <a href="https://twitter.com/kefuk?lang=en" className="socialIconsLink"><img  src={twitter} class="img-fluid"></img></a>
         </div>
         <div className="textBottomTab">

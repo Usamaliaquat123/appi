@@ -201,7 +201,22 @@ CardNumberElement .StripeElement {
   padding-bottom: 7px;
   width: 100%;
 }
+.paymentProcessBtnAmount{
+  float: left;
 
+  background-color: #fff;
+  
+  color: black;
+  
+  padding: 4% 7%;
+  
+  font-family: 'lato light';  
+  border-radius: 35px;
+  
+  padding-right: 18%;
+  
+  font-size: 1vw;
+}
 .giftAidPayment > input {
 }
 .giftAidPayment > p {
@@ -230,23 +245,67 @@ CardNumberElement .StripeElement {
   font-family: "Lato Light";
   cursor: pointer;
 }
+.paymentProcessBtnInner {
+  border: none;
 
+  text-decoration: none;
+  
+  font-size: 1vw;
+  
+  border-radius: 39px;
+  
+  font-family: "Lato Medium";
+  
+  color: white;
+  
+  font-weight: bold;
+  
+  padding: 4% 10%;
+  
+  background-color: #eb5d5f;
+  
+  width: 75%;
+  
+  position: absolute;
+  
+  right: 0;
+  
+  cursor: pointer;
+  
+  text-align: center;
+  
+  letter-spacing: 1px;
+}
 .paymentProcessBtn {
   border: none;
-  text-decoration: none;
-  font-size: 1vw;
-  border-radius: 20px;
-  font-family: "Lato Medium";
-  color: white;
-  font-weight: bold;
-  padding: 5% 10%;
-  background-color: #eb5d5f;
-  width: 78%;
-  position: absolute;
-  right: 0;
-  cursor: pointer;
-  text-align: center;
-  letter-spacing: 1px;
+
+text-decoration: none;
+
+font-size: 1vw;
+
+border-radius: 55px;
+
+font-family: "Lato Medium";
+
+color: white;
+
+font-weight: bold;
+
+padding: 2% 2%;
+
+background-color: #eb5d5f;
+
+width: 78%;
+
+position: absolute;
+
+right: 0;
+
+cursor: pointer;
+
+text-align: center;
+
+letter-spacing: 1px;
 }
 
 

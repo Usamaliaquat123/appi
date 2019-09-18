@@ -3,7 +3,7 @@ import "./NewsEventsSlideOneStyle.css";
 import facebook from "./../../../assets/images/Home/Icons/facebook.png";
 import twitter from "./../../../assets/images/Home/Icons/twitter.png";
 import instagram from "./../../../assets/images/Home/Icons/instagram.png";
-import wifi from "./../../../assets/images/Home/Icons/wifi.png";
+// import wifi from "./../../../assets/images/Home/Icons/wifi.png";
 import youtube from "./../../../assets/images/Home/Icons/youtube.png";
 import bachi from "./../../../assets/images/NewsandEvents/1.png";
 import postImg from "./../../../assets/images/postImg.png";
@@ -53,14 +53,14 @@ export default class NewsEventsSlideOne extends React.Component {
            class="img-fluid"
          ></img>
          </a>
-         <a href="">
+         {/* <a href="">
            
          <img
            className="socialIconsNEsl1"
            src={wifi}
            class="img-fluid"
          ></img>
-         </a>
+         </a> */}
          <a href="https://twitter.com/kefuk?lang=en">
 
          <img

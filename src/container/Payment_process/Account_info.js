@@ -21,7 +21,7 @@ class Account_info extends Component {
             margin: `0 auto`
           }}
         >
-          <PaymentApp />
+          <PaymentApp { ...this.props }/>
           {/* <Donation /> */}
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />

@@ -3,7 +3,7 @@ import "./ContactUsSlideTwoStyles.css";
 import facebook from "./../../../assets/images/Home/Icons/facebook.png";
 import twitter from "./../../../assets/images/Home/Icons/twitter.png";
 import instagram from "./../../../assets/images/Home/Icons/instagram.png";
-import wifi from "./../../../assets/images/Home/Icons/wifi.png";
+// import wifi from "./../../../assets/images/Home/Icons/wifi.png";
 import youtube from "./../../../assets/images/Home/Icons/youtube.png";
 const ContactUsSlideTwo = () => {
   return (
@@ -78,7 +78,7 @@ const ContactUsSlideTwo = () => {
              <a href="https://facebook.com/keforg/"><li><img className="socialIcons" src={facebook}></img></li></a>
              <a href="https://www.youtube.com/channel/UCU3X0JT0R8kt9TKp-9BSRZw"><li><img className="socialIcons" src={youtube} class="img-fluid"></img></li></a>
              <a href="https://www.instagram.com/kef_education/?hl=en"><li><img className="socialIcons" src={instagram} class="img-fluid"></img></li></a>
-             <a href=""><li><img className="socialIcons" src={wifi} class="img-fluid"></img></li></a>
+             {/* <a href=""><li><img className="socialIcons" src={wifi} class="img-fluid"></img></li></a> */}
              <a href="https://twitter.com/kefuk?lang=en"><li><img className="socialIcons" src={twitter} class="img-fluid"></img></li></a>
           </ul>
         </div>
