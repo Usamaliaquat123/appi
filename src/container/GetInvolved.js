@@ -10,8 +10,11 @@ import GetInvolvedTwo from "../components/GetInvolved/Slide2/GetInvolvedTwo";
 import GetInvolvedThree from "../components/GetInvolved/Slide3/GetInvolvedThree";
 import Donation from "../components/payment/donation";
 export class GetInvolved extends Component {
-  static propTypes = {}
-
+  constructor(props) {
+    super(props);
+    this.state = {};
+    console.log(props)
+  }
   donateWithStripe() {
     console.log(`test`)
   }
@@ -31,7 +34,7 @@ export class GetInvolved extends Component {
           <GetInvolvedOne /> 
           <GetInvolvedTwo /> 
           <GetInvolvedThree />  
-          <Donation  page={'Home'}   />
+          <Donation {...this.props}  page={'Home'}   />
           
 
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
