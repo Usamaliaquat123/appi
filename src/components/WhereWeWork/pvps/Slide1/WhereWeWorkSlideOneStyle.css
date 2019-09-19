@@ -142,15 +142,35 @@ a:hover {
 
 @media screen and (max-width: 768px) {
   .workbtnPvSl1 {
-    margin: auto;
+
     width: 100%;
     margin: 0 10%;
     background: #eb5d5f;
-  }
-  .containerDescSlPvSl1 {
-    text-align: center;
-    margin: 8px 11%;
-  }
+
+}
+
+.nonSelectPvSl1 {
+
+  text-decoration: none;
+  background: transparent;
+  width: 100%;
+  height: 4%;
+  padding: 4% 2%;
+  color: black;
+  margin-left: 11%;
+  margin-bottom: 3%;
+  font-size: 2.8vw;
+  font-family: "lato Regular";
+  text-align: center;
+
+}
+.containerDescSlPvSl1 {
+
+  text-align: center;
+  margin: 8px 11%;
+  font-size: 2.5vw;
+
+}
   .bachiImgPvSl1 {
     margin: -3% 10%;
     border-radius: 25px;
@@ -167,6 +187,10 @@ a:hover {
   .slideDescLeftPvSl1 {
     padding: 10% 10%;
     text-align: center;
+    font-size: 3.2vw;
+}
+  .conbtainerPvSl1{
+
   }
   .slideTextLeftPvSl1 > .slideDescLeftPvSl1 > p {
   }
@@ -178,11 +202,17 @@ a:hover {
     /* position: absolute; */
     /* margin-left: -30px; */
     margin: auto;
-    margin-top: 5%;
     margin-bottom: 5%;
     width: 100%;
+    margin-top: 16%;
     height: 539px;
     border-radius: 25px;
     /* right: 0;    */
+  }
+  .headingSlideTextPvSl1{
+    font-size: 4vw;
+  }
+  .DescStyleRightPvSl1{
+    font-size: 3vw;
   }
 }

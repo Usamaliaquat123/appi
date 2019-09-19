@@ -82,7 +82,7 @@ class _Payment extends React.Component {
                     this.setState({ errorMessage : 'Payment is processing' , snakOpenpaymentProcess : true })
                     this.setState({ loading : true})
                     console.log(s.token)
-                    fetch("https:///api/donate", {
+                    fetch("https://kefukbackend.herokuapp.com/api/donate", {
                       method: "POST",
                       headers: {
                     "access-control-allow-origin" : "*",
