@@ -28,15 +28,23 @@
   font-family: "Lato Light";
 }
 
-@media screen and (max-width: 768px) {
-  .headingSlide > p {
-    /* margin-top: 11%; */
-    text-align: center;
-  }
+@media (min-width: 300px) and (max-width: 972px) {
+  
   .slideFiveDescription {
+    margin-top: -4%;
+    color: #354463;
+    font-size: 2.9vw;
+    font-family: "Lato Light";
+}
+  .headingSlide > p {
     text-align: center;
-  }
+    font-size: 6.3vw;
+    font-weight: bold;
+    color: #354463;
+    font-family: "Harabara Bold";
+}
   .slideFiveContainer {
     padding: 7% 19%;
   }
+ 
 }
