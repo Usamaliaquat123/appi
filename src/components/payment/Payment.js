@@ -82,7 +82,7 @@ class _Payment extends React.Component {
                     this.setState({ errorMessage : 'Payment is processing' , snakOpenpaymentProcess : true })
                     this.setState({ loading : true})
                     console.log(s.token)
-                    fetch("http://localhost:5000/api/donate", {
+                    fetch("https:///api/donate", {
                       method: "POST",
                       headers: {
                     "access-control-allow-origin" : "*",
@@ -286,21 +286,10 @@ class _Payment extends React.Component {
                       </div>
                       {/* Payment Expiration | Month */}
                       <div class="row">
-                        <div class="col-sm-6 col-md-6">
+                        <div class="col-sm-12 col-md-6">
                           <div className="paymentMonthHeading">
                             <p>EXPIRATION *</p>
                           </div>
-                        </div>
-                        {/* Payment expiration Security code heading */}
-                        <div class="col-sm-6 col-md-6">
-                          <div className="securityCodeText">
-                            <p>SECURITY CODE *</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        {/*  Payment Expiration Month */}
-                        <div class="col-sm-4 col-md-4">
                           <div className="paymentExpMonth">
                             {/* <input  width="100%" type='number'  placeholder="MM" /> */}
                             <CardExpiryElement
@@ -314,11 +303,11 @@ class _Payment extends React.Component {
                             />
                           </div>
                         </div>
-                        {/*  Payment Expiration Year */}
-                        <div class="col-sm-4 col-md-4">
-                        </div>
-                        {/* Payment Expiration CVC */}
-                        <div class="col-sm-4 col-md-4">
+                        {/* Payment expiration Security code heading */}
+                        <div class="col-sm-12 col-md-6">
+                          <div className="securityCodeText">
+                            <p>SECURITY CODE *</p>
+                          </div>
                           <div className="paymentExpCVC">
                             <CardCVCElement
                               style={{
@@ -333,6 +322,7 @@ class _Payment extends React.Component {
                           </div>
                         </div>
                       </div>
+                    
                       {/*  Payment Description */}
                       <div className="paymentDesc">
                         <p>
@@ -345,7 +335,7 @@ reclaimed for charity if the donor is a taxpayer. Please sign and date the decla
                       {/* Payment Gift Aid Checkbox */}
                       <div className="row">
                         <div className="col-sm-12 col-md-4">
-                              <img src={donateAid} />
+                              <div className="donateGiftAidImg"><img src={donateAid} /></div>
                         </div>
                         <div className="col-sm-12 col-md-8">
                         <div className="giftAidPayment">
@@ -372,7 +362,7 @@ reclaimed for charity if the donor is a taxpayer. Please sign and date the decla
                             className="paymentProcessBtn"
                           >
                              <div className="paymentProcessBtnAmount">
-                             £{localStorage.getItem('amount')}
+                          £ {localStorage.getItem('amount')}
                           </div>
                         <div
                             onClick={() => this.handleSubmit()}
