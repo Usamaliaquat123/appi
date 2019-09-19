@@ -205,7 +205,7 @@ a:hover {
     margin-bottom: 5%;
     width: 100%;
     margin-top: 16%;
-    height: 539px;
+    height: auto;
     border-radius: 25px;
     /* right: 0;    */
   }
@@ -215,4 +215,14 @@ a:hover {
   .DescStyleRightPvSl1{
     font-size: 3vw;
   }
+  .firstSlideImagePvSl1 > img {
+    width: 100%;
+    float: left;
+    margin-bottom: 10%;
+    height: auto;
+}
+.textContainerPvSl1 {
+  padding: 15% 11%;
+  padding-bottom: 2%;
+}
 }

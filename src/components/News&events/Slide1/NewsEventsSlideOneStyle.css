@@ -7,69 +7,15 @@
   font-family: "Lato Bold";
   src: url("./../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
 }
-.postDescText{
-  font-size: 0.7vw;
-}
-.containerPostImg > img {
-  width: 82%;
-}
-.containerSubHeadingText{
 
-}
-.containerSubHeading{
-  clear: both;
-  font-size: 0.9vw;
-
-font-weight: bold;
-}
-.containerPostHeading{
-    display: inline block;
-    /* flex: 1; */
-}
-.headingTextPost{
- float: left;
-font-size: 1.6vw;
-
-font-family: 'Lato Bold';
-
-padding-right: 3%
-}
-.headingTextDatePost{
-  font-size: 0.9vw;
-
-  font-family: 'Lato Bold';
-  
-  padding-top: 1%;
-  
-  padding-left: 7%;
-}
-.containerPostDetail{
-  width: 73%;
-
-height: 100%;
-
-margin: auto;
-
-padding-top: 4%;
-padding-bottom: 4%;
-}
-.containerBox{
-  background: #ECF5FA;
-
-  padding: 3%;
-  
-  padding-bottom: 1%;
-
-  padding-right: 1%;
-}
 .imageContainerNEsl1 > img {
-  width: 100%;
+  width: 93%;
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 577px) {
+/* @media screen and (max-width: 577px) { */
   /* mobile code */
-}
+/* } */
 
 .containerIconsNEsl1 > a {
   margin-left: 3%;
@@ -88,18 +34,16 @@ padding-bottom: 4%;
 .headingSocialMmediaIconsNEsl1 {
   /* padding: 7% 0; */
   padding: 0% 15%;
-  padding-top: 3%;
-  padding-top: 6%;
+  padding-top: 5%;
 }
 .latestPostTextNEsl1 {
   font-size: 1.6vw;
   color: white;
-  float: left;
   font-family: "Lato Light";
   font-weight: bold;
 }
 .containerIconsNEsl1 {
-  margin-left: 62%;
+  margin-left: 36%;
 }
 .allignSocialAndHeadingNEsl1 {
 }
@@ -116,25 +60,54 @@ padding-bottom: 4%;
 }
 .containerContentLeftNEsl1 {
   background: #ecf5fa;
-  position: absolute;
   padding: 11% 11%;
   height: auto;
+  margin-bottom: 1%;
   right: 0;
   width: 100%;
 }
-.containerHeadingNEsl1 {
+ .containerHeadingNEsl1 {
   font-size: 1.4vw;
   font-weight: bold;
   font-family: "Lato Light";
-}
-.containerDescNEsl1 {
+} 
+ .containerDescNEsl1 {
   font-size: 1vw;
   font-family: "Lato Light";
-}
-.containerLinkNEsl1 {
+} 
+ .containerLinkNEsl1 {
   font-size: 0.8vw;
   text-decoration: underline;
-  cursor: pointer;
-}
-.tharkisNEsl1 {
+} 
+
+@media (min-width: 300px) and (max-width: 972px) {
+  .latestPostTextNEsl1 {
+    font-size: 3.8vw !important;
+    text-align: center;
+  }
+  .containerIconsNEsl1 {
+    text-decoration: none;
+  }
+  .followUsTextNEsl1 {
+    font-size: 3.8vw !important;
+  }
+  .containerIconsNEsl1 > img {
+    width: 17%;
+  }
+  .containerDescNEsl1 {
+    font-size: 3.8vw !important;
+  }
+  .containerLinkNEsl1 {
+    font-size: 3.8vw !important;
+  }
+  .containerHeadingNEsl1 {
+    font-size: 4.8vw !important;
+    font-weight: 400;
+  }
+  .containerIconsNEsl1{
+    margin-left: 0;
+  }
+  .imageContainerNEsl1 > img {
+    width: 100%;
+  }
 }
