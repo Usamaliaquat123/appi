@@ -202,7 +202,41 @@
   }}
 
 @media screen and (max-width: 577px) {
-   
+  .telephoneNo {
+    font-size: 2.9vw;
+    opacity: 0.7;
+    text-align: center;
+    margin-top: 7%;
+} 
+.faxTelNo {
+  font-size: 2.9vw;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.cFlexItem > h3 {
+  font-size: 5.5vw;
+  margin-top: 4%;
+}
+.cFlexItem > p {
+  font-size: 3vw;
+}
+.cSocialMediaTab ul {
+  LIST-STYLE: none;
+  margin-bottom: 0;
+  width: 100%;
+  margin-left: 0;
+  padding-left: 2%;
+  padding-top: 1%;
+  background: #404864;
+}
+
+.cSocialMediaTab{
+  width: 100%;
+}
+.cSocialMediaTab >  ul > a > li {
+  padding-left: 15px
+}
   }
 
 

@@ -82,17 +82,38 @@
 
 
 @media screen and (max-width:768px){
-  .ContactUsText{
-    font-size: 12px;
+  .ContactUsText {
     font-weight: bold;
     margin-bottom: 11px;
-  }
+    font-size: 6.3vw;
+}
 
   .getinTouchWithKEF {
-    font-size: 12px;
+    font-size: 2.3vw;
     margin-bottom: 6px;
 }
 
+.btnEamilNow {
+  padding: 3.7% 3%;
+  background: #eb5d5f;
+  color: #ffffff;
+  width: 78%;
+  margin: auto;
+  font-size: 3vw;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 17px;
+  margin-top: 8%;
+}
+.headingCareTeam {
+  font-size: 2.7vw;
+  font-weight: bold;
+  text-align: center;
+}
+.addressCareTeam {
+  font-size: 3.5vw;
+  text-align: center;
+}
 .contactUsBox {
   margin-left: 0;
   background: #ffffff;

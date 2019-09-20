@@ -210,7 +210,7 @@ CardNumberElement .StripeElement {
   width: 100%;
 }
 .donateGiftAidImg > img{
-  width:20%;
+  width:100%;
 }
 .paymentProcessBtnAmount{
   float: left;
