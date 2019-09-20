@@ -6,27 +6,30 @@ import "./WhereWeWorkSlideOneStyle.css";
 const WhereWeWorkSlideOne = () => {
   return (
     <>
-      <div className="containerSlideWhsl1">
-        <div className="conbtainer">
+      <div className="containerSlidePvSl1">
+        <div className="conbtainerPvSl1">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-6">
-                <div className="workbtnWhsl1">WHERE WE WORK</div>
-                <div className="containerTextWhsl1">
-                  <div className="nonSelectWhsl1">
-                    <a href="/pvpc" style={{ textDecoration: "none" }}>
-                      PEARL VALLEY PUBLIC SCHOOL
+                <div className="workbtnPvSl1">WHERE WE WORK</div>
+                <div className="containerTextPvSl1">
+                  <div className="nonSelectPvSl1">
+                    <a href="/pvpc">
+
+                    PEARL VALLEY PUBLIC SCHOOL
                     </a>
                   </div>
-                  <div className="containerDescSlWhsl1">
-                    BANJOSA VALLEY PUBLIC SCHOOL
+                  <div className="containerDescSlPvSl1">
+                    <a href="/bvpc" style={{ textDecoration: "none" }}>
+                      BANJOSA VALLEY PUBLIC SCHOOL
+                    </a>
                   </div>
-                  <div className="nonSelectWhsl1">
+                  <div className="nonSelectPvSl1">
                     <a href="/svpc" style={{ textDecoration: "none" }}>
                       SOAN VALLEY PUBLIC SCHOOL
                     </a>
                   </div>
-                  <div className="nonSelectWhsl1">
+                  <div className="nonSelectPvSl1">
                     <a href="/jacte" style={{ textDecoration: "none" }}>
                       JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
                     </a>
@@ -34,15 +37,15 @@ const WhereWeWorkSlideOne = () => {
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="firstSlideImageWhsl1">
-                  <img className="bachiImgWhsl1" src={bachiBachaRun}></img>
+                <div className="firstSlideImagePvSl1">
+                  <img
+                    // class='img-fluid'
+                    // width={500}
+                    height={300}
+                    className="bachiImgPvSl1"
+                    src={bachiBachaRun}
+                  ></img>
                 </div>
-                {/* <div className={WhereWeWorkSlideOneStyle.total}>
-                <img
-                  className={WhereWeWorkSlideOneStyle.smallTottal}
-                  src={bachiBachaRun}
-                ></img>
-                </div> */}
               </div>
             </div>
           </div>
@@ -50,31 +53,37 @@ const WhereWeWorkSlideOne = () => {
       </div>
 
       {/* Slide 2 */}
-      <div className="containerStyleWhsl1">
+      <div className="containerStylePvSl1">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-6 col-sm-12">
-              <div className="slideTextLeftWhsl1">
-                <p className="slideDescLeftWhsl1">
-                  "Education is the most powerfull weapon you can use to change
-                  the world"
+              <div className="slideTextLeftPvSl1">
+                <p className="slideDescLeftPvSl1">
+                  "When a nation becomes devoid of arts and learning, it invites
+                  poverty. And when poverty comes it brings in it's wake
+                  thousands of crimes"
                   <br />
                   <br />
-                  <br />- Nelson Mandela
+                  <br />- Sir Syed Ahmed Khan
                 </p>
-                <div className="slideRightImageWhsl1">
-                  <img src={ghar} class="img-fluid"></img>
+                <div className="slideRightImagePvSl1">
+                  <img
+                    src={ghar}
+                    class="img-fluid"
+                    width={500}
+                    height={140}
+                  ></img>
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-sm-12">
-              <div className="slideRightContainerWhsl1">
-                <div className="textContainerWhsl1">
-                  <p className="headingSlideTextWhsl1">
-                    Banjosa Valley Public School
+              <div className="slideRightContainerPvSl1">
+                <div className="textContainerPvSl1">
+                  <p className="headingSlideTextPvSl1">
+                  Banjosa Valley Public School
                   </p>
-                  <p className="DescStyleRightWhsl1">
-                    In an effort to develop the potential of children from
+                  <p className="DescStyleRightPvSl1">
+                  In an effort to develop the potential of children from
                     underpriviledged and marginalised sections of the society,
                     Kashmir Education Foundation (KEF) has dedicated itself to
                     make quality education accessible to children.
