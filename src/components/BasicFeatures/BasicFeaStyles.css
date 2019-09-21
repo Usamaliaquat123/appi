@@ -315,6 +315,24 @@ border-bottom: 1px solid #EB5D5F;
     margin-left: 6%;
     margin-right: 5%;
   }
+  .headingVolunteerForm {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+    opacity: .6;
+}
+.btnSubmitVolunteer {
+  background: #eb5d5f;
+  width: 71%;
+  padding: 4% 3%;
+  border-radius: 34px;
+  color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 7%;
+}
   }
   
   
