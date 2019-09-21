@@ -571,19 +571,19 @@ letter-spacing: 1px;
 
 }
 .goBackbtn > p {
-
   text-decoration: underline;
   color: white;
   font-size: 2.9vw;
-  margin-top: 6%;
-  margin-bottom: 6%;
+  margin-top: 0%;
+  margin-bottom: 14%;
   font-family: "Lato Light";
   cursor: pointer;
   text-align: center;
-
+}
+.donateGiftAidImg > img {
+  width: 32%;
 }
 .paymentProcessBtn {
-
   border: none;
   text-decoration: none;
   font-size: 1vw;
@@ -591,38 +591,34 @@ letter-spacing: 1px;
   font-family: "Lato Medium";
   color: white;
   font-weight: bold;
-  padding: 2% 2%;
+  padding: 7% 2%;
   background-color: #eb5d5f;
-  width: 78%;
+  width: 68%;
   position: absolute;
   right: 0;
   cursor: pointer;
   text-align: center;
   letter-spacing: 1px;
-  margin-left: auto;
+  /* margin-left: 2%; */
   height: 100%;
-  margin-right: auto;
-  margin-top: 0%;
-
+  margin-right: 10%;
+  margin-top: -8%;
 }
 .paymentProcessBtnAmount {
-
   float: left;
   background-color: #fff;
   color: black;
   font-weight: bold;
-  padding: 4% 7%;
+  padding: 4% 8%;
   font-family: 'lato Bold';
   border-radius: 35px;
-  padding-right: 13%;
+  padding-right: 20%;
   font-size: 3vw;
-  margin-top: 0%;
+  margin-top: -8%;
   margin-bottom: 2%;
   z-index: 1;
-
 }
 .paymentProcessBtnInner {
-
   border: none;
   text-decoration: none;
   font-size: 3vw;
@@ -638,8 +634,8 @@ letter-spacing: 1px;
   text-align: center;
   letter-spacing: 1px;
   z-index: 1;
+  margin-top: -8%;
   margin-left: 20%;
-
 }
 .containerStyleLeftHead{
   display: none;
