@@ -6,39 +6,58 @@ import "./WhereWeWorkSlideOneStyle.css";
 const WhereWeWorkSlideOne = () => {
   return (
     <>
-      <div className="containerSlidejacWhsl1">
-        <div className="conbtainer">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      <div className="containerSlidePvSl1">
+        <div className="conbtainerPvSl1">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-6">
-                <div className="workbtn">WHERE WE WORK</div>
-                <div className="containerTextjacWhsl1">
-                  <div className="nonSelectWhsl1">
-                    <a href="/pvpc" style={{ textDecoration: "none" }}>
-                      PEARL VALLEY PUBLIC SCHOOL
+                <div className="workbtnPvSl1">WHERE WE WORK</div>
+                <div className="containerTextPvSl1">
+                  <div className="nonSelectPvSl1">
+                    <a href="/pvpc">
+
+                    PEARL VALLEY PUBLIC SCHOOL
                     </a>
                   </div>
-                  <div className="nonSelectWhsl1">
+                  <div className="nonSelectPvSl1">
                     <a href="/bvpc" style={{ textDecoration: "none" }}>
                       BANJOSA VALLEY PUBLIC SCHOOL
                     </a>
                   </div>
-                  <div className="nonSelectWhsl1">
+                  <div className="nonSelectPvSl1">
                     <a href="/svpc" style={{ textDecoration: "none" }}>
                       SOAN VALLEY PUBLIC SCHOOL
                     </a>
                   </div>
-                  <div className="containerDescSlWhsl1">
-                    JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
+                  <div className="containerDescSlPvSl1">
+                      JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
                   </div>
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="firstSlideImageWhsl1">
+                <div className="firstSlideImagePvSl1">
                   <img
                     // class='img-fluid'
                     // width={500}
-                    className="bachiImgWhsl1"
+                    height={300}
+                    className="bachiImgPvSl1"
                     src={bachiBachaRun}
                   ></img>
                 </div>
@@ -49,31 +68,36 @@ const WhereWeWorkSlideOne = () => {
       </div>
 
       {/* Slide 2 */}
-      <div className="containerStyleWhsl1">
+      <div className="containerStylePvSl1">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-6 col-sm-12">
-              <div className="slideTextLeftWhsl1">
-                <p className="slideDescLeftWhsl1">
-                  "No nation can raise to the height of glory unless your women
+              <div className="slideTextLeftPvSl1">
+                <p className="slideDescLeftPvSl1">
+                "No nation can raise to the height of glory unless your women
                   has side by side with you "
                   <br />
                   <br />
                   <br />- Muhammad Ali Jinnah
                 </p>
-                <div className="slideRightImageWhsl1">
-                  <img src={ghar} class="img-fluid"></img>
+                <div className="slideRightImagePvSl1">
+                  <img
+                    src={ghar}
+                    class="img-fluid"
+                    width={500}
+                    height={140}
+                  ></img>
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-sm-12">
-              <div className="slideRightContainerWhsl1">
-                <div className="textContainerWhsl1">
-                  <p className="headingSlideTextWhsl1">
-                    Joan Atkinson College of Teacher Education
+              <div className="slideRightContainerPvSl1">
+                <div className="textContainerPvSl1">
+                  <p className="headingSlideTextPvSl1">
+                  Joan Atkinson College of Teacher Education
                   </p>
-                  <p className="DescStyleRightWhsl1">
-                    Quality education that KEF is committed to cannot be
+                  <p className="DescStyleRightPvSl1">
+                  Quality education that KEF is committed to cannot be
                     deliverd without teachers who are personally motivated, who
                     have a wide range of pedagogical skills to develop child
                     centred learning enviroments with a focus on interactive
