@@ -8,26 +8,26 @@ const GetInvolvedTwo = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-sm-12 col-md-3">
-              <div className="headingSlide">
+              <div className="headingSlideGetInv">
                 <p>Learn</p>
               </div>
-              <p className="slideFiveDescription">
+              <p className="slideFiveDescriptionGetInv">
                 Get the facts and how we're helping.
               </p>
             </div>
             <div className="col-sm-12 col-md-3">
-              <div className="headingSlide">
+              <div className="headingSlideGetInv">
                 <p>Volunteer</p>
               </div>
-              <p className="slideFiveDescription">
+              <p className="slideFiveDescriptionGetInv">
                 Find out about upcomming events that need your help.
               </p>
             </div>
             <div className="col-sm-12 col-md-3">
-              <div className="headingSlide">
+              <div className="headingSlideGetInv">
                 <p>Share</p>
               </div>
-              <p className="slideFiveDescription">
+              <p className="slideFiveDescriptionGetInv">
                 Let your social media networks know about this important cause.
               </p>
             </div>
