@@ -32,10 +32,10 @@ const GetInvolvedTwo = () => {
               </p>
             </div>
             <div className="col-sm-12 col-md-3">
-              <div className="headingSlide">
+              <div className="headingSlideGetInv">
                 <p>Donate</p>
               </div>
-              <p className="slideFiveDescription">
+              <p className="slideFiveDescriptionGetInv">
                 Help us raise money to make a big difference with this issue.
               </p>
             </div>
