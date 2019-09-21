@@ -268,7 +268,7 @@ border-bottom: 1px solid #EB5D5F;
     }
     .containerStyleFeatures {
   
-      padding: 18%;
+      /* padding: 18  %; */
   
   }
   .cardCcontainerFeatures {
@@ -286,18 +286,16 @@ border-bottom: 1px solid #EB5D5F;
   }
   /* sadadas */
   .containerButtonFea {
-  
     font-family: "Harabara Bold";
     text-align: center;
     text-decoration: none;
     border-radius: 30px;
     font-size: 15px;
-    width: 120px;
+    width: 77%;
     color: #fff;
     background-color: #03b9fe;
     padding: 13px 35px;
-  
-  }
+}
   .socialMediaTabFea {
   
     margin-top: -64px;
