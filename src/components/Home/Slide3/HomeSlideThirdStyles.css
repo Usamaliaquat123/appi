@@ -423,6 +423,22 @@
   z-index: 999;
 }
 
+
+.buttonWhatWeDo > p {
+  text-align: center;
+  padding: 2% 3%;
+  font-size: 2.3vw;
+  color: black;
+  width: 30%;
+  background: #fff;
+  height: auto;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-bottom: 3%;
+  margin-right: auto;
+}
+
+
 }
 
 @media screen and (max-width: 2196px){
@@ -484,15 +500,14 @@
 @media screen and (max-width:990px){
   .buttonWhatWeDo > p {
     text-align: center;
-    padding: 10px;
-    font-size: 1.7vw;
+    padding: 2% 3%;
+    font-size: 2.3vw;
     color: black;
-    width: 39%;
+    width: 30%;
     background: #fff;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    /* margin-bottom: auto;*/
-  }
+    margin-left: 7%;
+    margin-bottom: 2%;
+}
 }
 
