@@ -14,14 +14,14 @@
   padding: 4% 20%;
 }
 
-.headingSlide > p {
+.headingSlideGetInv > p {
   /* text-align: center; */
   font-size: 1.3vw;
   font-weight: bold;
   color: #354463;
   font-family: "Harabara Bold";
 }
-.slideFiveDescription {
+.slideFiveDescriptionGetInv {
   margin-top: -10%;
   color: #354463;
   font-size: 0.9vw;
@@ -47,4 +47,13 @@
     padding: 7% 19%;
   }
  
+  .headingSlideGetInv > p {
+    /* margin-top: 11%; */
+    text-align: center;
+    font-size: 6vw;
+}
+.slideFiveDescriptionGetInv {
+  text-align: center;
+  font-size: 3vw;
+}
 }

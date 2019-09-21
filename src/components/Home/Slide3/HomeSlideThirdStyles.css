@@ -424,19 +424,6 @@
 }
 
 
-.buttonWhatWeDo > p {
-  text-align: center;
-  padding: 2% 3%;
-  font-size: 2.3vw;
-  color: black;
-  width: 30%;
-  background: #fff;
-  height: auto;
-  margin-bottom: 2%;
-  margin-left: auto;
-  margin-bottom: 3%;
-  margin-right: auto;
-}
 
 
 }
@@ -497,18 +484,19 @@
 
 }
 
-@media screen and (max-width:990px){
+@media screen and (max-width:489px){
   .buttonWhatWeDo > p {
     text-align: center;
-    padding: 2% 3%;
-    font-size: 2.3vw;
+    padding: 10px;
+    font-size: 2.7vw;
     color: black;
-    width: 30%;
+    width: 40%;
     background: #fff;
     height: auto;
-    margin-left: 7%;
-    margin-bottom: 2%;
-    
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
 }
+  
 }
 

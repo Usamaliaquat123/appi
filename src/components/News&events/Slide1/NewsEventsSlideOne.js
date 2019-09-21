@@ -117,7 +117,7 @@ class NewsEventsSlideOne extends React.Component {
               <div className="row">
                 <div className="col-sm-12 col-md-4">
                   <p className="postDescText">The grounding breaking ceremony for the construction of the new building of Banjosa Valley Public School took place at Kashmir. Mr. Yaqoob Sattar, DMD / CFO & Chairman, PSO CSR Trust, the chief guest at the event along with other members of the PSO CSR Trust, were welcomed by Dr. Zafar Iqbal Qadir, Chairman, Kashmir Education Foundation Trust and other representatives from the foundation. </p>
-                  <iframe className="widthHeightVideoYouArticle"  src="https://www.youtube.com/embed/ZOIkOnW640A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe className="widthHeightVideoYouArticle"  src="https://www.youtube.com/embed/uYZjW7kaYTo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className="col-sm-12 col-md-4">
                   <p className="postDescText">In keeping with it's objective towards ensuring provision of quality education to disadvantaged children in Pakistan, Pakistan State Oil (PSO), the country's leading oil marketing company, partnered with Kashmir Education Foundation (KEF) to lend it's support to the foundations of Banjosa Valley Public School in Kashmir through a donation of approximately Rs. 8.2 Million. According to the agreement, the PSO CSR Trust provided funds for the construction of the ground floor of the new building. <br/><br/>
