@@ -42,17 +42,6 @@
 }
 
 
-.buttonWhatWeDo > p {
-  text-align: center;
-  padding: 10px;
-  font-size: 0.7vw;
-  color: black;
-  width: 8%;
-  background: #fff;
-  height: auto;
-  margin-left: 7%;
-  margin-bottom: 2%;
-}
 .containerTextInner {
   padding: 4% 7%;
 
