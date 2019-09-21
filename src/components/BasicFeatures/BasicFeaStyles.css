@@ -258,6 +258,14 @@ border-bottom: 1px solid #EB5D5F;
     }
 }
   @media screen and (max-width: 919px) {
+    .inputOfNameVolunteer {
+      border: none;
+      width: 100%;
+      padding-bottom: 0.3%;
+      font-size: 2.8vw;
+      margin-bottom: 4%;
+      border-bottom: 1px solid #EB5D5F;
+  }
     .containerOverlayFeatures {
   
       margin-top: 100;

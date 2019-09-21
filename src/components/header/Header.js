@@ -40,7 +40,7 @@ const Header = ({ siteTitle, siteSubTitle, ...props }) => (
           {/* <img className="searchIcon" src={search}></img> */}
         </div>
         <div className="donateNow">
-          <a href="/Donate" className="donatebtn">
+          <a href="/Donate" {...props} className="donatebtn">
             <p>DONATE NOW</p>
           </a>
         </div>
