@@ -138,8 +138,8 @@ padding-bottom: 4%;
   padding-right: 1%;
 }
 .widthHeightVideoYouArticle{
-  height: 315px;
-  width: 386px;;
+  height: 55%;
+  width: 100%;;
 }
 @media (min-width: 300px) and (max-width: 972px) {
   .latestPostTextNEsl1 {
