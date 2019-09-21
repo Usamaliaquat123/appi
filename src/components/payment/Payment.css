@@ -593,7 +593,7 @@ letter-spacing: 1px;
   font-weight: bold;
   padding: 7% 2%;
   background-color: #eb5d5f;
-  width: 68%;
+  width: 80%;
   position: absolute;
   right: 0;
   cursor: pointer;
@@ -614,7 +614,7 @@ letter-spacing: 1px;
   border-radius: 35px;
   padding-right: 20%;
   font-size: 3vw;
-  margin-top: -8%;
+  margin-top: -7%;
   margin-bottom: 2%;
   z-index: 1;
 }
@@ -626,7 +626,7 @@ letter-spacing: 1px;
   font-family: "Lato Medium";
   color: white;
   font-weight: bold;
-  padding: 4% 10%;
+  padding: 5% 10%;
   background-color: #EB5D5F;
   width: 76%;
   position: relative;
@@ -634,7 +634,7 @@ letter-spacing: 1px;
   text-align: center;
   letter-spacing: 1px;
   z-index: 1;
-  margin-top: -8%;
+  margin-top: -7.79%;
   margin-left: 20%;
 }
 .containerStyleLeftHead{
