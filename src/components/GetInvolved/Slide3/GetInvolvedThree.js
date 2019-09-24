@@ -20,7 +20,7 @@ const GetInvolvedThree = () => {
     <div className="containerMakeAnImpact">
       <p className="headingTextGetInvSlide3">Make an Impact</p>
       <p className="oneLayerTextGetInvSlide3">You have the opportunity to impact the lives of children and families surrounded </p> <p className="secondLayerTextGetInvSlide3">by poverty. It is through your generosity that we can create a powerful change.</p>
-      <a href="#"><div className="btnGetInvolvedbtnSlide3">GET INVOLVED</div></a> 
+      <a href="/contactus"><div className="btnGetInvolvedbtnSlide3">GET INVOLVED</div></a> 
     </div>
     </div>
   </>;

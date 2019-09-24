@@ -78,6 +78,8 @@ render(){
               </div>
               <div style={{ marginTop: 15 }}>
                 <div >
+
+                  {/* Slide 1 */}
                   <div
                     className={ this.state.isSelected10 ? 'selectedPaymentCardItem' :'paymentCardItem'
                     }
@@ -118,6 +120,10 @@ render(){
             
                     </div>
                   </div>
+
+{/* Slide 2 */}
+
+
                   <div
                     className={this.state.isSelected25 ? 'selectedPaymentCardItem' : 'paymentCardItem'
                     }
@@ -154,6 +160,10 @@ render(){
             
                     </div>
                   </div>
+
+
+
+                  {/* Slide 3 */}
 
                   <div
                     className={this.state.isSelected60 ? 'selectedPaymentCardItem' : 'paymentCardItem'
