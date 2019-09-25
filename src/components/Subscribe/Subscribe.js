@@ -17,13 +17,13 @@ import Snackbar from '@material-ui/core/Snackbar';
 
   submitEmailSubs = async () => {
     if(this.state.userEmail != ''){
-      fetch(`https://kefukbackend.herokuapp.com/api/subscribe`,{
+      fetch(`http://localhost:5000/api/subscribe`,{
         method: "POST",
         headers: {
-          "access-control-allow-origin" : "*",
-          "Content-type": "application/json; charset=UTF-8"
+          // "access-control-allow-origin" : "*",
+          "Content-type": "application/json"
         },
-        body: JSON.stringify({ email: this.state.userEmail})
+        body: JSON.stringify({ email: 'asdasdas'})
       }).then(res => {
         this.setState({ subscribeText : 'Sucess!',errorMessage : 'Thanks for subscribing.', snakOpen : true})
       }).catch(err => {

@@ -263,7 +263,8 @@ render(){
                     <span class="checkmarkDonationFreq"></span>
                     <span className='donationOneTimeText'>
                       One of donation
-                    </span>
+                    </span>+
+                    
                     </label>
                   </div>
                   <div className={this.state.isSelectedMonthly ? 'selectedMonthly' : 'donationFrequencyButtonMonthly'}>
