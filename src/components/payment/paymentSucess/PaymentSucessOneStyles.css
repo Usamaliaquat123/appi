@@ -26,7 +26,6 @@
            
 
 
-
 .cardOfSharing{
     background: #ffffff;
     color: black;
@@ -88,4 +87,73 @@
 .socialIconCard > img{
     width: 13%;
     margin-right: 15%;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 919px) {
+                
+                
+    .donationDesc {
+        background: rgba(5,70,115,0.3);
+        padding: 10% 5%;
+        margin: auto;
+        color: white;
+        font-size: 2.5vw;
+        /* opacity: 1.2; */
+        margin-top: 19%;
+        margin-bottom: 18%;
+    }
+    .cardOfSharing {
+        background: #ffffff;
+        color: black;
+        /* margin-right: 49px; */
+        width: 70%;
+        padding: 3% 3%;
+        margin-left: 19.4%;
+        margin-top: 0;
+        margin-bottom: 22%;
+    }
+    .quoteStyle > p {
+        font-size: 4.3vw;
+        font-weight: bold;
+        color: #1C70AA;
+        font-family: "Lato Italic";
+    }
+    .socialIconCard {
+        background: #C1F7D5;
+        padding: 5% 10%;
+        /* margin-left: 62%; */
+        width: 100%;
+        font-size: 4vw;
+        margin-top: 2%;
+        color: #1C70AA;
+        border-radius: 42px;
+        /* display: inline-block; */
+    }
+
+    .facebookSocialIcon {
+        background: #C1F7D5;
+        padding: 3% 10%;
+        width: 100%;
+        /* margin-left: 62%; */
+        font-size: 4vw;
+        margin-top: 2%;
+        color: #1C70AA;
+        border-radius: 42px;
+        cursor: pointer;
+    }
+
+    .containerRightPpaySucessSlieSecond {
+        /* position: absolute; */
+        /* right: 0; */
+        text-align: center;
+        font-size: 2;
+        margin-top: 25%;
+    }
+    .rightHeadingPaySucess {
+        color: white;
+        font-family: "Lato Italic";
+        font-size: 5vw;
+    }
 }
