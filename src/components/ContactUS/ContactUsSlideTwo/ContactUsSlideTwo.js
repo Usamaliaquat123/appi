@@ -75,7 +75,7 @@ const ContactUsSlideTwo = () => {
         <div className="cSocialMediaTab">
           <ul>
              <li><div className="followUsTxt">FOLLOW US</div></li>
-             <a href="https://facebook.com/keforg/"><li><img className="socialIcons" src={facebook}></img></li></a>
+             <a href="https://facebook.com/KEF.Education"><li><img className="socialIcons" src={facebook}></img></li></a>
              <a href="https://www.youtube.com/channel/UCU3X0JT0R8kt9TKp-9BSRZw"><li><img className="socialIcons" src={youtube} class="img-fluid"></img></li></a>
              <a href="https://www.instagram.com/kef_education/?hl=en"><li><img className="socialIcons" src={instagram} class="img-fluid"></img></li></a>
              {/* <a href=""><li><img className="socialIcons" src={wifi} class="img-fluid"></img></li></a> */}
