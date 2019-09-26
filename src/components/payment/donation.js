@@ -169,7 +169,7 @@ render(){
                     <div className="containerToggle">
                       <label className={this.state.isSelected60 ? 'selectedContainerLabel' :"containerLabel"}>
                     <div className='row'>
-                    <div className='col-12 col-sm-4 inline-display'>
+                    <div className='col-12 col-sm-12 inline-display'>
                       <div>
                           <input 
                             type="radio" 
@@ -192,9 +192,7 @@ render(){
                      </div>
                         </span>
                       </div>
-                      <div className='col-12 col-sm-8 '>
                      
-                      </div>
                     </div>
                     </label>
             
