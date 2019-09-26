@@ -102,9 +102,9 @@ render(){
                             <div className="amountContainerTen">£10</div>
                         
                         <div className="containerDescSelectors">
-                        <span className="descContainerSelectors">Make a difference by subsidising the education of a
+                        <p className="descContainerSelectors">Make a difference by subsidising the education of a
                           child
-                          </span>
+                          </p>
                         </div>
                         </span>
                       </div>
@@ -147,7 +147,7 @@ render(){
                         <div className="amountContainer">£25</div>
                         
                         <div className="containerDescSelectors">
-                        <span className="descContainerSelectors">Sponsor the education for a child <br /> for disadvantaged families in <br />rural areas.</span>
+                        <p className="descContainerSelectors">Sponsor the education for a child  for disadvantaged families in rural areas.</p>
                      </div>
                         </span>
                       </div>
@@ -188,7 +188,7 @@ render(){
                         <span className="paymentAmountselector">
                         <div className="amountContainer">£60</div>
                         <div className="containerDescSelectors">
-                        <span className="descContainerSelectors">Sponsor a female graduate <br />trainee teacher from a village<br /> school.</span>
+                        <p className="descContainerSelectors">Sponsor a female graduate trainee teacher from a village school.</p>
                      </div>
                         </span>
                       </div>
@@ -255,6 +255,7 @@ render(){
                   <label className={this.state.isSelectedOneTime ? 'selectedcontainerLabelDonationFreq' :"containerLabelDonationFreq"}>
                 
                   <input type="radio"  name="radio"
+                      checked={this.state.isSelectedOneTime}
                     onChange={() => {
                       this.setState({
                         isSelectedOneTime : true,
@@ -269,10 +270,15 @@ render(){
                     </span>
                     </label>
                   </div>
+
+
+
+
                   <div className={this.state.isSelectedMonthly ? 'selectedMonthly' : 'donationFrequencyButtonMonthly'}>
                   <label className={ this.state.isSelectedMonthly ? 'selectedcontainerLabelDonationFreq' :  "containerLabelDonationFreq"}>
                 
                   <input type="radio"  name="radio"
+                    checked={this.state.isSelectedMonthly}
                     onChange={() => {
                       this.setState({
                         isSelectedMonthly : true,
@@ -287,6 +293,10 @@ render(){
                     </span>
                     </label>
                   </div>
+
+
+
+
                 </div>
               </div>
 
