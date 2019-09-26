@@ -20,12 +20,15 @@ import Snackbar from '@material-ui/core/Snackbar';
       fetch(`http://localhost:5000/api/subscribe`,{
         method: "POST",
         headers: {
-          "Content-type": "application/json"
+          "access-control-allow-origin" : "*",
+          "Content-type": "application/json; charset=UTF-8"
         },
-        body: JSON.stringify({ email: 'asdasdas'})
+        body: JSON.stringify({ email: this.state.userEmail})
       }).then(res => {
+        console.log(res)
         this.setState({ subscribeText : 'Sucess!',errorMessage : 'Thanks for subscribing.', snakOpen : true})
       }).catch(err => {
+        console.log(err)
         this.setState({ subscribeText : 'Failed!',errorMessage : 'Check your connection..',snakOpen : true })
       })
     }else{
