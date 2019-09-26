@@ -201,10 +201,9 @@
     margin-left: 20%;
     margin-top: 5%;
 }
-.descContainerSelectors{
-    font-size: 2vw;
-
-font-family: 'Lato Thin';
+.descContainerSelectors {
+    font-size: 1.1vw;
+    font-family: 'Lato Thin';
 }
 .containerToggle {
     padding-left: 6%;
@@ -469,10 +468,10 @@ font-family: 'Lato Light';
 }
 .amountContainer {
     float: left;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 .containerDescSelectors {
-    margin-top: 7%;
+    margin-top: 24%;
     margin-left: 35%;
 }
 .paymentAmountselector {
