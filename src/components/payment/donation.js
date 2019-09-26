@@ -72,6 +72,7 @@ render(){
               <div style={{ marginTop: 15 }}>
                 <div >
 
+
                   {/* Slide 1 */}
                   <div
                     className={ this.state.isSelected10 ? 'selectedPaymentCardItem' :'paymentCardItem'
@@ -81,7 +82,7 @@ render(){
                       <label className={this.state.isSelected10 ? 'selectedContainerLabel' : "containerLabel"}>
                     <div className='row'>
                 
-                      <div className='col-12 col-sm-4 inline-display'>
+                      <div className='col-12 col-sm-12 inline-display'>
                       <div>
                           <input 
                             type="radio" 
@@ -97,17 +98,17 @@ render(){
                           />
                           <span class="checkmark"></span>
                         </div>
-                        <span className="paymentAmountselector">£10</span>
-                      </div>
-                      <div className='col-12 col-sm-8 '>
+                        <span className="paymentAmountselector">
+                            <div className="amountContainerTen">£10</div>
+                        
                         <div className="containerDescSelectors">
-
-                        <span className="descContainerSelectors">    Make a difference by subsidising<br /> the education of a
+                        <span className="descContainerSelectors">Make a difference by subsidising the education of a
                           child
                           </span>
                         </div>
-                     
+                        </span>
                       </div>
+                    
                     </div>
                   </label>
             
@@ -125,7 +126,7 @@ render(){
                       <label className={this.state.isSelected25 ? 'selectedContainerLabel' :  "containerLabel"}>
                     <div className='row'>
             
-                    <div className='col-12 col-sm-4  inline-display'>
+                    <div className='col-12 col-sm-12  inline-display'>
                       <div>
                           <input 
                             type="radio" 
@@ -141,13 +142,16 @@ render(){
                           />
                           <span class="checkmark"></span>
                         </div>
-                        <span className="paymentAmountselector">£25</span>
-                      </div>
-                      <div className='col-12 col-sm-8 '>
-                      <div className="containerDescSelectors">
+                        <span className="paymentAmountselector">
+                          
+                        <div className="amountContainer">£25</div>
+                        
+                        <div className="containerDescSelectors">
                         <span className="descContainerSelectors">Sponsor the education for a child <br /> for disadvantaged families in <br />rural areas.</span>
                      </div>
+                        </span>
                       </div>
+                  
                     </div>
                       </label>
             
@@ -181,18 +185,26 @@ render(){
                           />
                           <span class="checkmark"></span>
                         </div>
-                        <span className="paymentAmountselector">£60</span>
-                      </div>
-                      <div className='col-12 col-sm-8 '>
-                      <div className="containerDescSelectors">
+                        <span className="paymentAmountselector">
+                        <div className="amountContainer">£60</div>
+                        <div className="containerDescSelectors">
                         <span className="descContainerSelectors">Sponsor a female graduate <br />trainee teacher from a village<br /> school.</span>
                      </div>
+                        </span>
+                      </div>
+                      <div className='col-12 col-sm-8 '>
+                     
                       </div>
                     </div>
                     </label>
             
                     </div>
                   </div>
+
+
+
+
+
                 </div>
               </div>
               <div className='enterCustomDonationText' onClick={() => {
@@ -256,8 +268,7 @@ render(){
                     <span class="checkmarkDonationFreq"></span>
                     <span className='donationOneTimeText'>
                       One of donation
-                    </span>+
-                    
+                    </span>
                     </label>
                   </div>
                   <div className={this.state.isSelectedMonthly ? 'selectedMonthly' : 'donationFrequencyButtonMonthly'}>

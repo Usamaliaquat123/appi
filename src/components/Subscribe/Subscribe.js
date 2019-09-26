@@ -20,7 +20,6 @@ import Snackbar from '@material-ui/core/Snackbar';
       fetch(`http://localhost:5000/api/subscribe`,{
         method: "POST",
         headers: {
-          // "access-control-allow-origin" : "*",
           "Content-type": "application/json"
         },
         body: JSON.stringify({ email: 'asdasdas'})
