@@ -17,7 +17,7 @@ import Snackbar from '@material-ui/core/Snackbar';
 
   submitEmailSubs = async () => {
     if(this.state.userEmail != ''){
-      fetch(`http://localhost:5000/api/subscribe`,{
+      fetch(`https://kefukbackend.herokuapp.com/api/subscribe`,{
         method: "POST",
         headers: {
           "access-control-allow-origin" : "*",
