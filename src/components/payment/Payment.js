@@ -79,25 +79,26 @@ class _Payment extends React.Component {
                       this.setState({ errorMessage : 'Please check your payment credientials and try again' , snakOpen : true })
                       return null
                     }
-                    this.setState({ errorMessage : 'Payment is processing' , snakOpenpaymentProcess : true })
-                    this.setState({ loading : true})
+                    // this.setState({ errorMessage : 'Payment is processing' , snakOpenpaymentProcess : true })
+                    // this.setState({ loading : true})
                     console.log(s.token)
                     fetch("https://kefukbackend.herokuapp.com/api/donate", {
                       method: "POST",
                       headers: {
-                    "Content-type": "application/json"
+                        "access-control-allow-origin" : "*",
+                        "Content-type": "application/json; charset=UTF-8"
                   },
                   body: JSON.stringify({ token: s.token, amount, email: emailAddress,
                     firstName: this.state.firstName,
                     lastName: this.state.lastName,
-                    streetAddress : this.state.streetAddress,
+                    streetAddress : this.state.streetAddressg,
                     cityName : this.state.cityName,
                     giftedAid : this.state.giftedAid,
                   })
                 }).then(res => {
                   console.log('***************8')
-                  if(res.status == 200){
-                    this.setState({ errorMessage : 'Finalizing your payment' , snakOpenpaymentProcess : true })
+                  if(res == 'Charged!'){
+                    // this.setState({ errorMessage : 'Finalizing your payment' , snakOpenpaymentProcess : true })
                     this.setState({ paySucessStep : true })
                   }else{
                     this.props.history.push('/')
@@ -135,20 +136,7 @@ class _Payment extends React.Component {
   render() {
     return (
       <div >
-          <Snackbar
-       anchorOrigin={{
-          vertical: 'bottom',
-          horizontal: 'left',
-        }}
-
-        open={this.state.snakOpenpaymentProcess}
-        onClose={() => this.setState({ snakOpen: false })}
-        ContentProps={{
-          'aria-describedby': 'message-id',
-        }}
-        autoHideDuration={4000}
-        message={<span id="message-id">{this.state.errorMessage}</span>}
-      />
+        
           <Snackbar
        anchorOrigin={{
           vertical: 'bottom',
