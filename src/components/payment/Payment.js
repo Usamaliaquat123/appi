@@ -85,7 +85,7 @@ class _Payment extends React.Component {
                     fetch("https://kefukbackend.herokuapp.com/api/donate", {
                       method: "POST",
                       headers: {
-                        "access-control-allow-origin" : "*",
+                        // "access-control-allow-origin" : "*",
                         "Content-type": "application/json; charset=UTF-8"
                   },
                   body: JSON.stringify({ token: s.token, amount, email: emailAddress,
@@ -96,14 +96,12 @@ class _Payment extends React.Component {
                     giftedAid : this.state.giftedAid,
                   })
                 }).then(res => {
-                console.log('***************8')
                   if(res == 'Charged!'){
                     // this.setState({ errorMessage : 'Finalizing your payment' , snakOpenpaymentProcess : true })
                     this.setState({ paySucessStep : true })
                   }else{
                     this.props.history.push('/')
                   }
-                  console.log('***************8')
                 }).catch(err => console.log(err));
                   });
           

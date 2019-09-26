@@ -42,7 +42,7 @@ export default class BasicFea extends React.Component {
             {
               method: "POST",
               headers: {
-                "access-control-allow-origin" : "*",
+                // "access-control-allow-origin" : "*",
                 "Content-type": "application/json; charset=UTF-8"
               },
               body: JSON.stringify({ name : this.state.volunteerName, 

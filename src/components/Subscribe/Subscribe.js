@@ -20,7 +20,6 @@ import Snackbar from '@material-ui/core/Snackbar';
       fetch(`https://kefukbackend.herokuapp.com/api/subscribe`,{
         method: "POST",
         headers: {
-          // "access-control-allow-origin" : "*",
           "Content-type": "application/json; charset=UTF-8"
         },
         body: JSON.stringify({ email: this.state.userEmail})
@@ -35,7 +34,6 @@ import Snackbar from '@material-ui/core/Snackbar';
       this.setState({ errorMessage : 'Type your email...',snakOpen : true })
 
     }
-    
   }
 
   render(){
