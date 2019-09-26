@@ -82,10 +82,10 @@ class _Payment extends React.Component {
                     // this.setState({ errorMessage : 'Payment is processing' , snakOpenpaymentProcess : true })
                     // this.setState({ loading : true})
                     console.log(s.token)
-                    fetch("https://kefukbackend.herokuapp.com/api/donate", {
+                    fetch("http://localhost:5000/api/donate", {
                       method: "POST",
                       headers: {
-                        "access-control-allow-origin" : "*",
+                        // "access-control-allow-origin" : "*",
                         "Content-type": "application/json; charset=UTF-8"
                   },
                   body: JSON.stringify({ token: s.token, amount, email: emailAddress,
@@ -96,11 +96,14 @@ class _Payment extends React.Component {
                     giftedAid : this.state.giftedAid,
                   })
                 }).then(res => {
-                  if(res == 'Charged!'){
+                  console.log(res)
+                  if(res.status == 200){
                     // this.setState({ errorMessage : 'Finalizing your payment' , snakOpenpaymentProcess : true })
                     this.setState({ paySucessStep : true })
                   }else{
-                    this.props.history.push('/')
+                      this.setState({ errorMessage : 'Please check your payment credientials and try again' , snakOpen : true })
+                    // this.props.history.push('/')
+                    // this.setState({ paySucessStep : true })
                   }
                 }).catch(err => console.log(err));
                   });
