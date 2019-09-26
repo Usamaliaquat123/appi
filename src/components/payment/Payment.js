@@ -96,7 +96,7 @@ class _Payment extends React.Component {
                     giftedAid : this.state.giftedAid,
                   })
                 }).then(res => {
-                  console.log('***************8')
+                console.log('***************8')
                   if(res == 'Charged!'){
                     // this.setState({ errorMessage : 'Finalizing your payment' , snakOpenpaymentProcess : true })
                     this.setState({ paySucessStep : true })
