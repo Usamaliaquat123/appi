@@ -85,8 +85,7 @@ class _Payment extends React.Component {
                     fetch("https://kefukbackend.herokuapp.com/api/donate", {
                       method: "POST",
                       headers: {
-                    "access-control-allow-origin" : "*",
-                    "Content-type": "application/json; charset=UTF-8"
+                    "Content-type": "application/json"
                   },
                   body: JSON.stringify({ token: s.token, amount, email: emailAddress,
                     firstName: this.state.firstName,

@@ -41,13 +41,6 @@ constructor(props){
     localStorage.setItem('amount', amount)
     // console.log(this.pro)
     this.props.history.push('Pay')
-    // this.props.router.push({
-    //   pathname : '/Pay',
-    //   state: {
-    //     amountType: amountType,
-    //     amount : amount
-    //   }
-    // })
   }
  
 render(){
