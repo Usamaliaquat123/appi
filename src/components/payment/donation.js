@@ -254,7 +254,7 @@ render(){
                   <div className={ this.state.isSelectedOneTime ? 'selectedOntime' : 'donationFrequencyButtonOneTime'}>
                   <label className={this.state.isSelectedOneTime ? 'selectedcontainerLabelDonationFreq' :"containerLabelDonationFreq"}>
                 
-                  <input type="radio"  name="radio"
+                  <input type="radio"  name="asd"
                       checked={this.state.isSelectedOneTime}
                     onChange={() => {
                       this.setState({
@@ -277,7 +277,7 @@ render(){
                   <div className={this.state.isSelectedMonthly ? 'selectedMonthly' : 'donationFrequencyButtonMonthly'}>
                   <label className={ this.state.isSelectedMonthly ? 'selectedcontainerLabelDonationFreq' :  "containerLabelDonationFreq"}>
                 
-                  <input type="radio"  name="radio"
+                  <input type="radio"  name="asd"
                     checked={this.state.isSelectedMonthly}
                     onChange={() => {
                       this.setState({
